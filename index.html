@@ -12,14 +12,7 @@ jsarr: assignInternationalizedText.js
 
     <div class="section-title">
         <p></p>
-        <h2><!--<span>{{ site.featured_description }}</span>--><p id="sfdesc"></p></h2>
-
-        <script>
-            //{% include {{ page.jsarr }} %}    
-            document.getElementById('sfdesc').innerHTML = "o8rhosiunowiuenho";
-            document.write("usando document.write...");
-        </script>
-
+        <h2><span>{{ site.featured_description[site.active_lang] }}</span></h2>
     </div>
     <div class="row">
 

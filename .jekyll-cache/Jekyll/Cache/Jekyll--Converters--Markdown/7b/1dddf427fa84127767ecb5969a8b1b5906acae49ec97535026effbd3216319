@@ -1,29 +1,11 @@
-I"ëi
+I"ng
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
 
     <div class="section-title">
         <p></p>
-        <h2><!--<span>{"en"=>"Projects - shows, source code, papers", "pt_BR"=>"Projetos - shows, c√≥digo-fonte, artigos"}</span>--><p id="sfdesc"></p></h2>
-
-        <script>
-            ///**
- * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 2.1.5
- * Copyright (C) 2017 Oliver Nightingale
- * @license MIT
- */
-
-;(function(){
-
-  document.getElementById("site_featured_description").innerHTML = "o8rhosiunowiuenho";
-
-})();
-    
-            document.getElementById('sfdesc').innerHTML = "o8rhosiunowiuenho";
-            document.write("usando document.write...");
-        </script>
-
+        <h2><span>Projects - shows, source code, papers</span></h2>
     </div>
     <div class="row">
 
@@ -164,7 +146,7 @@
                     <div class="wrapthumbnail">
                         <a href="/brizolara.github.io/SoMo/">
                             
-                            <img class="featured-box-img-cover" src="/brizolara.github.io/assets/images/Yllu_RISCO_2017[cropped].jpg" />
+                            <img class="featured-box-img-cover" src="/brizolara.github.io/assets/images/Yllu_RISCO_2017_cropped.jpg" />
                             <!-- [Brizo] Testing an overlay...
                             <img class="featured-box-img-cover-overlay" src="/../assets/images/icons/book-icon.png" width="20" height="20">
                             -->
