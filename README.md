@@ -1,3 +1,18 @@
+# Changes to Mediumish Jekyll theme, originally by wowthemesnet
+
+This is a portfolio site, based on Mediumish, a Jekyll theme in format of blog similar to the famous *Medium* website.
+
+Significant changes:
+- Author info, date, ratings were all removed from the boxes (postbox.html and featuredbox.html)
+- Instead, a set of small buttons reflecting the type of media found in the post are shown at the bottom (they are defined in small_buttons_postbox.html)
+- Added internationalization via Jekyll plugin *polyglot*. For usage, please check poliglot's README at https://github.com/untra/polyglot.
+
+---
+
+Below, the original Mediumish README:
+
+---
+
 # Mediumish - Jekyll Theme
 
 [Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
