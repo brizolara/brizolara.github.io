@@ -1,0 +1,40 @@
+body {
+  background-color: #FFFFF8;
+}
+
+.centerThings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#flagButton_PROVISORIO {
+  height: 80px;
+  width: 80px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  &:focus {
+    outline: 2px dashed #17171D;
+  }
+  &:hover {
+    svg {
+      transform: scale(1.1);
+    }
+  }
+  &::-moz-focus-inner {
+    border: 0;
+  }
+  svg {
+    outline: none;
+    transition: transform 0.15s linear;
+  }
+}
+
+.sr-only {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
