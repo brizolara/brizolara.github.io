@@ -1,11 +1,25 @@
-# Changes to Mediumish Jekyll theme, originally by wowthemesnet
+# Tiago Brizolara's website
 
-This is a portfolio site, based on Mediumish, a Jekyll theme in format of blog similar to the famous *Medium* website.
+_It's also being redirected from http://tiagobrizolara.com._
 
-Significant changes:
-- Author info, date, ratings were all removed from the boxes (postbox.html and featuredbox.html)
-- Instead, a set of small buttons reflecting the type of media found in the post are shown at the bottom (they are defined in small_buttons_postbox.html)
+This is my portfolio site, based on [Mediumish](#mediumish---jekyll-theme).
+
+## Significant changes to Mediumish Jekyll theme:
+- Author info, date, ratings were all removed from the boxes (postbox.html and featuredbox.html) and posts (post.html), except for author info, that's still in  the posts.
+- Instead, a set of small buttons reflecting the type of media found in the post are shown at the bottom (they are defined in small_buttons_postbox.html) - see image.
+![](https://github.com/brizolara/brizolara.github.io/blob/master/assets/images/box-example.png?raw=true)
 - Added internationalization via Jekyll plugin *polyglot*. For usage, please check poliglot's README at https://github.com/untra/polyglot.
+
+## Building site
+
+For now, I **couldn't add polyglot correctly to GitHub Pages** (but you can try reading about [GH Pages and Jekyll](https://docs.github.com/pt/free-pro-team@latest/github/working-with-github-pages/about-github-pages-and-jekyll) and [GH Pages and Jekyll plugins](https://docs.github.com/en/enterprise/2.13/user/articles/adding-jekyll-plugins-to-a-github-pages-site). If you succeeded, make a pull request :wink:), so I'm building the site locall and commiting the builded page in the folder \_site. I created a git subtree that links this folder \_site to the branch gh-pages, from which the site is being deployed in GitHub Pages.
+
+So, my current workflow is
+- push your changes to the master branch
+- `git subtree push --prefix _site origin gh-pages`
+- (Just need to be done once) In your [repository settings](https://github.com/brizolara/brizolara.github.io/settings), set your GitHub Pages site to be buit from the **gh-pages** branch.
+
+Voilà. My site is up at https://brizolara.github.io/ (if you fork, you have to change the repository name in your [repository settings](https://github.com/brizolara/brizolara.github.io/settings)).
 
 ---
 
