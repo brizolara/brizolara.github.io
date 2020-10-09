@@ -21,6 +21,10 @@ So, my current workflow is
 
 Voilà. My site is up at https://brizolara.github.io/ (if you fork, you have to change the repository name in your [repository settings](https://github.com/brizolara/brizolara.github.io/settings)).
 
+## License
+
+This, Mediumish theme and the countries flags from https://github.com/lipis/flag-icon-css/ have MIT license. You can read a copy of the license in this repository in [LICENSE.txt](https://github.com/brizolara/brizolara.github.io/blob/master/LICENSE.txt). 
+
 ---
 
 Below, the original Mediumish README:
