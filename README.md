@@ -12,7 +12,7 @@ This is my portfolio site, based on [Mediumish](#mediumish---jekyll-theme).
 
 ## Building site
 
-For now, I **couldn't add polyglot correctly to GitHub Pages** (but you can try reading about [GH Pages and Jekyll](https://docs.github.com/pt/free-pro-team@latest/github/working-with-github-pages/about-github-pages-and-jekyll) and [GH Pages and Jekyll plugins](https://docs.github.com/en/enterprise/2.13/user/articles/adding-jekyll-plugins-to-a-github-pages-site). If you succeeded, make a pull request :wink:), so I'm building the site locall and commiting the builded page in the folder \_site. I created a git subtree that links this folder \_site to the branch gh-pages, from which the site is being deployed in GitHub Pages.
+For now, I **couldn't add polyglot correctly to GitHub Pages** (but you can try reading about [GH Pages and Jekyll](https://docs.github.com/pt/free-pro-team@latest/github/working-with-github-pages/about-github-pages-and-jekyll) and [GH Pages and Jekyll plugins](https://docs.github.com/en/enterprise/2.13/user/articles/adding-jekyll-plugins-to-a-github-pages-site). If you succeeded, make a pull request :wink:), so I'm building the site locally and commiting the builded page in the folder \_site. I created a git subtree that links this folder \_site to the branch gh-pages, from which the site is being deployed in GitHub Pages.
 
 So, my current workflow is
 - push your changes to the master branch
