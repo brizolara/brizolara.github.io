@@ -15,11 +15,11 @@ This is my portfolio site, based on [Mediumish](#mediumish---jekyll-theme).
 For now, I **couldn't add polyglot correctly to GitHub Pages** (but you can try reading about [GH Pages and Jekyll](https://docs.github.com/pt/free-pro-team@latest/github/working-with-github-pages/about-github-pages-and-jekyll) and [GH Pages and Jekyll plugins](https://docs.github.com/en/enterprise/2.13/user/articles/adding-jekyll-plugins-to-a-github-pages-site). If you succeeded, make a pull request :wink:), so I'm building the site locally and commiting the builded page in the folder \_site. I created a git subtree that links this folder \_site to the branch gh-pages, from which the site is being deployed in GitHub Pages.
 
 So, my current workflow is
-- push your changes to the master branch
+- push my changes to the master branch
 - `git subtree push --prefix _site origin gh-pages`
-- (Just need to be done once) In your [repository settings](https://github.com/brizolara/brizolara.github.io/settings), set your GitHub Pages site to be buit from the **gh-pages** branch.
+- (Just need to be done once) Inside [repository settings](https://github.com/brizolara/brizolara.github.io/settings), set my GitHub Pages site to be buit from the **gh-pages** branch.
 
-Voilà. My site is up at https://brizolara.github.io/ (if you fork, you have to change the repository name in your [repository settings](https://github.com/brizolara/brizolara.github.io/settings)).
+Voilà. My site is up at https://brizolara.github.io/ (if you copy or fork this repository, you have to change the repository name in your [repository settings](https://github.com/brizolara/brizolara.github.io/settings)).
 
 ## License
 
