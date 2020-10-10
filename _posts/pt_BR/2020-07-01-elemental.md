@@ -44,12 +44,3 @@ Bibtex:
   url = {https://www.nime.org/proceedings/2020/nime2020_paper90.pdf}  
 }
 </pre>
-
-*Português:*
-
-Vento, chuva e trovão, incorporados como instrumentos sonoros/musicais. O *Elemental* é um novo desenvolvimento em expressão musical, que une avanços recentes em desenho de áudio em tempo real via síntese (ou seja, sem sons pré-gravados) e novas interfaces homem-computador, para apropriar sons naturais num eixo de expressão que atravessa desde sons como na natureza até a experiência abstrata, passando pelo que o autor, Tiago Brizolara, chama de performance surreal: os sons são reais, enquanto toda sua trajetória, agora ditada pelo corpo do executante, é nova.
-
-No vídeo a multiartista recifense Maria Flor testa o instrumento pela primeira vez. Agradeço a João Tragtenberg e à Universidade Federal de Pernambuco, nas pessoas dos professores Filipe Calegario e Giordano Cabral pela parceria na mobilidade internacional que desenvolvi junto ao Centro de Informática. A mobilidade foi financiada pelo departamento de Morbihan e a reguão Bretagne, no contexto de meu doutorado na Université Bretagne Sud (France).
-
-Um artigo foi publicado na conferência NIME 2020 conference (clique [aqui](https://www.nime.org/proceedings/2020/nime2020_paper90.pdf) para baixar):
-Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gesturally Controlled System to Perform Meteorological Sounds. *Proceedings of the International Conference on New Interfaces for Musical Expression*, Birmingham City University, pp. 470–476.
