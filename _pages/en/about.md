@@ -23,7 +23,7 @@ comments: true
     <tr>
         <td><a href="">Musician/artist/developer CV</a></td>
         <td>&nbsp;&nbsp;</td>
-        <td><a href="">Developer/scientist CV</a></td>
+        <td><a href="{{ site.baseurl }}/assets/CV - Developer and Scientist.pdf">Developer/scientist CV</a></td>
     </tr>
     <tr>
         <td><a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf">Artistic portfolio</a></td>
