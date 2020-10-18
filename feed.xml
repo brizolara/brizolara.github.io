@@ -5,8 +5,8 @@
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
     <atom:link href="http://localhost:4000/brizolara.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Oct 2020 03:44:24 +0200</pubDate>
-    <lastBuildDate>Sat, 17 Oct 2020 03:44:24 +0200</lastBuildDate>
+    <pubDate>Sun, 18 Oct 2020 06:15:35 +0200</pubDate>
+    <lastBuildDate>Sun, 18 Oct 2020 06:15:35 +0200</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -28,42 +28,36 @@ Ana Carpes: capa, sobre quadro de vídeo de Dimi Camorlinga.
         <link>http://localhost:4000/brizolara.github.io/fita-viola-lancamento/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/fita-viola-lancamento/</guid>
         
-        <category>music</category>
+        <category>composicao</category>
         
-        <category>composer</category>
+        <category>acustico</category>
         
-        <category>instrumental</category>
+        <category>violao</category>
         
-        <category>acoustic</category>
-        
-        <category>fingerstyle</category>
-        
-        <category>guitar</category>
-        
-        <category>7strings</category>
-        
-        <category>brazilian</category>
-        
-        <category>latin</category>
+        <category>7cordas</category>
         
         <category>mpb</category>
         
-        <category>jazz</category>
+        <category>musicabrasileira</category>
+        
+        <category>instrumental</category>
         
         
-        <category>music composition</category>
+        <category>composição</category>
         
-        <category>release</category>
+        <category>lançamento</category>
         
-        <category>guitar</category>
+        <category>música brasileira</category>
         
-        <category>instrumental music</category>
+        <category>mpb</category>
         
-        <category>brazilian music</category>
+        <category>florianópolis</category>
         
-        <category>contemporary</category>
+        <category>sete cordas</category>
         
-        <category>jazz</category>
+        <category>acústico</category>
+        
+        <category>instrumental</category>
         
       </item>
     
@@ -77,56 +71,52 @@ Ana Carpes: capa, sobre quadro de vídeo de Dimi Camorlinga.
         
         <category>portfolio</category>
         
-        <category>composer</category>
+        <category>composição</category>
         
-        <category>contemporary art</category>
+        <category>artecontemporanea</category>
         
         <category>soundtrack</category>
         
-        <category>brazilian music</category>
+        <category>musicabrasileira</category>
         
         <category>instrumental</category>
-        
-        <category>latin</category>
         
         <category>mpb</category>
         
         <category>jazz</category>
         
-        <category>developer</category>
+        <category>desenvolvimento</category>
         
-        <category>creative computing</category>
+        <category>computacaocriativa</category>
         
         <category>multidisciplinar</category>
         
-        <category>software médico</category>
+        <category>softwaremedico</category>
         
-        <category>processamento de imagem</category>
+        <category>processamentodeimagem</category>
         
-        <category>física médica</category>
+        <category>fisicamedica</category>
         
         
         <category>portfolio</category>
         
-        <category>composer</category>
+        <category>composicão</category>
         
-        <category>contemporary art</category>
+        <category>arte contemporânea</category>
         
-        <category>soundtrack</category>
+        <category>trilha sonora</category>
         
-        <category>brazilian music</category>
+        <category>música brasileira</category>
         
         <category>instrumental</category>
-        
-        <category>latin</category>
         
         <category>mpb</category>
         
         <category>jazz</category>
         
-        <category>developer</category>
+        <category>desenvolvimento</category>
         
-        <category>creative computing</category>
+        <category>computação criativa</category>
         
         <category>multidisciplinar</category>
         
@@ -153,6 +143,20 @@ Performance Yllu - 2017 e 2018. O Sítio Arte Educação E Tecnologia. Florianó
         <pubDate>Tue, 01 Sep 2020 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/brizolara.github.io/RISCO/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/RISCO/</guid>
+        
+        <category>artedigital</category>
+        
+        <category>grupo</category>
+        
+        <category>musicamista</category>
+        
+        <category>musicaeletroacustica</category>
+        
+        <category>luteriadigital</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>florianopolis</category>
         
         
         <category>arte digital</category>
@@ -194,40 +198,38 @@ Foto: Núbia Abe.
         <link>http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</guid>
         
-        <category>music</category>
+        <category>composicao</category>
         
-        <category>composer</category>
+        <category>acustico</category>
         
-        <category>acoustic</category>
+        <category>violao</category>
         
-        <category>guitar</category>
-        
-        <category>7strings</category>
-        
-        <category>brazilian</category>
-        
-        <category>latin</category>
+        <category>7cordas</category>
         
         <category>mpb</category>
         
+        <category>musicabrasileira</category>
         
-        <category>music composition</category>
         
-        <category>release</category>
+        <category>composição</category>
         
-        <category>gaucho</category>
+        <category>lançamento</category>
         
-        <category>brazilian music</category>
+        <category>gaúcho</category>
+        
+        <category>música brasileira</category>
         
         <category>mpb</category>
         
-        <category>florianopolis</category>
+        <category>florianópolis</category>
         
-        <category>song</category>
+        <category>canção</category>
         
-        <category>songwriter</category>
+        <category>milonga</category>
         
-        <category>cancao</category>
+        <category>sete cordas</category>
+        
+        <category>acústico</category>
         
       </item>
     
@@ -265,10 +267,32 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
         <link>http://localhost:4000/brizolara.github.io/elemental/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/elemental/</guid>
         
+        <category>nime</category>
+        
+        <category>composicao</category>
+        
+        <category>dmi</category>
+        
+        <category>artecontemporanea</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>desenhodeaudio</category>
+        
+        <category>audiodesign</category>
+        
+        <category>musicacomputacional</category>
+        
+        <category>puredata</category>
+        
+        <category>myo</category>
+        
+        <category>performance</category>
+        
         
         <category>NIME</category>
         
-        <category>composição musical</category>
+        <category>composição</category>
         
         <category>DMI</category>
         
@@ -308,6 +332,22 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
         <link>http://localhost:4000/brizolara.github.io/atelier-digital/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/atelier-digital/</guid>
         
+        <category>artedigital</category>
+        
+        <category>coletivo</category>
+        
+        <category>exposição</category>
+        
+        <category>galeriadearte</category>
+        
+        <category>instalaçãoiterativa</category>
+        
+        <category>instalaçãoartística</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>florianópolis</category>
+        
         
         <category>arte digital</category>
         
@@ -323,7 +363,7 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
         
         <category>multidisciplinar</category>
         
-        <category>florianopolis</category>
+        <category>florianópolis</category>
         
       </item>
     
@@ -362,6 +402,10 @@ Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
         
         <category>kinect</category>
         
+        <category>steeringbehaviours</category>
+        
+        <category>shaders</category>
+        
         <category>openframeworks</category>
         
         <category>ia</category>
@@ -375,7 +419,7 @@ Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
         
         <category>instalação artística</category>
         
-        <category>composição musical</category>
+        <category>composição</category>
         
         <category>desenho de áudio</category>
         
@@ -417,6 +461,37 @@ Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.
         
         <category>nime</category>
         
+        <category>dmi</category>
+        
+        <category>processing</category>
+        
+        <category>puredata</category>
+        
+        <category>artecontemporanea</category>
+        
+        <category>opensource</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>musicacomputacional</category>
+        
+        <category>desenhodeaudio</category>
+        
+        <category>audiodesign</category>
+        
+        <category>processamentodeimagem</category>
+        
+        <category>imageprocessing</category>
+        
+        <category>performance</category>
+        
+        <category>r.i.s.c.o.</category>
+        
+        
+        <category>NIME</category>
+        
+        <category>DMI</category>
+        
         <category>processing</category>
         
         <category>pure data</category>
@@ -429,24 +504,13 @@ Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.
         
         <category>música computacional</category>
         
+        <category>webcam</category>
+        
         <category>performance</category>
         
         <category>r.i.s.c.o.</category>
         
-        
-        <category>NIME</category>
-        
-        <category>music composition</category>
-        
-        <category>DMI</category>
-        
-        <category>audio design</category>
-        
-        <category>computer music</category>
-        
-        <category>pure data</category>
-        
-        <category>processing</category>
+        <category>desenho de áudio</category>
         
       </item>
     

@@ -5,8 +5,8 @@
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
     <atom:link href="http://localhost:4000/brizolara.github.io/en/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Oct 2020 03:44:27 +0200</pubDate>
-    <lastBuildDate>Sat, 17 Oct 2020 03:44:27 +0200</lastBuildDate>
+    <pubDate>Sun, 18 Oct 2020 06:15:37 +0200</pubDate>
+    <lastBuildDate>Sun, 18 Oct 2020 06:15:37 +0200</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -156,6 +156,18 @@ Ana Carpes: cover, from Dimi Camorlinga's video still.
         <link>http://localhost:4000/brizolara.github.io/RISCO/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/RISCO/</guid>
         
+        <category>digitalart</category>
+        
+        <category>group</category>
+        
+        <category>electroacoustic</category>
+        
+        <category>digitallutherie</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>florianopolis</category>
+        
         
         <category>digital art</category>
         
@@ -211,6 +223,8 @@ Picture: Núbia Abe.
         
         <category>mpb</category>
         
+        <category>fingerstyle</category>
+        
         
         <category>music composition</category>
         
@@ -264,6 +278,26 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
         <link>http://localhost:4000/brizolara.github.io/elemental/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/elemental/</guid>
         
+        <category>nime</category>
+        
+        <category>musiccomposition</category>
+        
+        <category>dmi</category>
+        
+        <category>contemporaryart</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>audiodesign</category>
+        
+        <category>computermusic</category>
+        
+        <category>puredata</category>
+        
+        <category>myo</category>
+        
+        <category>performance</category>
+        
         
         <category>NIME</category>
         
@@ -306,6 +340,22 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
         <pubDate>Mon, 02 Jul 2018 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/brizolara.github.io/atelier-digital/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/atelier-digital/</guid>
+        
+        <category>digitalart</category>
+        
+        <category>group</category>
+        
+        <category>exhibition</category>
+        
+        <category>artgallery</category>
+        
+        <category>interactiveinstallation</category>
+        
+        <category>artisticinstallation</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>florianopolis</category>
         
         
         <category>digital art</category>
@@ -359,6 +409,10 @@ Soundtrack (except at the première): Tiago Brizolara, Flora Holderbaum.
         <category>composition</category>
         
         <category>kinect</category>
+        
+        <category>steeringbehaviours</category>
+        
+        <category>shaders</category>
         
         <category>openframeworks</category>
         
@@ -415,6 +469,35 @@ Fotos: [Top] SoMo in the &lt;em&gt;Yllu&lt;/em&gt; performance, with R.I.S.C.O. 
         
         <category>nime</category>
         
+        <category>dmi</category>
+        
+        <category>processing</category>
+        
+        <category>puredata</category>
+        
+        <category>contemporaryart</category>
+        
+        <category>opensource</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>computermusic</category>
+        
+        <category>computermusic</category>
+        
+        <category>audiodesign</category>
+        
+        <category>imageprocessing</category>
+        
+        <category>performance</category>
+        
+        <category>r.i.s.c.o.</category>
+        
+        
+        <category>NIME</category>
+        
+        <category>DMI</category>
+        
         <category>processing</category>
         
         <category>pure data</category>
@@ -427,24 +510,13 @@ Fotos: [Top] SoMo in the &lt;em&gt;Yllu&lt;/em&gt; performance, with R.I.S.C.O. 
         
         <category>computer music</category>
         
+        <category>webcam</category>
+        
         <category>performance</category>
         
         <category>r.i.s.c.o.</category>
         
-        
-        <category>NIME</category>
-        
-        <category>music composition</category>
-        
-        <category>DMI</category>
-        
         <category>audio design</category>
-        
-        <category>computer music</category>
-        
-        <category>pure data</category>
-        
-        <category>processing</category>
         
       </item>
     
