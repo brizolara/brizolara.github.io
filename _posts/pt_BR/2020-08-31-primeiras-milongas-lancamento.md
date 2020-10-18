@@ -2,8 +2,8 @@
 layout: post
 title:  "Primeiras Milongas - com Iara Germer"
 author: tiago
-categories: [ music composition, release, gaucho, brazilian music, mpb, florianopolis, song, songwriter, cancao ]
-tags: [music, composer, acoustic, guitar, 7strings, brazilian, latin, mpb]
+categories: [ composição, lançamento, gaúcho, música brasileira, mpb, florianópolis, canção, milonga, sete cordas, acústico ]
+tags: [composicao, acustico, violao, 7cordas, mpb, musicabrasileira]
 image: assets/images/divulgacao-streaming-milongas-facebook.png
 description: "Disponivel nas principais plataformas digitais."
 lang: pt_BR

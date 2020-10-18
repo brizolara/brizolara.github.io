@@ -3,6 +3,7 @@ layout: post
 title:  "Elemental"
 author: tiago
 categories: [ NIME, music composition, DMI, audio design, computer music, pure data, myo ]
+tags: [ nime, musiccomposition, dmi, contemporaryart, multidisciplinar, audiodesign, computermusic, puredata, myo, performance ]
 image: assets/images/square_Elemental-MariaFlor.png
 lang: en
 #permalink: en/elemental

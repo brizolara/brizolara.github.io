@@ -2,7 +2,8 @@
 layout: post
 title:  "Atelier Digital"
 author: tiago
-categories: [ arte digital, coletivo, exposição, galeria de arte, instalação interativa, instalação artística, multidisciplinar, florianopolis ]
+categories: [ arte digital, coletivo, exposição, galeria de arte, instalação interativa, instalação artística, multidisciplinar, florianópolis ]
+tags: [ artedigital, coletivo, exposição, galeriadearte, instalaçãoiterativa, instalaçãoartística, multidisciplinar, florianópolis ]
 image: assets/images/atelier-digital.jpg
 lang: pt_BR
 #permalink: pt_BR/atelier-digital

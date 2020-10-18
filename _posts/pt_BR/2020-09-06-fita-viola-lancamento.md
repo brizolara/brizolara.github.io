@@ -2,8 +2,8 @@
 layout: post
 title:  "Latest Release"
 author: tiago
-categories: [ music composition, release, guitar, instrumental music, brazilian music, contemporary, jazz ]
-tags: [music, composer, instrumental, acoustic, fingerstyle, guitar, 7strings, brazilian, latin, mpb, jazz]
+categories: [ composição, lançamento, música brasileira, mpb, florianópolis, sete cordas, acústico, instrumental ]
+tags: [composicao, acustico, violao, 7cordas, mpb, musicabrasileira, instrumental]
 image: assets/images/divulgacao-streaming-fita-de-viola-facebook.png
 description: "Disponivel nas principais plataformas digitais."
 lang: pt_BR
