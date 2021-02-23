@@ -8,7 +8,7 @@ image: assets/images/divulgacao-streaming-fita-de-viola-facebook.png
 description: "Disponivel nas principais plataformas digitais."
 lang: pt_BR
 #permalink: pt_BR/fita-viola-lancamento
-featured: false
+featured: true
 hidden: false
 hasAudio: true
 hasVideo: true
