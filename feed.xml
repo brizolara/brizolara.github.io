@@ -5,8 +5,8 @@
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
     <atom:link href="http://localhost:4000/brizolara.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Feb 2021 16:12:05 -0300</pubDate>
-    <lastBuildDate>Tue, 09 Feb 2021 16:12:05 -0300</lastBuildDate>
+    <pubDate>Tue, 23 Feb 2021 12:45:58 -0300</pubDate>
+    <lastBuildDate>Tue, 23 Feb 2021 12:45:58 -0300</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -24,7 +24,7 @@ Dimi Camorlinga: captação do violão.
 Ana Carpes: capa, sobre quadro de vídeo de Dimi Camorlinga.
 &lt;/pre&gt;
 </description>
-        <pubDate>Sun, 06 Sep 2020 00:00:00 -0300</pubDate>
+        <pubDate>Tue, 06 Oct 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/fita-viola-lancamento/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/fita-viola-lancamento/</guid>
         
@@ -176,60 +176,83 @@ Performance Yllu - 2017 e 2018. O Sítio Arte Educação E Tecnologia. Florianó
       </item>
     
       <item>
-        <title>Primeiras Milongas - com Iara Germer</title>
-        <description>&lt;p&gt;&lt;strong&gt;Primeiras Milongas&lt;/strong&gt; disponivel nas principais plataformas digitais - 2020.&lt;/p&gt;
+        <title>SoMo</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Um instrumento musical/audiovisual baseado em movimento desenvolvido utilizando as ferramentas livres de código aberto Pure Data e Processing. O SoMo pode ser montado com um computador pessoal comum e uma webcam de vídeo de baixo custo - usando a PSEye®,  obtivemos uma responsividade de até 100 quadros analisados por segundo e áudio gerado em tempo real. Um feedback visual auxilia o executante e serve esteticamente à performance.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=CrE1tkR07eM&amp;amp;list=OLAK5uy_kZZkjN5tuIRKJpKxKmXH7-SNr795D1ubQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SHhqdaUqi8Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;EP lançado em diversas plataformas digitais, com as músicas Milonga do Quem Dera e Milonga para Minha Mãe.&lt;/p&gt;
+&lt;p&gt;O instrumento foi desenvolvido por Tiago Brizolara e Marcos Moritz e um &lt;strong&gt;artigo&lt;/strong&gt; descrevendo o sistema foi publicado no Simpósio Brasileiro de Computação Musical em 2015: &lt;a href=&quot;http://compmus.ime.usp.br/sbcm2015/files/proceedings-print.pdf&quot;&gt;http://compmus.ime.usp.br/sbcm2015/files/proceedings-print.pdf&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/primeiras-milongas-mosaico.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;O &lt;strong&gt;código-fonte&lt;/strong&gt; se encontra em &lt;a href=&quot;https://bitbucket.org/mmoritz/somo&quot;&gt;https://bitbucket.org/mmoritz/somo&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Ficha técnica:&lt;/p&gt;
-&lt;pre&gt;
-Letra e voz: Iara Germer.
-Música, violão 7 cordas e voz: Tiago Brizolara.
-Acordeon: Bruno Moritz.
-Produção do áudio: Jorge Lacerda.
-Foto: Núbia Abe.
-&lt;/pre&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Yllu representa em uma de suas formas a música que produzem as pequenas asas em vôo … Essa voz tem semelhança a outra mais importante: Illa dá nome a certa espécie de luz e aos monstros que nasceram feridos pelos raios lunares. Illa é um menino de duas cabeças ou um bezerro que nasce decapitado; ou um penhasco gigante, todo negro e lúcido, cuja superfície aparecera cruzada por uma veia larga de rocha branca, de opaca luz; é também uma plantação onde as fileiras de milho se entrecruzam ou formam redemoinhos; são illas os touros míticos que habitam o fundo dos lagos solitários, das altas lagoas rodeadas de totora, povoadas por patos negros. Todos os illas causam o bem ou o mal, mas sempre em grau sumo. Tocar um illa e morrer ou alcançar a ressurreição é possível. Essa voz illa tem algum parentesco fonético e uma comunhão interna de sentido com a terminação Yllu”&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;José Maria Arguedas, In. Los Ríos Profundos (tradução livre).&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/RISCO_Brusque_screenshot.png&quot; /&gt;
+Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.I.S.C.O. (Florianópolis-SC, 2017). [Embaixo] Com o R.I.S.C.O. em apresentação no Centro Cultural Azambuja (Brusque-SC, 2018).&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Aug 2020 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</link>
-        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</guid>
+        <link>http://localhost:4000/brizolara.github.io/SoMo/</link>
+        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/SoMo/</guid>
         
-        <category>composicao</category>
+        <category>nime</category>
         
-        <category>acustico</category>
+        <category>dmi</category>
         
-        <category>violao</category>
+        <category>processing</category>
         
-        <category>7cordas</category>
+        <category>puredata</category>
         
-        <category>mpb</category>
+        <category>artecontemporanea</category>
         
-        <category>musicabrasileira</category>
+        <category>opensource</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>musicacomputacional</category>
+        
+        <category>desenhodeaudio</category>
+        
+        <category>audiodesign</category>
+        
+        <category>processamentodeimagem</category>
+        
+        <category>imageprocessing</category>
+        
+        <category>performance</category>
+        
+        <category>r.i.s.c.o.</category>
         
         
-        <category>composição</category>
+        <category>NIME</category>
         
-        <category>lançamento</category>
+        <category>DMI</category>
         
-        <category>gaúcho</category>
+        <category>processing</category>
         
-        <category>música brasileira</category>
+        <category>pure data</category>
         
-        <category>mpb</category>
+        <category>arte contemporânea</category>
         
-        <category>florianópolis</category>
+        <category>open source</category>
         
-        <category>canção</category>
+        <category>multidisciplinar</category>
         
-        <category>milonga</category>
+        <category>música computacional</category>
         
-        <category>sete cordas</category>
+        <category>webcam</category>
         
-        <category>acústico</category>
+        <category>performance</category>
+        
+        <category>r.i.s.c.o.</category>
+        
+        <category>desenho de áudio</category>
         
       </item>
     
@@ -263,7 +286,7 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
 }
 &lt;/pre&gt;
 </description>
-        <pubDate>Wed, 01 Jul 2020 00:00:00 -0300</pubDate>
+        <pubDate>Sat, 29 Aug 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/elemental/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/elemental/</guid>
         
@@ -303,6 +326,117 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
         <category>pure data</category>
         
         <category>myo</category>
+        
+      </item>
+    
+      <item>
+        <title>O Efeito do Observador</title>
+        <description>&lt;p&gt;Espelho, tela de pintura, filme fotográfico. Mudar a iluminação do ambiente, passear com objetos na frente do “espelho” (câmera), mover-se em diferentes ritmos… tudo faz criar continuamente nessa tela que infinitamente se renova como um filme lentamente impressionado. O efeito do observador é interagir. Colocamos as mãos (versão com controlador LeapMotion. Senão, mouse) para tentar desvelar mais rapidamente o que ocorre no exato momento, como que impressionando o filme mais rapidamente - com efeito, nos aproximamos de algo como um espelho nessa área onde interagimos, mas o aspecto ali se torna oscilante e menos detalhado.&lt;/p&gt;
+
+&lt;!--&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zx4zjXCMc14&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;--&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://editor.p5js.org/brizolara/present/GEiqR8_XW&quot; target=&quot;_blank&quot;&gt;Clique para experimentar a versao com mouse e sua webcam&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--&lt;div align=&quot;center&quot;&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://editor.p5js.org/brizolara/embed/GEiqR8_XW&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;--&gt;
+
+&lt;p&gt;Essa obra foi instalada na exposição Experimental #1 (O Sítio Arte, Educação, Tecnologia - Florianópolis/SC) com “espelho” monitor e webcam instalados em parede, mais totem com LeapMotion montado e computador embutido. Agora está reimplementada de modo que, hospedada online, qualquer um possa apreciar/interagir diretamente de um navegador utilizando sua própria webcam.&lt;/p&gt;
+
+&lt;p&gt;Ficha técnica:&lt;/p&gt;
+&lt;pre&gt;
+Instalação visual interativa, ano 2017.
+Concepção, programação e execução: Tiago Brizolara.
+&lt;/pre&gt;
+</description>
+        <pubDate>Fri, 28 Aug 2020 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/brizolara.github.io/efeito-do-observador/</link>
+        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/efeito-do-observador/</guid>
+        
+        <category>artedigital</category>
+        
+        <category>instalação</category>
+        
+        <category>processing</category>
+        
+        <category>leap motion</category>
+        
+        <category>video</category>
+        
+        <category>hci</category>
+        
+        
+        <category>instalação interativa</category>
+        
+        <category>arte digital</category>
+        
+        <category>instalação artística</category>
+        
+        <category>processing</category>
+        
+        <category>leap motion</category>
+        
+        <category>video</category>
+        
+        <category>hci</category>
+        
+      </item>
+    
+      <item>
+        <title>Primeiras Milongas - com Iara Germer</title>
+        <description>&lt;p&gt;&lt;strong&gt;Primeiras Milongas&lt;/strong&gt; disponivel nas principais plataformas digitais - 2020.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=CrE1tkR07eM&amp;amp;list=OLAK5uy_kZZkjN5tuIRKJpKxKmXH7-SNr795D1ubQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;EP lançado em diversas plataformas digitais, com as músicas Milonga do Quem Dera e Milonga para Minha Mãe.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/primeiras-milongas-mosaico.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ficha técnica:&lt;/p&gt;
+&lt;pre&gt;
+Letra e voz: Iara Germer.
+Música, violão 7 cordas e voz: Tiago Brizolara.
+Acordeon: Bruno Moritz.
+Produção do áudio: Jorge Lacerda.
+Foto: Núbia Abe.
+&lt;/pre&gt;
+</description>
+        <pubDate>Fri, 21 Aug 2020 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</link>
+        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</guid>
+        
+        <category>composicao</category>
+        
+        <category>acustico</category>
+        
+        <category>violao</category>
+        
+        <category>7cordas</category>
+        
+        <category>mpb</category>
+        
+        <category>musicabrasileira</category>
+        
+        
+        <category>composição</category>
+        
+        <category>lançamento</category>
+        
+        <category>gaúcho</category>
+        
+        <category>música brasileira</category>
+        
+        <category>mpb</category>
+        
+        <category>florianópolis</category>
+        
+        <category>canção</category>
+        
+        <category>milonga</category>
+        
+        <category>sete cordas</category>
+        
+        <category>acústico</category>
         
       </item>
     
@@ -430,87 +564,6 @@ Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
         <category>kinect</category>
         
         <category>hci</category>
-        
-      </item>
-    
-      <item>
-        <title>SoMo</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Um instrumento musical/audiovisual baseado em movimento desenvolvido utilizando as ferramentas livres de código aberto Pure Data e Processing. O SoMo pode ser montado com um computador pessoal comum e uma webcam de vídeo de baixo custo - usando a PSEye®,  obtivemos uma responsividade de até 100 quadros analisados por segundo e áudio gerado em tempo real. Um feedback visual auxilia o executante e serve esteticamente à performance.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SHhqdaUqi8Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;O instrumento foi desenvolvido por Tiago Brizolara e Marcos Moritz e um &lt;strong&gt;artigo&lt;/strong&gt; descrevendo o sistema foi publicado no Simpósio Brasileiro de Computação Musical em 2015: &lt;a href=&quot;http://compmus.ime.usp.br/sbcm2015/files/proceedings-print.pdf&quot;&gt;http://compmus.ime.usp.br/sbcm2015/files/proceedings-print.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;O &lt;strong&gt;código-fonte&lt;/strong&gt; se encontra em &lt;a href=&quot;https://bitbucket.org/mmoritz/somo&quot;&gt;https://bitbucket.org/mmoritz/somo&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Yllu representa em uma de suas formas a música que produzem as pequenas asas em vôo … Essa voz tem semelhança a outra mais importante: Illa dá nome a certa espécie de luz e aos monstros que nasceram feridos pelos raios lunares. Illa é um menino de duas cabeças ou um bezerro que nasce decapitado; ou um penhasco gigante, todo negro e lúcido, cuja superfície aparecera cruzada por uma veia larga de rocha branca, de opaca luz; é também uma plantação onde as fileiras de milho se entrecruzam ou formam redemoinhos; são illas os touros míticos que habitam o fundo dos lagos solitários, das altas lagoas rodeadas de totora, povoadas por patos negros. Todos os illas causam o bem ou o mal, mas sempre em grau sumo. Tocar um illa e morrer ou alcançar a ressurreição é possível. Essa voz illa tem algum parentesco fonético e uma comunhão interna de sentido com a terminação Yllu”&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;José Maria Arguedas, In. Los Ríos Profundos (tradução livre).&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/RISCO_Brusque_screenshot.png&quot; /&gt;
-Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.I.S.C.O. (Florianópolis-SC, 2017). [Embaixo] Com o R.I.S.C.O. em apresentação no Centro Cultural Azambuja (Brusque-SC, 2018).&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/brizolara.github.io/SoMo/</link>
-        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/SoMo/</guid>
-        
-        <category>nime</category>
-        
-        <category>dmi</category>
-        
-        <category>processing</category>
-        
-        <category>puredata</category>
-        
-        <category>artecontemporanea</category>
-        
-        <category>opensource</category>
-        
-        <category>multidisciplinar</category>
-        
-        <category>musicacomputacional</category>
-        
-        <category>desenhodeaudio</category>
-        
-        <category>audiodesign</category>
-        
-        <category>processamentodeimagem</category>
-        
-        <category>imageprocessing</category>
-        
-        <category>performance</category>
-        
-        <category>r.i.s.c.o.</category>
-        
-        
-        <category>NIME</category>
-        
-        <category>DMI</category>
-        
-        <category>processing</category>
-        
-        <category>pure data</category>
-        
-        <category>arte contemporânea</category>
-        
-        <category>open source</category>
-        
-        <category>multidisciplinar</category>
-        
-        <category>música computacional</category>
-        
-        <category>webcam</category>
-        
-        <category>performance</category>
-        
-        <category>r.i.s.c.o.</category>
-        
-        <category>desenho de áudio</category>
         
       </item>
     
