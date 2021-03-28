@@ -1,6 +1,6 @@
 # Tiago Brizolara's website
 
-_It's also being redirected from http://tiagobrizolara.com._
+_It's up at tiagobrizolara.com._
 
 This is my portfolio site, based on [Mediumish](#mediumish---jekyll-theme).
 
@@ -19,11 +19,16 @@ So, my current workflow is
 - `git subtree push --prefix _site origin gh-pages`
 - (Just need to be done once) Inside [repository settings](https://github.com/brizolara/brizolara.github.io/settings), set my GitHub Pages site to be buit from the **gh-pages** branch.
 
-Voilà. My site is up at https://brizolara.github.io/ (if you copy or fork this repository, you have to change the repository name in your [repository settings](https://github.com/brizolara/brizolara.github.io/settings)).
+### On Air
+
+Voilà. At this point, this would be available at https://brizolara.github.io/ (and if you copy or fork this repository, you have to change the repository name in your _repository settings_).
+
+In my case, I'm hosting the website in a custom domain: tiagobrizolara.com. For doing that, you can check https://docs.github.com/pt/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site and your hosting service documentation. I'm hosting tiagobrizolara.com at _Namecheap_, so [this](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/) and [this](https://gist.github.com/mapsam/ce60b87eea561ea6bdbf) helped me.
+
 
 ## License
 
-This, Mediumish theme and the countries flags from https://github.com/lipis/flag-icon-css/ have MIT license. You can read a copy of the license in this repository in [LICENSE.txt](https://github.com/brizolara/brizolara.github.io/blob/master/LICENSE.txt). 
+This, Mediumish theme and the countries flags from https://github.com/lipis/flag-icon-css/ use the MIT license. You can read a copy of the license in this repository in [LICENSE.txt](https://github.com/brizolara/brizolara.github.io/blob/master/LICENSE.txt). 
 
 ---
 
