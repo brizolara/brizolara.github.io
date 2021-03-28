@@ -1,0 +1,14 @@
+#N canvas 609 149 293 300 10;
+#X obj 42 39 cnv 15 200 200 s-canvas r-canvas Teste_Pd_Web_Party 20
+12 0 14 -204800 -66577 0;
+#X floatatom 66 80 5 0 0 3 OSC_Volume_Level r-btn s-btn, f 5;
+#X obj 126 183 dac~;
+#X obj 98 120 osc~ 70;
+#X obj 134 158 *~ 0.05;
+#X obj 173 103 r s-btn;
+#X obj 173 127 * 0.01;
+#X connect 3 0 4 0;
+#X connect 4 0 2 0;
+#X connect 4 0 2 1;
+#X connect 5 0 6 0;
+#X connect 6 0 4 1;
