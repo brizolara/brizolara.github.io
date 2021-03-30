@@ -31,7 +31,7 @@ As ferramentas tradicionais de produção de áudio (_Ableton_, _Pro Tools_, sam
   + Alçar vôos para além do teclado;
 * Criar um _plugin_ (e usar nas ferramentas tradicionais de produção áudio - ora, veja só!)
 
-A inspiração vem de um encontro do laboratório de _Corpo, Som E Tecnologia_, coordenado pela profa. Dra. Flora Holderbaum e vinculado neste momento à disciplina de Tecnologia Musical (Ceart-UDESC-SC).
+A inspiração vem de um encontro do laboratório de _Corpo, Som E Tecnologia_, coordenado pela profa. Dra. Flora Holderbaum e vinculado neste momento à disciplina de Tecnologia Musical (Ceart-UDESC-SC). Um dos participantes utilizou uma amostra gravada de um som de cortador de grama, inseriu num sampler e aplicou filtragens para construir timbres. Um contrabaixo utilizando esse procedimento, no entanto, não deu bom resultado - vamos apelar então para nossa escuta e entendimento dos fenômenos envolvidos e modelar esse som digitalmente, colhendo os frutos que recém falamos acima.
 <!--<!doctype HTML>-->
 
 <!--<html>-->
@@ -68,7 +68,7 @@ Que mágica é essa? Pra entender melhor, nós fomos à Barra da Lagoa falar com
 <p style="font-family:Verdana;font-size:16px">Ainda não acredito!</p>
 <p style="font-family:Verdana;font-size:16px">B.: Observe a trama de um tecido. Se você arrastar uma unha sobre ele, vai estar atingindo diversos fios por segundo. Observe como a nota que você ouve é aguda o tanto mais rápido você arrasta sua unha.</p>
 
-Na demonstração a seguir, Pierre Schaeffer (no absolutamente necessário Solfejo do Objeto Sonoro, de 1966) chama à atenção 3 fenômenos diferentes na escuta ao transformarmos sons musicais em notas musicais através de sua repetição cada vez mais rápida. O material escolhido para ser repetido influencia o _timbre_ da nota ouvida e a este Schaeffer chama _grão_: <a href="http://tramausp.com.br/_trabalhos/001solfege.html#item4">http://tramausp.com.br/_trabalhos/001solfege.html#item4</a>. 
+Na demonstração a seguir, Pierre Schaeffer (no absolutamente necessário Solfejo do Objeto Sonoro, de 1966) chama à atenção 3 fenômenos diferentes na escuta ao transformarmos sons musicais em notas musicais através de sua repetição cada vez mais rápida. O material escolhido para ser repetido influencia o _timbre_ da nota ouvida e a este material Schaeffer chama _grão_: <a href="http://tramausp.com.br/_trabalhos/001solfege.html#item4">http://tramausp.com.br/_trabalhos/001solfege.html#item4</a>. 
 
 _Obs 1.: Estamos ignorando o som do motor e das ressonâncias do equipamento **por enquanto**._
 _Obs 2.: E a resposta da pergunta da seção então é: escutamos a nota Lá (440 Hz) - isso mesmo, tocamos a corda Mi e ouvimos a nota Lá_.
@@ -77,7 +77,7 @@ _Obs 2.: E a resposta da pergunta da seção então é: escutamos a nota Lá (44
 <p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
 <h4 id="pratica">Prática</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
 
-O patch abaixo é nosso primeiro esboço. Ele é interativo, clique no botão para testar. Abaixo dele conversaremos sobre como ele funciona.
+O patch abaixo é nosso primeiro esboço. Clique no botão para mostrar os controles aqui desta postagem para interagir com ele. Em seguida conversaremos sobre como ele funciona.
 
   <div id="loading">Loading ...</div>
   <button id="startButton">Clique para iniciar</button>
@@ -86,14 +86,18 @@ O patch abaixo é nosso primeiro esboço. Ele é interativo, clique no botão pa
     <form>
       <table>
       <tr>
-      <td><input type="range" min="0" max="110" id="freq" value="0"></td><td>Frequência: <span id="demo"></span></td>
+      <td><input type="range" min="0" max="110" id="freq" value="0"></td><td>Frequência: <span id="demo"></span></td><td style="font-family:Verdana;font-size:16px"> (valor será recebido no patch em <b>[r freq]</b>)</td>
       </tr>
       </table>
       <!--<input type="text" id="freq" />
       <input type="submit" value="Enviar nota MIDI" />-->
     </form>
     <form>
-      <input type="button" value="Desligar" onclick="desligar()">
+      <table>
+      <tr>
+      <td><input type="button" value="Desligar" onclick="desligar()"></td><td></td><td style="font-family:Verdana;font-size:16px"> (será recebido no patch um bang em <b>[r desliga]</b>)</td>
+      </tr>
+      </table>
       <!--<input type="submit" id="desliga" value="Desligar" />-->
     </form>
   </div>
@@ -138,7 +142,7 @@ O patch abaixo é nosso primeiro esboço. Ele é interativo, clique no botão pa
   </script>
 
 
-OK. Agora talvez você ache mais confortável rodar o patch em outra janela enquanto lê o testo aqui. Se for o caso, clique <a href="{{ site.baseurl }}/assets/pd/cortador-1.pd">aqui</a> para baixá-lo e abrir no seu Pure Data.
+OK. Agora talvez você ache mais confortável rodar o patch em outra janela enquanto lê o texto aqui. Se for o caso, clique <a href="{{ site.baseurl }}/assets/pd/cortador-1.pd">aqui</a> para baixá-lo e abrir no seu Pure Data.
 
 Antes de mais nada, precisamos do som de um impacto da lâmina. Podemos levar um equipamento a um lugar isolado e captar com um bom microfone. Ou procurar um som desses em algum repositório como freesound.org. Ou ser bem mais práticos, começar do simples e tentar captar o essencial do fenômeno.
 
@@ -163,6 +167,24 @@ Por isso usamos o objeto [phasor~]. Este é um oscilador cujo sinal emitido é u
 Para termos o efeito de ligar e desligar o cortador, aplucamos [line~], para que a frequência desejada não mude de sopetão, mas transicione, obtendo o nosso glissando. Veja que as mensagens que mandamos para gerar sinais de linha com [line~] têm como 2<sup><u>o</u></sup> parâmetro o número 1000: é a quantidade de milisegundos que durará a linha. Futuramente podemos controlar esse tempo também para ter transições mais rápidas ou demoradas - podem depender do intervalo de frequência a percorrer, por exemplo.
 
 A dica final: o Help do Pd vale ouro, use e abuse! É só clicar com o botão direito em um objeto e ir em Help. Tem também o Help geral no menu.
+
+<!--------------------------------------------------------------------------------------------------->
+<p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
+<h4 id="melhoras">Algumas melhoras</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
+
+Como comentamos <a href="#qual-nota">ali em cima</a>, podemos modelar ainda o som do motor e as ressonâncias no equipamento. Podemos experimentar essas melhoras com filtragens dentro do próprio software de áudio da nossa preferência quando transformarmos nosso cortador em um plugin nas próximas semanas... ou podemos modelar por aqui mesmo. Por agora seguiremos adiante para chegar logo no plugin.
+
+Algo que não podemos deixar para manipular numa DAW é a _forma_ com a qual nossa lâmina ganha velocidade. E por que isso é tão importante? Porque boa parte do que entendemos como timbre é determinado pelas características dinâmicas do som, i.e., a forma como ele se desenrola no tempo - principalmente durante seu início (a que chamamos _ataque_). É esse ataque que está sendo trabalhado quando um violonista escolhe de que forma vai lixar as unhas da mão direita e em que ângulo vai atingir as cordas; quando um pianista trabalha o "peso" de seu toque durante o breve intervalo de tempo onde o martelo dentro do instrumento começa a entrar em contato com a corda; etc. E é por _nossa audição estar automaticamente sempre imaginando os movimentos_ por trás dos sons que uma performance musical **expressiva** tem muito mais a ver com essa breve trajetória do nascimento de cada som do que com o conteúdo de harmônicos - ao menos na opinião deste que aqui escreve.
+
+Fica a chamada para os próximos trabalhos!
+
+<!--------------------------------------------------------------------------------------------------->
+<p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
+<h4 id="mais">Mais minhocas na cabeça</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
+
+Baixe o <a href="{{ site.baseurl }}/assets/pd/cortador-1.pd">patch</a> e experimente fazer outros desenhos de forma de onda no array1. O que acontece com o som se você desenhar algo parecido com um seno? E algo parecido com dois ciclos de seno? Ou dois ciclos de impulso? O que acontece quando o 1<sup><u>o</u></sup> e o último elemento de array1 são muito diferentes? Aliás, o que acontece sempre que há variações muito grandes entre um ponto e outro?
+
+Tudo isso revela vários assuntos sobre a relação entre forma de onda e as frequências presentes, entre outras coisas. Fica para uma próxima conversa!
 
 <!--------------------------------------------------------------------------------------------------->
 <p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->

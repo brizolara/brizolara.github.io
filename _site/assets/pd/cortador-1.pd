@@ -1,39 +1,39 @@
 #N canvas 990 290 578 297 12;
-#X msg 101 47 \$1 1000;
-#X msg 169 47 0 1000;
+#X msg 101 53 \$1 1000;
+#X msg 169 53 0 1000;
 #X obj 140 161 *~ 100;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X array array1 100 float 3;
-#A 0 0.814285 0.72857 0.599998 0.528569 0.45714 0.385711 0.314282 0.257138
-0.228567 0.199995 0.171423 0.142852 0.128566 0.128566 0.0999945 0.0857087
-0.0714229 0.0714229 0.0571371 0.0428513 0.0285655 0.0142797 0.0142797
-0.0142797 -6.13928e-006 -6.13928e-006 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+#A 0 0.942857 0.828571 0.542854 0.45714 0.385711 0.28571 0.257138 0.214281
+0.185709 0.142852 0.128566 0.0999946 0.0857088 0.071423 0.0428572 0.0285714
+0.0142857 0.0142857 0 -6.02007e-006 -6.02007e-006 1.19209e-007 1.19209e-007
+1.19209e-007 1.19209e-007 1.19209e-007 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 100 -1 200 140 1;
 #X restore 354 132 graph;
 #X msg 16 163 set array1;
 #X obj 140 203 tabread4~;
 #X obj 140 230 *~ 0.05;
 #X obj 127 262 dac~;
-#X text 62 48 Liga;
-#X text 218 47 Desliga;
+#X text 62 54 Liga;
+#X text 218 53 Desliga;
 #X text 144 103 frequencia do phasor;
 #X text 196 132 repete rampa de 0 a 1;
 #X text 189 161 ...agora \, de 0 a 100;
 #X text 19 125 manda tabread;
 #X text 19 142 ler array1;
-#X obj 169 11 r desliga;
+#X obj 169 7 r desliga;
 #X obj 140 84 line~;
 #X obj 16 96 loadbang;
 #X text 352 96 array1;
 #X obj 140 132 phasor~;
 #X msg 354 68 \; array1 const 0;
-#X obj 354 46 loadbang;
-#X obj 101 12 r freq;
-#X text 419 13 zera todos os;
-#X text 419 30 elementos de;
-#X text 419 47 array1;
+#X obj 101 8 r freq;
+#X floatatom 60 30 5 0 0 0 - - -;
+#X text 352 13 Clique para zerar;
+#X text 352 30 todos os elementos;
+#X text 352 47 de array1;
 #X connect 0 0 16 0;
 #X connect 1 0 16 0;
 #X connect 2 0 5 0;
@@ -45,5 +45,5 @@
 #X connect 16 0 19 0;
 #X connect 17 0 4 0;
 #X connect 19 0 2 0;
-#X connect 21 0 20 0;
+#X connect 21 0 0 0;
 #X connect 22 0 0 0;
