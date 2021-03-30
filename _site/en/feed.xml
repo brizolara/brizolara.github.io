@@ -4,28 +4,197 @@
     <title>Tiago Brizolara</title>
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
-    <atom:link href="http://localhost:4000/brizolara.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Mar 2021 15:28:52 -0300</pubDate>
-    <lastBuildDate>Sun, 28 Mar 2021 15:28:52 -0300</lastBuildDate>
+    <atom:link href="http://localhost:4000/brizolara.github.io/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 30 Mar 2021 10:57:46 -0300</pubDate>
+    <lastBuildDate>Tue, 30 Mar 2021 10:57:46 -0300</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
         <title>Computação Musical - Instrumentalizando um Cortador de Grama - 1</title>
-        <description>&lt;p&gt;&lt;i&gt;Em construção&lt;/i&gt;&lt;/p&gt;
+        <description>&lt;h4 id=&quot;introducao&quot;&gt;O massacre musical da roçadeira elétrica&lt;/h4&gt;
+&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
 
-&lt;!--&lt;script src=&quot;/brizolara.github.io/assets/js/jquery.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;/brizolara.github.io/assets/js/webpd-latest.js&quot;&gt;&lt;/script&gt;--&gt;
+&lt;p&gt;Como transformar um cortador de grama num instrumento musical digital?&lt;/p&gt;
+
+&lt;p&gt;As ferramentas tradicionais de produção de áudio (&lt;em&gt;Ableton&lt;/em&gt;, &lt;em&gt;Pro Tools&lt;/em&gt;, samplers em geral…) podem nos levar até certo ponto em expresividade. Esta série de postagens chama para algo mais:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Abordar desenho de áudio e computação musical usando Pure Data &lt;strong&gt;a partir de um nível iniciante&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;Exercitar diferentes escutas;
+    &lt;ul&gt;
+      &lt;li&gt;Ir além do paradigma de &lt;em&gt;nota musical&lt;/em&gt;;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Trabalhar instrumentalidade;
+    &lt;ul&gt;
+      &lt;li&gt;Alçar vôos para além do teclado;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Criar um &lt;em&gt;plugin&lt;/em&gt; (e usar nas ferramentas tradicionais de produção áudio - ora, veja só!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A inspiração vem de um encontro do laboratório de &lt;em&gt;Corpo, Som E Tecnologia&lt;/em&gt;, coordenado pela profa. Dra. Flora Holderbaum e vinculado neste momento à disciplina de Tecnologia Musical (Ceart-UDESC-SC).
+&lt;!--&lt;!doctype HTML&gt;--&gt;&lt;/p&gt;
+
+&lt;!--&lt;html&gt;--&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/pd-fileutils.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/webpd-latest.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/pd-examples.js&quot;&gt;&lt;/script&gt;
+
+    &lt;link href=&quot;http://fonts.googleapis.com/css?family=Source+Sans+Pro&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+    &lt;link href=&quot;../assets/css/pd-examples.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+  &lt;/head&gt;
+
+&lt;p&gt;&lt;!--&lt;body&gt;--&gt;&lt;/p&gt;
+
+&lt;p&gt;Se você nunca produziu com Pure Data, pode assistir esta &lt;strong&gt;oficina introdutória&lt;/strong&gt; (começa aos 43m55s. Assista do começo para exemplos de Pd em performances de todo tipo, além de desenho de áudio e trilha sonora, focando em produção brasileira e florianopolitana):&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8_X3pCm1zy4?start=2635&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;!---------------------------------------------------------------------------------------------------&gt;
+&lt;h4 id=&quot;qual-nota&quot;&gt;&quot;Que nota eu escuto se eu tocar a corda Mi (660 Hz) 440 vezes por segundo?&quot;&lt;/h4&gt;
+&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
+
+&lt;p&gt;Se você sabe a resposta, então você sabe de onde vem a nota (&lt;em&gt;altura musical&lt;/em&gt; é o nome correto) de um cortador de grama.&lt;/p&gt;
+
+&lt;p&gt;O princípio é o mesmo da sirene mecânica (de colégio, de polícia….): uma roda dentada ou com pás gira, atingindo um anteparo muitas vezes por segundo. Por exemplo, se o anteparo está sendo atingido 440 vezes/segundo, a gente escuta uma nota Lá (440 Hz. Ora, &lt;em&gt;Hz&lt;/em&gt; significa exatamente repetições por segundo!).
+&lt;br /&gt;No caso do cortador, são os dentes da nossa lâmina que atingem o que está sendo cortado. Por isso que ouvimos a altura musical subir em glissando à medida que o giro da lâmina ganha velocidade).&lt;/p&gt;
+
+&lt;p&gt;Que mágica é essa? Pra entender melhor, nós fomos à Barra da Lagoa falar com seu Bentois:&lt;/p&gt;
+
+&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;Quer dizer que a repetição de um mero som de duas coisas se chocando vira uma nota musical? É uma imitação que engana nossa percepção?&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;B.: Não é uma imitação. A própria nota musical &lt;i&gt;(altura musical)&lt;/i&gt; é que é a invenção da nossa audição. Coisas como a voz, os pássaros e as violas agitam o ar em repetições, do mesmo jeito que uma sirene - só que de jeitos menos bruscos. A lei da nossa audição é essa: repetiu mais do que umas 20 vezes/segundo, virou nota.&lt;/p&gt;
+&lt;!--&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;E o que seriam jeitos menos bruscos?&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;B.: A corda de violão, a prega vocal, a pele de tambor... todos balançam repetidamente ao invés de se chocar repetidamente com algo.&lt;/p&gt;--&gt;
+&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;Ainda não acredito!&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;B.: Observe a trama de um tecido. Se você arrastar uma unha sobre ele, vai estar atingindo diversos fios por segundo. Observe como a nota que você ouve é aguda o tanto mais rápido você arrasta sua unha.&lt;/p&gt;
+
+&lt;p&gt;Na demonstração a seguir, Pierre Schaeffer (no absolutamente necessário Solfejo do Objeto Sonoro, de 1966) chama à atenção 3 fenômenos diferentes na escuta ao transformarmos sons musicais em notas musicais através de sua repetição cada vez mais rápida. O material escolhido para ser repetido influencia o &lt;em&gt;timbre&lt;/em&gt; da nota ouvida e a este Schaeffer chama &lt;em&gt;grão&lt;/em&gt;: &lt;a href=&quot;http://tramausp.com.br/_trabalhos/001solfege.html#item4&quot;&gt;http://tramausp.com.br/_trabalhos/001solfege.html#item4&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Obs 1.: Estamos ignorando o som do motor e das ressonâncias do equipamento &lt;strong&gt;por enquanto&lt;/strong&gt;.&lt;/em&gt;
+&lt;em&gt;Obs 2.: E a resposta da pergunta da seção então é: escutamos a nota Lá (440 Hz) - isso mesmo, tocamos a corda Mi e ouvimos a nota Lá&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!---------------------------------------------------------------------------------------------------&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;!-- TODO solve this formatting issue in the CSS... --&gt;&lt;/p&gt;
+&lt;h4 id=&quot;pratica&quot;&gt;Prática&lt;/h4&gt;
+&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
+
+&lt;p&gt;O patch abaixo é nosso primeiro esboço. Ele é interativo, clique no botão para testar. Abaixo dele conversaremos sobre como ele funciona.&lt;/p&gt;
+
+&lt;div id=&quot;loading&quot;&gt;Loading ...&lt;/div&gt;
+&lt;p&gt;&lt;button id=&quot;startButton&quot;&gt;Clique para iniciar&lt;/button&gt;&lt;/p&gt;
+
+&lt;div id=&quot;controls&quot;&gt;
+    &lt;form&gt;
+      &lt;table&gt;
+      &lt;tr&gt;
+      &lt;td&gt;&lt;input type=&quot;range&quot; min=&quot;0&quot; max=&quot;110&quot; id=&quot;freq&quot; value=&quot;0&quot; /&gt;&lt;/td&gt;&lt;td&gt;Frequência: &lt;span id=&quot;demo&quot;&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/table&gt;
+      &lt;!--&lt;input type=&quot;text&quot; id=&quot;freq&quot; /&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;Enviar nota MIDI&quot; /&gt;--&gt;
+    &lt;/form&gt;
+    &lt;form&gt;
+      &lt;input type=&quot;button&quot; value=&quot;Desligar&quot; onclick=&quot;desligar()&quot; /&gt;
+      &lt;!--&lt;input type=&quot;submit&quot; id=&quot;desliga&quot; value=&quot;Desligar&quot; /&gt;--&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+
 &lt;script&gt;
-    var patch
-    $.get('/brizolara.github.io/assets/pd/cortador-1.pd', function(patchStr) {
-        patch = Pd.loadPatch(patchStr)
-        Pd.start()
-    })
-&lt;/script&gt;
+  var slider = document.getElementById(&quot;freq&quot;);
+  var output = document.getElementById(&quot;demo&quot;);
+  output.innerHTML = slider.value;
 
-&lt;p&gt;Licença:&lt;/p&gt;
-&lt;pre&gt;
-&lt;/pre&gt;
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+    Pd.send('freq', [parseFloat(this.value)]);
+  }
+  &lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    function desligar(){
+      Pd.send('desliga', [&quot;bang&quot;]);
+    }
+  &lt;/script&gt;
+
+&lt;div id=&quot;svg&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    
+    webPdExamples.init()
+
+    /*$('form').submit(function(event) {
+      event.preventDefault()
+      Pd.send('MIDI_note', [parseFloat($('#MIDI_note').val())])
+    })*/
+
+    var patch
+    $.get('../assets/pd/cortador-1.pd', function(mainStr) {
+      // Loading the patch
+      patch = Pd.loadPatch(mainStr)
+
+      webPdExamples.patchLoaded(mainStr)
+    })
+
+  &lt;/script&gt;
+
+&lt;p&gt;OK. Agora talvez você ache mais confortável rodar o patch em outra janela enquanto lê o testo aqui. Se for o caso, clique &lt;a href=&quot;/brizolara.github.io/assets/pd/cortador-1.pd&quot;&gt;aqui&lt;/a&gt; para baixá-lo e abrir no seu Pure Data.&lt;/p&gt;
+
+&lt;p&gt;Antes de mais nada, precisamos do som de um impacto da lâmina. Podemos levar um equipamento a um lugar isolado e captar com um bom microfone. Ou procurar um som desses em algum repositório como freesound.org. Ou ser bem mais práticos, começar do simples e tentar captar o essencial do fenômeno.&lt;/p&gt;
+
+&lt;p&gt;Um som de impacto seco (sem grandes ressonâncias) consiste em um pico de amplitude que decresce rapidamente (sabemos isso já de ouvido). Vamos implementar usando um objeto &lt;em&gt;array&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Menu Put-&amp;gt;Array (ou atalho Shift+Ctrl+A)&lt;/li&gt;
+  &lt;li&gt;e desenhamos no array (lembrete: temos que estar no modo de execução, não de edição. Para alternar entre os dois modos, podemos ir ao menu Edit-&amp;gt;Edit Mode ou Ctrl+E):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/pd-cortador-1-impulso.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ao criar o array, vemos que, por padrão, cada ponto pode assumir valores entre -1 e 1. Esse é o padrão da escala em áudio digital. Valores fora dessa escala vão &lt;em&gt;clipar&lt;/em&gt; o som. Para facilitar seu trabalho de desenhar no array1, você pode enviar a mensagem &lt;i&gt;;array1 const 0&lt;/i&gt;, para zerar todos os elementos do array1 (ou qualquer que seja o nome que você deu). Note que a imagem do array1 não está aparecendo na nossa visualização interativa.&lt;/p&gt;
+
+&lt;p&gt;Para tratar esses valores como um sample a ser repetido, vamos criar um objeto [tabread4~]. Para enviar esses valores que estão no array, enviamos a mensagem &lt;i&gt;set array1&lt;/i&gt; para o [tabread4~].&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tudo em torno de [tabread4~]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Pelo “~”, já sabemos que é um objeto que emite um sinal. Lembre que sinais não precisam de nenhuma interação, eles são produzidos continuamente.&lt;/p&gt;
+
+&lt;p&gt;Qual valor [tabread4~] emitirá é definido pelo valor recebido no seu inlet, encarado como índice, iniciando do zero. Ou seja, se [tabread4~] recebe 0, emite o 1&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; elemento do array guardado (que é o array1). Se recebe 1, emite o 2&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; elemento de array1, etc. Se recebe 99, emite o 100&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; elemento de array1 (que é o último, já que criamos array1 com 100 elementos).&lt;/p&gt;
+
+&lt;p&gt;Por isso usamos o objeto [phasor~]. Este é um oscilador cujo sinal emitido é uma linha de 0 a 1. Quando multiplicamos sua saída por 99, agora temos uma linha de 0 a 99. Ou seja, ao entrar em [tabread4~] varremos todos os seus elementos. E quantas vezes por segundo isso acontece? Quantas vezes por segundo phasor repetir-se, ou seja, sua frequência.&lt;/p&gt;
+
+&lt;p&gt;Para termos o efeito de ligar e desligar o cortador, aplucamos [line~], para que a frequência desejada não mude de sopetão, mas transicione, obtendo o nosso glissando. Veja que as mensagens que mandamos para gerar sinais de linha com [line~] têm como 2&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; parâmetro o número 1000: é a quantidade de milisegundos que durará a linha. Futuramente podemos controlar esse tempo também para ter transições mais rápidas ou demoradas - podem depender do intervalo de frequência a percorrer, por exemplo.&lt;/p&gt;
+
+&lt;p&gt;A dica final: o Help do Pd vale ouro, use e abuse! É só clicar com o botão direito em um objeto e ir em Help. Tem também o Help geral no menu.&lt;/p&gt;
+
+&lt;!---------------------------------------------------------------------------------------------------&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;!-- TODO solve this formatting issue in the CSS... --&gt;&lt;/p&gt;
+&lt;h4 id=&quot;materiais&quot;&gt;Materiais&lt;/h4&gt;
+&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tramausp.com.br/_trabalhos/001solfege.html&quot;&gt;Solfejo do Objeto Sonoro - versão em Português&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=znVcmChq_1M&quot;&gt;Roda de Savart&lt;/a&gt; - Um tipo de sirene. No séc. XIX foi o dispositivo que demonstrou a relação entre frequência e altura musical&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=WSWG5Wv6fLM&quot;&gt;Instrumento musical por Bart Hopkin&lt;/a&gt;, feito de 33 rodas de savart. Hilariante ;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Aos programadores e aventureiros:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/brizolara/brizolara.github.io&quot;&gt;Código-fonte desta página&lt;/a&gt;. O patch interativo de Pd usa:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/sebpiq/WebPd&quot;&gt;WebPd&lt;/a&gt;, versão do Pure Data para o navegador&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/sebpiq/pd-fileutils&quot;&gt;pd-fileutils&lt;/a&gt;, usado para exibição os patches de Pd nesta página&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!---------------------------------------------------------------------------------------------------&gt;
+
+&lt;p&gt;&lt;!--&lt;/body&gt;
+&lt;/html&gt;--&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Sat, 27 Mar 2021 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/pd-cortador1/</link>
@@ -39,6 +208,8 @@
         
         <category>educational</category>
         
+        <category>sampler</category>
+        
         
         <category>pure data</category>
         
@@ -48,63 +219,70 @@
         
         <category>educativo</category>
         
+        <category>sampler</category>
+        
       </item>
     
       <item>
         <title>Latest Release</title>
-        <description>&lt;p&gt;&lt;strong&gt;Quanto Dura Uma Fita de Viola em Tempo de Reis?&lt;/strong&gt; disponivel nas principais plataformas digitais - 2020.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Quanto Dura Uma Fita de Viola em Tempo de Reis?&lt;/strong&gt; available in the main digital platforms - 2020.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zx4zjXCMc14&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;Ficha técnica:&lt;/p&gt;
 &lt;pre&gt;
-Tiago Brizolara: música, violão 7 cordas, edição.
-Marcelo Pimenta: percussão.
-Tiago Suminsky: edição, mixagem, masterização, captação da percussão.
-Dimi Camorlinga: captação do violão.
-Ana Carpes: capa, sobre quadro de vídeo de Dimi Camorlinga.
+Tiago Brizolara: Composition, 7 string guitar, editing.
+Marcelo Pimenta: percussion.
+Tiago Suminsky: editing, mix, master, percussion recording.
+Dimi Camorlinga: guitar recording.
+Ana Carpes: cover, from Dimi Camorlinga's video still.
 &lt;/pre&gt;
 </description>
         <pubDate>Tue, 06 Oct 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/fita-viola-lancamento/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/fita-viola-lancamento/</guid>
         
-        <category>composicao</category>
+        <category>music</category>
         
-        <category>acustico</category>
-        
-        <category>violao</category>
-        
-        <category>7cordas</category>
-        
-        <category>mpb</category>
-        
-        <category>musicabrasileira</category>
+        <category>composer</category>
         
         <category>instrumental</category>
         
+        <category>acoustic</category>
         
-        <category>composição</category>
+        <category>fingerstyle</category>
         
-        <category>lançamento</category>
+        <category>guitar</category>
         
-        <category>música brasileira</category>
+        <category>7strings</category>
+        
+        <category>brazilian</category>
+        
+        <category>latin</category>
         
         <category>mpb</category>
         
-        <category>florianópolis</category>
+        <category>jazz</category>
         
-        <category>sete cordas</category>
         
-        <category>acústico</category>
+        <category>music composition</category>
         
-        <category>instrumental</category>
+        <category>release</category>
+        
+        <category>guitar</category>
+        
+        <category>instrumental music</category>
+        
+        <category>brazilian music</category>
+        
+        <category>contemporary</category>
+        
+        <category>jazz</category>
         
       </item>
     
       <item>
-        <title>Baixar portfolio</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/brizolara.github.io/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;Clique para baixar o Portfolio Artístico&lt;/a&gt;. Ou &lt;a href=&quot;/brizolara.github.io/about - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;clique aqui&lt;/a&gt; para acessar currículo e portfolio técnico-científicos (softwares médicos, jogos digitais, currículo acadêmico em física médica, computação e música).&lt;/p&gt;
+        <title>Download Portfolio</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/brizolara.github.io/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;Click to download Artisitic Portfolio&lt;/a&gt;. Or &lt;a href=&quot;/brizolara.github.io/about - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;click here&lt;/a&gt; to access technical-scientific portfolios (medical softwares, digital games, academic CV in medical physics, computer science, music).&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Sep 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/portfolio/</link>
@@ -112,103 +290,108 @@ Ana Carpes: capa, sobre quadro de vídeo de Dimi Camorlinga.
         
         <category>portfolio</category>
         
-        <category>composição</category>
+        <category>composer</category>
         
-        <category>artecontemporanea</category>
+        <category>contemporary art</category>
         
         <category>soundtrack</category>
         
-        <category>musicabrasileira</category>
+        <category>brazilian music</category>
         
         <category>instrumental</category>
+        
+        <category>latin</category>
         
         <category>mpb</category>
         
         <category>jazz</category>
         
-        <category>desenvolvimento</category>
+        <category>developer</category>
         
-        <category>computacaocriativa</category>
+        <category>creative computing</category>
         
         <category>multidisciplinar</category>
         
-        <category>softwaremedico</category>
+        <category>medical software</category>
         
-        <category>processamentodeimagem</category>
+        <category>image processing</category>
         
-        <category>fisicamedica</category>
+        <category>medical physics</category>
         
         
         <category>portfolio</category>
         
-        <category>composicão</category>
+        <category>composer</category>
         
-        <category>arte contemporânea</category>
+        <category>contemporary art</category>
         
-        <category>trilha sonora</category>
+        <category>soundtrack</category>
         
-        <category>música brasileira</category>
+        <category>brazilian music</category>
         
         <category>instrumental</category>
+        
+        <category>latin</category>
         
         <category>mpb</category>
         
         <category>jazz</category>
         
-        <category>desenvolvimento</category>
+        <category>developer</category>
         
-        <category>computação criativa</category>
+        <category>creative computing</category>
         
         <category>multidisciplinar</category>
         
-        <category>software médico</category>
+        <category>medical software</category>
         
-        <category>processamento de imagem</category>
+        <category>image processing</category>
         
-        <category>física médica</category>
+        <category>medical physics</category>
         
       </item>
     
       <item>
         <title>R.I.S.C.O.</title>
-        <description>&lt;p&gt;Após o 1o R.I.S.C.O., um grupo homônimo foi formado para seguir produzindo e pesquisando dentro de um caldo que inclui captação de som direto, live electronics, sintetizadores analógicos, pesquisa em computação musical, luteria digital, VJing e dança expandida. Destacam-se:
-Apresentação no Festival Internacional Strangloscope 2017 - Museu da Imagem e do Som (MIS-SC), Centro Integrado de Cultura (CIC) - Florianópolis, SC.
-Concerto no Teatro Azambuja (Brusque-SC), selecionado pelo edital Estação Cultural 2018, da Fundação Catarinense de Cultura.
-Performance Yllu - 2017 e 2018. O Sítio Arte Educação E Tecnologia. Florianópolis-SC.&lt;/p&gt;
-
-&lt;p&gt;“Yllu representa em uma de suas formas a música que produzem as pequenas asas em vôo … Essa voz tem semelhança a outra mais importante: Illa dá nome a certa espécie de luz e aos monstros que nasceram feridos pelos raios lunares. Illa é um menino de duas cabeças ou um bezerro que nasce decapitado; ou um penhasco gigante, todo negro e lúcido, cuja superfície aparecera cruzada por uma veia larga de rocha branca, de opaca luz; é também uma plantação onde as fileiras de milho se entrecruzam ou formam redemoinhos; são illas os touros míticos que habitam o fundo dos lagos solitários, das altas lagoas rodeadas de totora, povoadas por patos negros. Todos os illas causam o bem ou o mal, mas sempre em grau sumo. Tocar um illa e morrer ou alcançar a ressurreição é possível. Essa voz illa tem algum parentesco fonético e uma comunhão interna de sentido com a terminação Yllu”&lt;/p&gt;
+        <description>&lt;p&gt;After the 1st R.I.S.C.O., a group of the same name was formed to continue producing and researching a path that includes direct sound capture, live electronics, analog synthesizers, music computing research, digital luthierie, VJing and expanded dance. The following stand out:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;José Maria Arguedas, In. Los Ríos Profundos&lt;/li&gt;
+  &lt;li&gt;Presentation at the International Festival Strangloscope 2017 - Museum of Image and Sound (MIS-SC), Integrated Culture Center (CIC) - Florianópolis, SC.&lt;/li&gt;
+  &lt;li&gt;Concert at the Azambuja Theater (Brusque-SC), selected by the Estação Cultural 2018 announcement, from the Santa Catarina state Culture Foundation.&lt;/li&gt;
+  &lt;li&gt;Performance Yllu - 2017 and 2018. Sítio Arte Educação E Tecnologia. Florianópolis-SC.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;“Yllu represents in one of its forms the music produced by the small wings in flight … This voice is similar to another more important one: Illa gives name to a certain kind of light and to the monsters that were born wounded by the lunar rays. Illa is a boy with two heads or a calf that is born beheaded; or a giant cliff, all black and lucid, whose surface had appeared crossed by a wide vein of white rock, of opaque light; it is also a plantation where the rows of maize intersect or swirl; the mythical bulls that inhabit the bottom of the lonely lakes, the high lagoons surrounded by totora, populated by black ducks, are illas. All illas cause good or evil, but always in a high degree. Touching an illa and dying or achieving resurrection is possible. This illa voice has some phonetic kinship and an internal communion of meaning with the ending Yllu ”&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;José Maria Arguedas, In. Los Ríos Profundos (free translation)&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         <pubDate>Tue, 01 Sep 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/RISCO/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/RISCO/</guid>
         
-        <category>artedigital</category>
+        <category>digitalart</category>
         
-        <category>grupo</category>
+        <category>group</category>
         
-        <category>musicamista</category>
+        <category>electroacoustic</category>
         
-        <category>musicaeletroacustica</category>
-        
-        <category>luteriadigital</category>
+        <category>digitallutherie</category>
         
         <category>multidisciplinar</category>
         
         <category>florianopolis</category>
         
         
-        <category>arte digital</category>
+        <category>digital art</category>
         
-        <category>grupo</category>
+        <category>group</category>
         
-        <category>música mista</category>
+        <category>mixed music</category>
         
-        <category>música eletroacústica</category>
+        <category>electroacoustic music</category>
         
-        <category>luteria digital</category>
+        <category>digital lutherie</category>
         
         <category>multidisciplinar</category>
         
@@ -219,24 +402,24 @@ Performance Yllu - 2017 e 2018. O Sítio Arte Educação E Tecnologia. Florianó
       <item>
         <title>SoMo</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;Um instrumento musical/audiovisual baseado em movimento desenvolvido utilizando as ferramentas livres de código aberto Pure Data e Processing. O SoMo pode ser montado com um computador pessoal comum e uma webcam de vídeo de baixo custo - usando a PSEye®,  obtivemos uma responsividade de até 100 quadros analisados por segundo e áudio gerado em tempo real. Um feedback visual auxilia o executante e serve esteticamente à performance.&lt;/p&gt;
+  &lt;p&gt;A musical/audiovisual instrument based on movementusing the free frameworks Pure Data and Processing. SoMo can be assembled with a commom personal computer and with a low cost webcam - we are using the PSEye®, we achieve a responsiveness of up to 100 frames per second and audio synthesized in real time. A visual feedback helps the executant and serves aesthetically to the performance.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SHhqdaUqi8Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;O instrumento foi desenvolvido por Tiago Brizolara e Marcos Moritz e um &lt;strong&gt;artigo&lt;/strong&gt; descrevendo o sistema foi publicado no Simpósio Brasileiro de Computação Musical em 2015: &lt;a href=&quot;http://compmus.ime.usp.br/sbcm2015/files/proceedings-print.pdf&quot;&gt;http://compmus.ime.usp.br/sbcm2015/files/proceedings-print.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The instrument was developed by Tiago Brizolara and Marcos Moritz and a &lt;strong&gt;paper&lt;/strong&gt; describing the system was published in the Simpósio Brasileiro de Computação Musical em 2015: &lt;a href=&quot;http://compmus.ime.usp.br/sbcm2015/files/proceedings-print.pdf&quot;&gt;http://compmus.ime.usp.br/sbcm2015/files/proceedings-print.pdf&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;O &lt;strong&gt;código-fonte&lt;/strong&gt; se encontra em &lt;a href=&quot;https://bitbucket.org/mmoritz/somo&quot;&gt;https://bitbucket.org/mmoritz/somo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;source code&lt;/strong&gt; is available at &lt;a href=&quot;https://bitbucket.org/mmoritz/somo&quot;&gt;https://bitbucket.org/mmoritz/somo&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Yllu representa em uma de suas formas a música que produzem as pequenas asas em vôo … Essa voz tem semelhança a outra mais importante: Illa dá nome a certa espécie de luz e aos monstros que nasceram feridos pelos raios lunares. Illa é um menino de duas cabeças ou um bezerro que nasce decapitado; ou um penhasco gigante, todo negro e lúcido, cuja superfície aparecera cruzada por uma veia larga de rocha branca, de opaca luz; é também uma plantação onde as fileiras de milho se entrecruzam ou formam redemoinhos; são illas os touros míticos que habitam o fundo dos lagos solitários, das altas lagoas rodeadas de totora, povoadas por patos negros. Todos os illas causam o bem ou o mal, mas sempre em grau sumo. Tocar um illa e morrer ou alcançar a ressurreição é possível. Essa voz illa tem algum parentesco fonético e uma comunhão interna de sentido com a terminação Yllu”&lt;/p&gt;
+  &lt;p&gt;Yllu represents in one of its forms the music produced by the tiny wings in flight … This voice has similarity to other most important: Illa names certain species of light and the monsters that were born hurt by the moonlight rays. Illa is a boy with two heads or a calf that is born decapitated; or a giant cliff, all black and lucid, which surface appeared crossed by a large vein of white rock, of opaque light; it is also a plantation where the rows of maize intersect or swirl; the mythical bulls that inhabit the bottom of the lonely lakes, the high lagoons surrounded by totora, populated by black ducks, are illas. All illas cause good or evil, but always in a high degree. Touching an illa and dying or achieving resurrection is possible. This illa voice has some phonetic kinship and an internal communion of meaning with the ending Yllu”&lt;/p&gt;
   &lt;ul&gt;
-    &lt;li&gt;José Maria Arguedas, In. Los Ríos Profundos (tradução livre).&lt;/li&gt;
+    &lt;li&gt;José Maria Arguedas, In. Los Ríos Profundos (free translation).&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/RISCO_Brusque_screenshot.png&quot; /&gt;
-Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.I.S.C.O. (Florianópolis-SC, 2017). [Embaixo] Com o R.I.S.C.O. em apresentação no Centro Cultural Azambuja (Brusque-SC, 2018).&lt;/p&gt;
+Fotos: [Top] SoMo in the &lt;em&gt;Yllu&lt;/em&gt; performance, with R.I.S.C.O. group (Florianópolis-Brazil, 2017). [Bottom] With R.I.S.C.O. in concert at Centro Cultural Azambuja (Brusque-Brazil, 2018).&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Aug 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/SoMo/</link>
@@ -250,19 +433,17 @@ Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.
         
         <category>puredata</category>
         
-        <category>artecontemporanea</category>
+        <category>contemporaryart</category>
         
         <category>opensource</category>
         
         <category>multidisciplinar</category>
         
-        <category>musicacomputacional</category>
+        <category>computermusic</category>
         
-        <category>desenhodeaudio</category>
+        <category>computermusic</category>
         
         <category>audiodesign</category>
-        
-        <category>processamentodeimagem</category>
         
         <category>imageprocessing</category>
         
@@ -279,13 +460,13 @@ Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.
         
         <category>pure data</category>
         
-        <category>arte contemporânea</category>
+        <category>contemporary art</category>
         
         <category>open source</category>
         
         <category>multidisciplinar</category>
         
-        <category>música computacional</category>
+        <category>computer music</category>
         
         <category>webcam</category>
         
@@ -293,22 +474,22 @@ Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.
         
         <category>r.i.s.c.o.</category>
         
-        <category>desenho de áudio</category>
+        <category>audio design</category>
         
       </item>
     
       <item>
         <title>Elemental</title>
-        <description>&lt;p&gt;Vento, chuva e trovão, incorporados como instrumentos sonoros/musicais. O &lt;em&gt;Elemental&lt;/em&gt; é um novo desenvolvimento em expressão musical, que une avanços recentes em desenho de áudio em tempo real via síntese (ou seja, sem sons pré-gravados) e novas interfaces homem-computador, para apropriar sons naturais num eixo de expressão que atravessa desde sons como na natureza até a experiência abstrata, passando pelo que o autor, Tiago Brizolara, chama de performance surreal: os sons são reais, enquanto toda sua trajetória, agora ditada pelo corpo do executante, é nova.&lt;/p&gt;
+        <description>&lt;p&gt;Wind, rain and thunder, embodied as music/sound instruments. The &lt;em&gt;Elemental&lt;/em&gt; is a new development in music expression, gathering recent advances in real-time digital audio design via synthesis (i.e., without pre-recorded sounds) and new human-machine interfaces, to appropriate natural sounds in an axis of expression that traverses since sounds as found in nature up to the abstract experience, passing by what I call &lt;em&gt;surreal performance&lt;/em&gt;: the sounds are real, but their behaviour, now dictated by the body of the performer, is new.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V_Sv5HiV5zU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;No vídeo a multiartista recifense Maria Flor testa o instrumento pela primeira vez. Agradeço a João Tragtenberg e à Universidade Federal de Pernambuco, nas pessoas dos professores Filipe Calegario e Giordano Cabral pela parceria na mobilidade internacional que desenvolvi junto ao Centro de Informática. A mobilidade foi financiada pelo departamento de Morbihan e a região Bretagne, no contexto de meu doutorado na Université Bretagne Sud (France).&lt;/p&gt;
+&lt;p&gt;In the video the multiartist Maria Flor, from recife City (Brazil), tests the instrument for the first time. I thank João Tragtenberg and the Federal University of Pernambuco (UFPE), in the persons of professors Filipe Calegario and Giordano Cabral, for the partnership during the international mobility that I developed along with UFPE’s Center of Infomatics. The mobility was funded by the department of Morbihan and Bretagne region, in the context of my PhD at Université Bretagne Sud (France).&lt;/p&gt;
 
-&lt;p&gt;Um artigo foi publicado na conferência NIME 2020 conference (clique &lt;a href=&quot;https://www.nime.org/proceedings/2020/nime2020_paper90.pdf&quot;&gt;aqui&lt;/a&gt; para baixar):
+&lt;p&gt;A paper was published in NIME 2020 conference (click &lt;a href=&quot;https://www.nime.org/proceedings/2020/nime2020_paper90.pdf&quot;&gt;here&lt;/a&gt; to download):
 Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gesturally Controlled System to Perform Meteorological Sounds. &lt;em&gt;Proceedings of the International Conference on New Interfaces for Musical Expression&lt;/em&gt;, Birmingham City University, pp. 470–476.&lt;/p&gt;
 
-&lt;p&gt;Abstract traduzido: Neste artigo apresentamos e evaluamos Elemental, uma NIME (New Interface for Music Expression / Nova Interface para Expressão Musical) baseado em síntese de áudio de sons de fenômenos meteorológicos, nomeadamente chuva, vento e trovão, para aplicação em música contemporânea/arte sonora, artes performáticas e entretenimento. Primeiramente descrevemos o sistema, controlado pelos braços do executante através de sensores inerciais e de eletromiografia. Os dados produzidos são analisados e utilizados através de estratégias de mapeamento como entrada para o motor de síntese de áudio. Conduzimos estudos com usuários para refinar a síntese de áudio, a escolha dos gestos e os mapeamentos entre eles, e para finalmmente validar essa prova de conceito. De fato, os usuários abordaram o sistema desde a manipulação abstrata do som até a simulação dos fenômenos atmosféricos - nesse último caso, mesmo para reviver memórias ou criar novas situações. Isso sugere que a abordagem de instrumentalização de sons de fonte conhecida pode ser uma estratégia frutífera para a construção de sistemas sonoros interativos expressivos.&lt;/p&gt;
+&lt;p&gt;Abstract: In this paper, we present and evaluate Elemental, a NIME (New Interface for Musical Expression) based on audio synthesis of sounds of meteorological phenomena, namely rain, wind and thunder, intended for application in contemporary music/sound art, performing arts and entertainment. We first describe the system, controlled by the performer’s arms through Inertial Measuring Units and Electromyography sensors. The produced data is analyzed and used through mapping strategies as input of the sound synthesis engine. We conducted user studies to refine the sound synthesis engine, the choice of gestures and the mappings between them, and to finally evaluate this proof of concept. Indeed, the users approached the system with their own awareness ranging from the manipulation of abstract sound to the direct simulation of atmospheric phenomena - in the latter case, it could even be to revive memories or to create novel situations. This suggests that the approach of instrumentalization of sounds of known source may be a fruitful strategy for constructing expressive interactive sonic systems.&lt;/p&gt;
 
 &lt;p&gt;Bibtex:&lt;/p&gt;
 &lt;pre&gt;
@@ -333,19 +514,17 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
         
         <category>nime</category>
         
-        <category>composicao</category>
+        <category>musiccomposition</category>
         
         <category>dmi</category>
         
-        <category>artecontemporanea</category>
+        <category>contemporaryart</category>
         
         <category>multidisciplinar</category>
         
-        <category>desenhodeaudio</category>
-        
         <category>audiodesign</category>
         
-        <category>musicacomputacional</category>
+        <category>computermusic</category>
         
         <category>puredata</category>
         
@@ -356,13 +535,13 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
         
         <category>NIME</category>
         
-        <category>composição</category>
+        <category>music composition</category>
         
         <category>DMI</category>
         
-        <category>desenho de áudio</category>
+        <category>audio design</category>
         
-        <category>música computacional</category>
+        <category>computer music</category>
         
         <category>pure data</category>
         
@@ -371,7 +550,7 @@ Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. Elemental: a Gest
       </item>
     
       <item>
-        <title>O Efeito do Observador</title>
+        <title>The Observer Effect</title>
         <description>&lt;p&gt;Espelho, tela de pintura, filme fotográfico. Mudar a iluminação do ambiente, passear com objetos na frente do “espelho” (câmera), mover-se em diferentes ritmos… tudo faz criar continuamente nessa tela que infinitamente se renova como um filme lentamente impressionado. O efeito do observador é interagir. Colocamos as mãos (versão com controlador LeapMotion. Senão, mouse) para tentar desvelar mais rapidamente o que ocorre no exato momento, como que impressionando o filme mais rapidamente - com efeito, nos aproximamos de algo como um espelho nessa área onde interagimos, mas o aspecto ali se torna oscilante e menos detalhado.&lt;/p&gt;
 
 &lt;!--&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zx4zjXCMc14&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;--&gt;
@@ -394,9 +573,9 @@ Concepção, programação e execução: Tiago Brizolara.
         <link>http://localhost:4000/brizolara.github.io/efeito-do-observador/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/efeito-do-observador/</guid>
         
-        <category>artedigital</category>
+        <category>digitalart</category>
         
-        <category>instalação</category>
+        <category>installation</category>
         
         <category>processing</category>
         
@@ -407,11 +586,11 @@ Concepção, programação e execução: Tiago Brizolara.
         <category>hci</category>
         
         
-        <category>instalação interativa</category>
+        <category>interactive installation</category>
         
-        <category>arte digital</category>
+        <category>digital art</category>
         
-        <category>instalação artística</category>
+        <category>art installation</category>
         
         <category>processing</category>
         
@@ -425,65 +604,66 @@ Concepção, programação e execução: Tiago Brizolara.
     
       <item>
         <title>Primeiras Milongas - com Iara Germer</title>
-        <description>&lt;p&gt;&lt;strong&gt;Primeiras Milongas&lt;/strong&gt; disponivel nas principais plataformas digitais - 2020.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Primeiras Milongas&lt;/strong&gt; available in the main digital platforms - 2020.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=CrE1tkR07eM&amp;amp;list=OLAK5uy_kZZkjN5tuIRKJpKxKmXH7-SNr795D1ubQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;EP lançado em diversas plataformas digitais, com as músicas Milonga do Quem Dera e Milonga para Minha Mãe.&lt;/p&gt;
+&lt;p&gt;EP with songs músicas Milonga do Quem Dera e Milonga para Minha Mãe.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/primeiras-milongas-mosaico.jpeg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Ficha técnica:&lt;/p&gt;
 &lt;pre&gt;
-Letra e voz: Iara Germer.
-Música, violão 7 cordas e voz: Tiago Brizolara.
-Acordeon: Bruno Moritz.
-Produção do áudio: Jorge Lacerda.
-Foto: Núbia Abe.
+Tiago Brizolara: music, 7 strings guitar, 2nd voice.
+Iara Germer, lyrics, main voice.
+Bruno Moritz: accordion.
+Audio production: Jorge Lacerda.
+Picture: Núbia Abe.
 &lt;/pre&gt;
 </description>
         <pubDate>Fri, 21 Aug 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</guid>
         
-        <category>composicao</category>
+        <category>music</category>
         
-        <category>acustico</category>
+        <category>composer</category>
         
-        <category>violao</category>
+        <category>acoustic</category>
         
-        <category>7cordas</category>
+        <category>guitar</category>
         
-        <category>mpb</category>
+        <category>7strings</category>
         
-        <category>musicabrasileira</category>
+        <category>brazilian</category>
         
-        
-        <category>composição</category>
-        
-        <category>lançamento</category>
-        
-        <category>gaúcho</category>
-        
-        <category>música brasileira</category>
+        <category>latin</category>
         
         <category>mpb</category>
         
-        <category>florianópolis</category>
+        <category>fingerstyle</category>
         
-        <category>canção</category>
         
-        <category>milonga</category>
+        <category>music composition</category>
         
-        <category>sete cordas</category>
+        <category>release</category>
         
-        <category>acústico</category>
+        <category>gaucho</category>
+        
+        <category>brazilian music</category>
+        
+        <category>mpb</category>
+        
+        <category>florianopolis</category>
+        
+        <category>song</category>
+        
+        <category>songwriter</category>
         
       </item>
     
       <item>
         <title>Atelier Digital</title>
-        <description>&lt;p&gt;O Atelier Digital produz arte com atravessamentos digitais e promove eventos de criação e formação com artistas locais e convidados. A equipe inicial, em 2017, foi composta por Alexandre Chaves, Kaue Costa, João Aires (também o idealizador) e Tiago Brizolara, membro entre 2017 e 2018 e parceiro desde então.&lt;/p&gt;
+        <description>&lt;p&gt;The &lt;em&gt;Digital Atelier&lt;/em&gt; produces art with digital perpassings and promotes creation and formation events with local artists and invitees. The initial team, in 2017, was comprised of Alexandre Chaves, Kaue Costa, João Aires (also the conceiver) and Tiago Brizolara, member between 2017 and 2018 and partner since then.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;column&quot;&gt;
@@ -507,60 +687,59 @@ Foto: Núbia Abe.
         <link>http://localhost:4000/brizolara.github.io/atelier-digital/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/atelier-digital/</guid>
         
-        <category>artedigital</category>
+        <category>digitalart</category>
         
-        <category>coletivo</category>
+        <category>group</category>
         
-        <category>exposição</category>
+        <category>exhibition</category>
         
-        <category>galeriadearte</category>
+        <category>artgallery</category>
         
-        <category>instalaçãoiterativa</category>
+        <category>interactiveinstallation</category>
         
-        <category>instalaçãoartística</category>
-        
-        <category>multidisciplinar</category>
-        
-        <category>florianópolis</category>
-        
-        
-        <category>arte digital</category>
-        
-        <category>coletivo</category>
-        
-        <category>exposição</category>
-        
-        <category>galeria de arte</category>
-        
-        <category>instalação interativa</category>
-        
-        <category>instalação artística</category>
+        <category>artisticinstallation</category>
         
         <category>multidisciplinar</category>
         
-        <category>florianópolis</category>
+        <category>florianopolis</category>
+        
+        
+        <category>digital art</category>
+        
+        <category>group</category>
+        
+        <category>exhibition</category>
+        
+        <category>art gallery</category>
+        
+        <category>interactive installation</category>
+        
+        <category>art installation</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>florianopolis</category>
         
       </item>
     
       <item>
         <title>Limiar</title>
-        <description>&lt;p&gt;Uma experiência estética imersiva interativa, que permite a contemplação tanto ativa quanto observar outras pessoas na obra, sempre habitando o Limiar entre mundos de aquarela e som. Camadas de aquarelas vão sendo desveladas conforme os visitantes se aproximam, marcando suavemente suas silhuetas. Em algum lugar do Limiar habitam formas luminosas que buscam os pasticipantes e se evadem. A trilha sonora co-interage com alguns elementos gráficos, ligados à presença e interação dos visitantes. A projeção é em formato widescreen e o áudio tem espacialização reativa.&lt;/p&gt;
+        <description>&lt;p&gt;An immersive interactive aesthetic experience, which allows both active contemplation and observing other people in the artwork, always inhabiting the Threshold (Limiar) between worlds of watercolor and sound. Layers of watercolor are revealed as the visitors approach, tracing softly their silhouettes. Somewhere on the Limiar there are luminous forms that seek out participants and escape. The soundtrack co-interact with some graphical elements, related to the presence and interaction of the visitors. The projection is in widescreen format and the audio has reactive spatialization.&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8agYaiZfaGc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Especificamente, 5 aquarelas estão sobrepostas e vão sendo reveladas de acordo com a interação das pessoas com a obra, capturada por um sensor Kinect. Uma aquarela em tons predominantemente alaranjados é revelada pela silhueta dos presentes e também por agentes inteligentes que lembram fogos-fátuos (&lt;em&gt;wisps&lt;/em&gt;). Esses agentes possuem um comportamento de movimento inteligente (steering behaviour) que se aproxima dos visitantes em grupo, para, ao se aproximar demais, voltar para um lugar seguro, trazendo uma sensação de obra viva e de sedução. Elementos geométricos atraídos pelos visitantes revelam outras camadas, arrastam consigo o panorama do áudio e também há um elemento geométrico procedural, diferente e único a cada ciclo. Uma aquarela de uma paisagem predominantemente roxa com cactus é revelada por uma máscara circular centrada nos visitantes e cujo tamanho obedece a intensidade da trilha sonora. Quais aquarelas e quais elementos encontram-se presentes são roteirizados pela trilha sonora. O código-fonte da obra foi feito em OpenFrameworks (C++).&lt;/p&gt;
+&lt;p&gt;Specifically, 5 watercolors are superimposed and are being revealed according to the interaction of people with the work, captured by a Kinect sensor. A watercolor in predominantly orange tones is revealed by the silhouette of those present and also by intelligent agents that resemble wisps. These agents have an intelligent movement behavior (steering behavior) that approach the visitors, to when they get too close, they return to a safe place, bringing a sense of lively and seduction to the work. Geometric elements attracted by visitors reveal other layers, drag the audio panorama with them and there is also a procedural geometric element, different and unique to each cycle. A watercolor of a predominantly purple landscape with cactus is revealed by a circular mask centered on visitors and whose size obeys the intensity of the soundtrack. Which watercolors and elements are present are scripted by the soundtrack. The source code of the work was made in OpenFrameworks (C ++).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/Limiar-0.png&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Ficha técnica:&lt;/p&gt;
 &lt;pre&gt;
-Instalação audiovisual interativa, ano 2017.
-Concepção e execução: Atelier Digital (Alexandre Chaves, Kaue Costa, João Aires, Tiago Brizolara).
-Aquarelas: João Aires.
-Programação: Kaue Costa, Tiago Brizolara.
-Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
+Interactive audiovisual installation, 2017.
+Concept and execution: Atelier Digital (Alexandre Chaves, Kaue Costa, João Aires, Tiago Brizolara).
+Watercolors: João Aires.
+Programming: Kaue Costa, Tiago Brizolara.
+Soundtrack (except at the première): Tiago Brizolara, Flora Holderbaum.
 &lt;/pre&gt;
 
 &lt;!-- &lt;img src=&quot;/brizolara.github.io/assets/images/Limiar-3.jpg&quot;&gt; --&gt;
@@ -569,11 +748,11 @@ Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
         <link>http://localhost:4000/brizolara.github.io/Limiar/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/Limiar/</guid>
         
-        <category>artedigital</category>
+        <category>digitalart</category>
         
-        <category>instalação</category>
+        <category>installation</category>
         
-        <category>composição</category>
+        <category>composition</category>
         
         <category>kinect</category>
         
@@ -588,19 +767,19 @@ Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
         <category>hci</category>
         
         
-        <category>instalação interativa</category>
+        <category>interactive installation</category>
         
-        <category>arte digital</category>
+        <category>digital art</category>
         
-        <category>instalação artística</category>
+        <category>art installation</category>
         
-        <category>composição</category>
+        <category>music composition</category>
         
-        <category>desenho de áudio</category>
+        <category>audio design</category>
         
         <category>steering behaviours</category>
         
-        <category>inteligência de agente</category>
+        <category>agent intelligence</category>
         
         <category>kinect</category>
         

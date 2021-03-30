@@ -5,27 +5,196 @@
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
     <atom:link href="http://localhost:4000/brizolara.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Mar 2021 15:25:11 -0300</pubDate>
-    <lastBuildDate>Sun, 28 Mar 2021 15:25:11 -0300</lastBuildDate>
+    <pubDate>Tue, 30 Mar 2021 10:57:39 -0300</pubDate>
+    <lastBuildDate>Tue, 30 Mar 2021 10:57:39 -0300</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
         <title>Computação Musical - Instrumentalizando um Cortador de Grama - 1</title>
-        <description>&lt;p&gt;&lt;i&gt;Em construção&lt;/i&gt;&lt;/p&gt;
+        <description>&lt;h4 id=&quot;introducao&quot;&gt;O massacre musical da roçadeira elétrica&lt;/h4&gt;
+&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
 
-&lt;!--&lt;script src=&quot;/brizolara.github.io/assets/js/jquery.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;/brizolara.github.io/assets/js/webpd-latest.js&quot;&gt;&lt;/script&gt;--&gt;
+&lt;p&gt;Como transformar um cortador de grama num instrumento musical digital?&lt;/p&gt;
+
+&lt;p&gt;As ferramentas tradicionais de produção de áudio (&lt;em&gt;Ableton&lt;/em&gt;, &lt;em&gt;Pro Tools&lt;/em&gt;, samplers em geral…) podem nos levar até certo ponto em expresividade. Esta série de postagens chama para algo mais:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Abordar desenho de áudio e computação musical usando Pure Data &lt;strong&gt;a partir de um nível iniciante&lt;/strong&gt;;&lt;/li&gt;
+  &lt;li&gt;Exercitar diferentes escutas;
+    &lt;ul&gt;
+      &lt;li&gt;Ir além do paradigma de &lt;em&gt;nota musical&lt;/em&gt;;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Trabalhar instrumentalidade;
+    &lt;ul&gt;
+      &lt;li&gt;Alçar vôos para além do teclado;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Criar um &lt;em&gt;plugin&lt;/em&gt; (e usar nas ferramentas tradicionais de produção áudio - ora, veja só!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A inspiração vem de um encontro do laboratório de &lt;em&gt;Corpo, Som E Tecnologia&lt;/em&gt;, coordenado pela profa. Dra. Flora Holderbaum e vinculado neste momento à disciplina de Tecnologia Musical (Ceart-UDESC-SC).
+&lt;!--&lt;!doctype HTML&gt;--&gt;&lt;/p&gt;
+
+&lt;!--&lt;html&gt;--&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/pd-fileutils.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/webpd-latest.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/pd-examples.js&quot;&gt;&lt;/script&gt;
+
+    &lt;link href=&quot;http://fonts.googleapis.com/css?family=Source+Sans+Pro&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+    &lt;link href=&quot;../assets/css/pd-examples.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+  &lt;/head&gt;
+
+&lt;p&gt;&lt;!--&lt;body&gt;--&gt;&lt;/p&gt;
+
+&lt;p&gt;Se você nunca produziu com Pure Data, pode assistir esta &lt;strong&gt;oficina introdutória&lt;/strong&gt; (começa aos 43m55s. Assista do começo para exemplos de Pd em performances de todo tipo, além de desenho de áudio e trilha sonora, focando em produção brasileira e florianopolitana):&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8_X3pCm1zy4?start=2635&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;!---------------------------------------------------------------------------------------------------&gt;
+&lt;h4 id=&quot;qual-nota&quot;&gt;&quot;Que nota eu escuto se eu tocar a corda Mi (660 Hz) 440 vezes por segundo?&quot;&lt;/h4&gt;
+&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
+
+&lt;p&gt;Se você sabe a resposta, então você sabe de onde vem a nota (&lt;em&gt;altura musical&lt;/em&gt; é o nome correto) de um cortador de grama.&lt;/p&gt;
+
+&lt;p&gt;O princípio é o mesmo da sirene mecânica (de colégio, de polícia….): uma roda dentada ou com pás gira, atingindo um anteparo muitas vezes por segundo. Por exemplo, se o anteparo está sendo atingido 440 vezes/segundo, a gente escuta uma nota Lá (440 Hz. Ora, &lt;em&gt;Hz&lt;/em&gt; significa exatamente repetições por segundo!).
+&lt;br /&gt;No caso do cortador, são os dentes da nossa lâmina que atingem o que está sendo cortado. Por isso que ouvimos a altura musical subir em glissando à medida que o giro da lâmina ganha velocidade).&lt;/p&gt;
+
+&lt;p&gt;Que mágica é essa? Pra entender melhor, nós fomos à Barra da Lagoa falar com seu Bentois:&lt;/p&gt;
+
+&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;Quer dizer que a repetição de um mero som de duas coisas se chocando vira uma nota musical? É uma imitação que engana nossa percepção?&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;B.: Não é uma imitação. A própria nota musical &lt;i&gt;(altura musical)&lt;/i&gt; é que é a invenção da nossa audição. Coisas como a voz, os pássaros e as violas agitam o ar em repetições, do mesmo jeito que uma sirene - só que de jeitos menos bruscos. A lei da nossa audição é essa: repetiu mais do que umas 20 vezes/segundo, virou nota.&lt;/p&gt;
+&lt;!--&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;E o que seriam jeitos menos bruscos?&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;B.: A corda de violão, a prega vocal, a pele de tambor... todos balançam repetidamente ao invés de se chocar repetidamente com algo.&lt;/p&gt;--&gt;
+&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;Ainda não acredito!&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;B.: Observe a trama de um tecido. Se você arrastar uma unha sobre ele, vai estar atingindo diversos fios por segundo. Observe como a nota que você ouve é aguda o tanto mais rápido você arrasta sua unha.&lt;/p&gt;
+
+&lt;p&gt;Na demonstração a seguir, Pierre Schaeffer (no absolutamente necessário Solfejo do Objeto Sonoro, de 1966) chama à atenção 3 fenômenos diferentes na escuta ao transformarmos sons musicais em notas musicais através de sua repetição cada vez mais rápida. O material escolhido para ser repetido influencia o &lt;em&gt;timbre&lt;/em&gt; da nota ouvida e a este Schaeffer chama &lt;em&gt;grão&lt;/em&gt;: &lt;a href=&quot;http://tramausp.com.br/_trabalhos/001solfege.html#item4&quot;&gt;http://tramausp.com.br/_trabalhos/001solfege.html#item4&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Obs 1.: Estamos ignorando o som do motor e das ressonâncias do equipamento &lt;strong&gt;por enquanto&lt;/strong&gt;.&lt;/em&gt;
+&lt;em&gt;Obs 2.: E a resposta da pergunta da seção então é: escutamos a nota Lá (440 Hz) - isso mesmo, tocamos a corda Mi e ouvimos a nota Lá&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!---------------------------------------------------------------------------------------------------&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;!-- TODO solve this formatting issue in the CSS... --&gt;&lt;/p&gt;
+&lt;h4 id=&quot;pratica&quot;&gt;Prática&lt;/h4&gt;
+&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
+
+&lt;p&gt;O patch abaixo é nosso primeiro esboço. Ele é interativo, clique no botão para testar. Abaixo dele conversaremos sobre como ele funciona.&lt;/p&gt;
+
+&lt;div id=&quot;loading&quot;&gt;Loading ...&lt;/div&gt;
+&lt;p&gt;&lt;button id=&quot;startButton&quot;&gt;Clique para iniciar&lt;/button&gt;&lt;/p&gt;
+
+&lt;div id=&quot;controls&quot;&gt;
+    &lt;form&gt;
+      &lt;table&gt;
+      &lt;tr&gt;
+      &lt;td&gt;&lt;input type=&quot;range&quot; min=&quot;0&quot; max=&quot;110&quot; id=&quot;freq&quot; value=&quot;0&quot; /&gt;&lt;/td&gt;&lt;td&gt;Frequência: &lt;span id=&quot;demo&quot;&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/table&gt;
+      &lt;!--&lt;input type=&quot;text&quot; id=&quot;freq&quot; /&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;Enviar nota MIDI&quot; /&gt;--&gt;
+    &lt;/form&gt;
+    &lt;form&gt;
+      &lt;input type=&quot;button&quot; value=&quot;Desligar&quot; onclick=&quot;desligar()&quot; /&gt;
+      &lt;!--&lt;input type=&quot;submit&quot; id=&quot;desliga&quot; value=&quot;Desligar&quot; /&gt;--&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+
 &lt;script&gt;
-    var patch
-    $.get('/brizolara.github.io/assets/pd/cortador-1.pd', function(patchStr) {
-        patch = Pd.loadPatch(patchStr)
-        Pd.start()
-    })
-&lt;/script&gt;
+  var slider = document.getElementById(&quot;freq&quot;);
+  var output = document.getElementById(&quot;demo&quot;);
+  output.innerHTML = slider.value;
 
-&lt;p&gt;Licença:&lt;/p&gt;
-&lt;pre&gt;
-&lt;/pre&gt;
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+    Pd.send('freq', [parseFloat(this.value)]);
+  }
+  &lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    function desligar(){
+      Pd.send('desliga', [&quot;bang&quot;]);
+    }
+  &lt;/script&gt;
+
+&lt;div id=&quot;svg&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    
+    webPdExamples.init()
+
+    /*$('form').submit(function(event) {
+      event.preventDefault()
+      Pd.send('MIDI_note', [parseFloat($('#MIDI_note').val())])
+    })*/
+
+    var patch
+    $.get('../assets/pd/cortador-1.pd', function(mainStr) {
+      // Loading the patch
+      patch = Pd.loadPatch(mainStr)
+
+      webPdExamples.patchLoaded(mainStr)
+    })
+
+  &lt;/script&gt;
+
+&lt;p&gt;OK. Agora talvez você ache mais confortável rodar o patch em outra janela enquanto lê o testo aqui. Se for o caso, clique &lt;a href=&quot;/brizolara.github.io/assets/pd/cortador-1.pd&quot;&gt;aqui&lt;/a&gt; para baixá-lo e abrir no seu Pure Data.&lt;/p&gt;
+
+&lt;p&gt;Antes de mais nada, precisamos do som de um impacto da lâmina. Podemos levar um equipamento a um lugar isolado e captar com um bom microfone. Ou procurar um som desses em algum repositório como freesound.org. Ou ser bem mais práticos, começar do simples e tentar captar o essencial do fenômeno.&lt;/p&gt;
+
+&lt;p&gt;Um som de impacto seco (sem grandes ressonâncias) consiste em um pico de amplitude que decresce rapidamente (sabemos isso já de ouvido). Vamos implementar usando um objeto &lt;em&gt;array&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Menu Put-&amp;gt;Array (ou atalho Shift+Ctrl+A)&lt;/li&gt;
+  &lt;li&gt;e desenhamos no array (lembrete: temos que estar no modo de execução, não de edição. Para alternar entre os dois modos, podemos ir ao menu Edit-&amp;gt;Edit Mode ou Ctrl+E):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/pd-cortador-1-impulso.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ao criar o array, vemos que, por padrão, cada ponto pode assumir valores entre -1 e 1. Esse é o padrão da escala em áudio digital. Valores fora dessa escala vão &lt;em&gt;clipar&lt;/em&gt; o som. Para facilitar seu trabalho de desenhar no array1, você pode enviar a mensagem &lt;i&gt;;array1 const 0&lt;/i&gt;, para zerar todos os elementos do array1 (ou qualquer que seja o nome que você deu). Note que a imagem do array1 não está aparecendo na nossa visualização interativa.&lt;/p&gt;
+
+&lt;p&gt;Para tratar esses valores como um sample a ser repetido, vamos criar um objeto [tabread4~]. Para enviar esses valores que estão no array, enviamos a mensagem &lt;i&gt;set array1&lt;/i&gt; para o [tabread4~].&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tudo em torno de [tabread4~]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Pelo “~”, já sabemos que é um objeto que emite um sinal. Lembre que sinais não precisam de nenhuma interação, eles são produzidos continuamente.&lt;/p&gt;
+
+&lt;p&gt;Qual valor [tabread4~] emitirá é definido pelo valor recebido no seu inlet, encarado como índice, iniciando do zero. Ou seja, se [tabread4~] recebe 0, emite o 1&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; elemento do array guardado (que é o array1). Se recebe 1, emite o 2&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; elemento de array1, etc. Se recebe 99, emite o 100&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; elemento de array1 (que é o último, já que criamos array1 com 100 elementos).&lt;/p&gt;
+
+&lt;p&gt;Por isso usamos o objeto [phasor~]. Este é um oscilador cujo sinal emitido é uma linha de 0 a 1. Quando multiplicamos sua saída por 99, agora temos uma linha de 0 a 99. Ou seja, ao entrar em [tabread4~] varremos todos os seus elementos. E quantas vezes por segundo isso acontece? Quantas vezes por segundo phasor repetir-se, ou seja, sua frequência.&lt;/p&gt;
+
+&lt;p&gt;Para termos o efeito de ligar e desligar o cortador, aplucamos [line~], para que a frequência desejada não mude de sopetão, mas transicione, obtendo o nosso glissando. Veja que as mensagens que mandamos para gerar sinais de linha com [line~] têm como 2&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; parâmetro o número 1000: é a quantidade de milisegundos que durará a linha. Futuramente podemos controlar esse tempo também para ter transições mais rápidas ou demoradas - podem depender do intervalo de frequência a percorrer, por exemplo.&lt;/p&gt;
+
+&lt;p&gt;A dica final: o Help do Pd vale ouro, use e abuse! É só clicar com o botão direito em um objeto e ir em Help. Tem também o Help geral no menu.&lt;/p&gt;
+
+&lt;!---------------------------------------------------------------------------------------------------&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;!-- TODO solve this formatting issue in the CSS... --&gt;&lt;/p&gt;
+&lt;h4 id=&quot;materiais&quot;&gt;Materiais&lt;/h4&gt;
+&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tramausp.com.br/_trabalhos/001solfege.html&quot;&gt;Solfejo do Objeto Sonoro - versão em Português&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=znVcmChq_1M&quot;&gt;Roda de Savart&lt;/a&gt; - Um tipo de sirene. No séc. XIX foi o dispositivo que demonstrou a relação entre frequência e altura musical&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=WSWG5Wv6fLM&quot;&gt;Instrumento musical por Bart Hopkin&lt;/a&gt;, feito de 33 rodas de savart. Hilariante ;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Aos programadores e aventureiros:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/brizolara/brizolara.github.io&quot;&gt;Código-fonte desta página&lt;/a&gt;. O patch interativo de Pd usa:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/sebpiq/WebPd&quot;&gt;WebPd&lt;/a&gt;, versão do Pure Data para o navegador&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/sebpiq/pd-fileutils&quot;&gt;pd-fileutils&lt;/a&gt;, usado para exibição os patches de Pd nesta página&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!---------------------------------------------------------------------------------------------------&gt;
+
+&lt;p&gt;&lt;!--&lt;/body&gt;
+&lt;/html&gt;--&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Sat, 27 Mar 2021 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/pd-cortador1/</link>
@@ -39,6 +208,8 @@
         
         <category>educational</category>
         
+        <category>sampler</category>
+        
         
         <category>pure data</category>
         
@@ -47,6 +218,8 @@
         <category>desenho de áudio</category>
         
         <category>educativo</category>
+        
+        <category>sampler</category>
         
       </item>
     
