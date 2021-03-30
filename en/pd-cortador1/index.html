@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="/brizolara.github.io/assets/images/assinatura-artistica.JPG">
+<link rel="icon" href="/brizolara.github.io/en/assets/images/assinatura-artistica.JPG">
 
 <title>Computação Musical - Instrumentalizando um Cortador de Grama - 1 | Tiago Brizolara</title>
 
@@ -16,7 +16,7 @@
 <meta property="og:locale" content="pt_BR" />
 <meta name="description" content="{“pt_BR”=&gt;”Computação Criativa, Pesquisa, NIME, Ficção de Música Popular”, “en”=&gt;”Creative Computing, Research, NIME, Contemporary Music”}" />
 <meta property="og:description" content="{“pt_BR”=&gt;”Computação Criativa, Pesquisa, NIME, Ficção de Música Popular”, “en”=&gt;”Creative Computing, Research, NIME, Contemporary Music”}" />
-<link rel="canonical" href="http://localhost:4000/brizolara.github.io/pd-cortador1/" />
+<link rel="canonical" href="http://localhost:4000/brizolara.github.io/en/pd-cortador1/" />
 <meta property="og:url" content="http://localhost:4000/brizolara.github.io/pd-cortador1/" />
 <meta property="og:site_name" content="Tiago Brizolara" />
 <meta property="og:image" content="http://localhost:4000/brizolara.github.io/assets/images/capas/pd-cortador-1.png" />
@@ -29,11 +29,11 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-<link href="/brizolara.github.io/assets/css/screen.css" rel="stylesheet">
+<link href="/brizolara.github.io/en/assets/css/screen.css" rel="stylesheet">
 
-<link href="/brizolara.github.io/assets/css/main.css" rel="stylesheet">
+<link href="/brizolara.github.io/en/assets/css/main.css" rel="stylesheet">
 
-<link href="/brizolara.github.io/assets/css/flagButton.css" rel="stylesheet">
+<link href="/brizolara.github.io/en/assets/css/flagButton.css" rel="stylesheet">
 
 <script src="/brizolara.github.io/assets/js/jquery.min.js"></script>
 
@@ -57,7 +57,7 @@
     <div class="container pr-0">
 
     <!-- Begin Logo -->
-    <a class="navbar-brand" href="/brizolara.github.io/">
+    <a class="navbar-brand" href="/brizolara.github.io/en/">
     <img src="/brizolara.github.io/assets/images/assinatura-artistica.JPG" alt="Tiago Brizolara">
     </a>
     <!-- End Logo -->
@@ -75,11 +75,11 @@
                 
                 <li class="nav-item">
                 
-                <a class="nav-link" href="/brizolara.github.io/index.html">Home</a>
+                <a class="nav-link" href="/brizolara.github.io/en/index.html">Home</a>
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="/brizolara.github.io/about">About / CV / Portfolio</a>
+                <a class="nav-link" href="/brizolara.github.io/en/about">About / CV / Portfolio</a>
                 </li>
 
                 <li class="nav-item">
@@ -251,7 +251,7 @@
 <div class="mainheading">
     <h1 class="sitetitle">Tiago Brizolara</h1>
     <p class="lead">
-        Computação Criativa, Pesquisa, NIME, Ficção de Música Popular
+        Creative Computing, Research, NIME, Contemporary Music
     </p>
 </div>
 
@@ -318,7 +318,7 @@
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
                         <a target="_blank" class="link-dark" href="https://tiagobrizolara.com">Tiago</a><a target="_blank" href="https://twitter.com/brizolara" class="btn follow">Follow</a>
-                        <span class="author-description">Pesquisador, compositor, criador, desenvolvedor. Da música instrumental até novas interfaces para expressão musical.</span> <!-- [Brizo] add [site.active_lang] (internationalization) -->
+                        <span class="author-description">Researcher, composer, creator, developer. From instrumental music to new interfaces for music expression.</span> <!-- [Brizo] add [site.active_lang] (internationalization) -->
                     </div>
                 </div>
                 
@@ -347,21 +347,190 @@
                 <!-- Toc if any -->
                 
                 <!-- End Toc -->
-                <p><i>Em construção</i></p>
+                <h4 id="introducao">O massacre musical da roçadeira elétrica</h4>
+<p><!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --></p>
 
-<!--<script src="/brizolara.github.io/assets/js/jquery.js"></script>
-<script src="/brizolara.github.io/assets/js/webpd-latest.js"></script>-->
+<p>Como transformar um cortador de grama num instrumento musical digital?</p>
+
+<p>As ferramentas tradicionais de produção de áudio (<em>Ableton</em>, <em>Pro Tools</em>, samplers em geral…) podem nos levar até certo ponto em expresividade. Esta série de postagens chama para algo mais:</p>
+<ul>
+  <li>Abordar desenho de áudio e computação musical usando Pure Data <strong>a partir de um nível iniciante</strong>;</li>
+  <li>Exercitar diferentes escutas;
+    <ul>
+      <li>Ir além do paradigma de <em>nota musical</em>;</li>
+    </ul>
+  </li>
+  <li>Trabalhar instrumentalidade;
+    <ul>
+      <li>Alçar vôos para além do teclado;</li>
+    </ul>
+  </li>
+  <li>Criar um <em>plugin</em> (e usar nas ferramentas tradicionais de produção áudio - ora, veja só!)</li>
+</ul>
+
+<p>A inspiração vem de um encontro do laboratório de <em>Corpo, Som E Tecnologia</em>, coordenado pela profa. Dra. Flora Holderbaum e vinculado neste momento à disciplina de Tecnologia Musical (Ceart-UDESC-SC).
+<!--<!doctype HTML>--></p>
+
+<!--<html>-->
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/pd-fileutils.js"></script>
+    <script type="text/javascript" src="../assets/js/webpd-latest.min.js"></script>
+    <script type="text/javascript" src="../assets/js/pd-examples.js"></script>
+
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/pd-examples.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<p><!--<body>--></p>
+
+<p>Se você nunca produziu com Pure Data, pode assistir esta <strong>oficina introdutória</strong> (começa aos 43m55s. Assista do começo para exemplos de Pd em performances de todo tipo, além de desenho de áudio e trilha sonora, focando em produção brasileira e florianopolitana):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8_X3pCm1zy4?start=2635" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<!--------------------------------------------------------------------------------------------------->
+<h4 id="qual-nota">"Que nota eu escuto se eu tocar a corda Mi (660 Hz) 440 vezes por segundo?"</h4>
+<p><!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --></p>
+
+<p>Se você sabe a resposta, então você sabe de onde vem a nota (<em>altura musical</em> é o nome correto) de um cortador de grama.</p>
+
+<p>O princípio é o mesmo da sirene mecânica (de colégio, de polícia….): uma roda dentada ou com pás gira, atingindo um anteparo muitas vezes por segundo. Por exemplo, se o anteparo está sendo atingido 440 vezes/segundo, a gente escuta uma nota Lá (440 Hz. Ora, <em>Hz</em> significa exatamente repetições por segundo!).
+<br />No caso do cortador, são os dentes da nossa lâmina que atingem o que está sendo cortado. Por isso que ouvimos a altura musical subir em glissando à medida que o giro da lâmina ganha velocidade).</p>
+
+<p>Que mágica é essa? Pra entender melhor, nós fomos à Barra da Lagoa falar com seu Bentois:</p>
+
+<p style="font-family:Verdana;font-size:16px">Quer dizer que a repetição de um mero som de duas coisas se chocando vira uma nota musical? É uma imitação que engana nossa percepção?</p>
+<p style="font-family:Verdana;font-size:16px">B.: Não é uma imitação. A própria nota musical <i>(altura musical)</i> é que é a invenção da nossa audição. Coisas como a voz, os pássaros e as violas agitam o ar em repetições, do mesmo jeito que uma sirene - só que de jeitos menos bruscos. A lei da nossa audição é essa: repetiu mais do que umas 20 vezes/segundo, virou nota.</p>
+<!--<p style="font-family:Verdana;font-size:16px">E o que seriam jeitos menos bruscos?</p>
+<p style="font-family:Verdana;font-size:16px">B.: A corda de violão, a prega vocal, a pele de tambor... todos balançam repetidamente ao invés de se chocar repetidamente com algo.</p>-->
+<p style="font-family:Verdana;font-size:16px">Ainda não acredito!</p>
+<p style="font-family:Verdana;font-size:16px">B.: Observe a trama de um tecido. Se você arrastar uma unha sobre ele, vai estar atingindo diversos fios por segundo. Observe como a nota que você ouve é aguda o tanto mais rápido você arrasta sua unha.</p>
+
+<p>Na demonstração a seguir, Pierre Schaeffer (no absolutamente necessário Solfejo do Objeto Sonoro, de 1966) chama à atenção 3 fenômenos diferentes na escuta ao transformarmos sons musicais em notas musicais através de sua repetição cada vez mais rápida. O material escolhido para ser repetido influencia o <em>timbre</em> da nota ouvida e a este Schaeffer chama <em>grão</em>: <a href="http://tramausp.com.br/_trabalhos/001solfege.html#item4">http://tramausp.com.br/_trabalhos/001solfege.html#item4</a>.</p>
+
+<p><em>Obs 1.: Estamos ignorando o som do motor e das ressonâncias do equipamento <strong>por enquanto</strong>.</em>
+<em>Obs 2.: E a resposta da pergunta da seção então é: escutamos a nota Lá (440 Hz) - isso mesmo, tocamos a corda Mi e ouvimos a nota Lá</em>.</p>
+
+<!--------------------------------------------------------------------------------------------------->
+<p>&nbsp;</p>
+<p><!-- TODO solve this formatting issue in the CSS... --></p>
+<h4 id="pratica">Prática</h4>
+<p><!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --></p>
+
+<p>O patch abaixo é nosso primeiro esboço. Ele é interativo, clique no botão para testar. Abaixo dele conversaremos sobre como ele funciona.</p>
+
+<div id="loading">Loading ...</div>
+<p><button id="startButton">Clique para iniciar</button></p>
+
+<div id="controls">
+    <form>
+      <table>
+      <tr>
+      <td><input type="range" min="0" max="110" id="freq" value="0" /></td><td>Frequência: <span id="demo"></span></td>
+      </tr>
+      </table>
+      <!--<input type="text" id="freq" />
+      <input type="submit" value="Enviar nota MIDI" />-->
+    </form>
+    <form>
+      <input type="button" value="Desligar" onclick="desligar()" />
+      <!--<input type="submit" id="desliga" value="Desligar" />-->
+    </form>
+  </div>
+
 <script>
-    var patch
-    $.get('/brizolara.github.io/assets/pd/cortador-1.pd', function(patchStr) {
-        patch = Pd.loadPatch(patchStr)
-        Pd.start()
-    })
-</script>
+  var slider = document.getElementById("freq");
+  var output = document.getElementById("demo");
+  output.innerHTML = slider.value;
 
-<p>Licença:</p>
-<pre>
-</pre>
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+    Pd.send('freq', [parseFloat(this.value)]);
+  }
+  </script>
+
+<script type="text/javascript">
+    function desligar(){
+      Pd.send('desliga', ["bang"]);
+    }
+  </script>
+
+<div id="svg"></div>
+
+<script type="text/javascript">
+    
+    webPdExamples.init()
+
+    /*$('form').submit(function(event) {
+      event.preventDefault()
+      Pd.send('MIDI_note', [parseFloat($('#MIDI_note').val())])
+    })*/
+
+    var patch
+    $.get('../assets/pd/cortador-1.pd', function(mainStr) {
+      // Loading the patch
+      patch = Pd.loadPatch(mainStr)
+
+      webPdExamples.patchLoaded(mainStr)
+    })
+
+  </script>
+
+<p>OK. Agora talvez você ache mais confortável rodar o patch em outra janela enquanto lê o testo aqui. Se for o caso, clique <a href="/brizolara.github.io/en/assets/pd/cortador-1.pd">aqui</a> para baixá-lo e abrir no seu Pure Data.</p>
+
+<p>Antes de mais nada, precisamos do som de um impacto da lâmina. Podemos levar um equipamento a um lugar isolado e captar com um bom microfone. Ou procurar um som desses em algum repositório como freesound.org. Ou ser bem mais práticos, começar do simples e tentar captar o essencial do fenômeno.</p>
+
+<p>Um som de impacto seco (sem grandes ressonâncias) consiste em um pico de amplitude que decresce rapidamente (sabemos isso já de ouvido). Vamos implementar usando um objeto <em>array</em>:</p>
+<ul>
+  <li>Menu Put-&gt;Array (ou atalho Shift+Ctrl+A)</li>
+  <li>e desenhamos no array (lembrete: temos que estar no modo de execução, não de edição. Para alternar entre os dois modos, podemos ir ao menu Edit-&gt;Edit Mode ou Ctrl+E):</li>
+</ul>
+
+<p><img src="/brizolara.github.io/assets/images/pd-cortador-1-impulso.png" /></p>
+
+<p>Ao criar o array, vemos que, por padrão, cada ponto pode assumir valores entre -1 e 1. Esse é o padrão da escala em áudio digital. Valores fora dessa escala vão <em>clipar</em> o som. Para facilitar seu trabalho de desenhar no array1, você pode enviar a mensagem <i>;array1 const 0</i>, para zerar todos os elementos do array1 (ou qualquer que seja o nome que você deu). Note que a imagem do array1 não está aparecendo na nossa visualização interativa.</p>
+
+<p>Para tratar esses valores como um sample a ser repetido, vamos criar um objeto [tabread4~]. Para enviar esses valores que estão no array, enviamos a mensagem <i>set array1</i> para o [tabread4~].</p>
+
+<p><strong>Tudo em torno de [tabread4~]</strong></p>
+
+<p>Pelo “~”, já sabemos que é um objeto que emite um sinal. Lembre que sinais não precisam de nenhuma interação, eles são produzidos continuamente.</p>
+
+<p>Qual valor [tabread4~] emitirá é definido pelo valor recebido no seu inlet, encarado como índice, iniciando do zero. Ou seja, se [tabread4~] recebe 0, emite o 1<sup><u>o</u></sup> elemento do array guardado (que é o array1). Se recebe 1, emite o 2<sup><u>o</u></sup> elemento de array1, etc. Se recebe 99, emite o 100<sup><u>o</u></sup> elemento de array1 (que é o último, já que criamos array1 com 100 elementos).</p>
+
+<p>Por isso usamos o objeto [phasor~]. Este é um oscilador cujo sinal emitido é uma linha de 0 a 1. Quando multiplicamos sua saída por 99, agora temos uma linha de 0 a 99. Ou seja, ao entrar em [tabread4~] varremos todos os seus elementos. E quantas vezes por segundo isso acontece? Quantas vezes por segundo phasor repetir-se, ou seja, sua frequência.</p>
+
+<p>Para termos o efeito de ligar e desligar o cortador, aplucamos [line~], para que a frequência desejada não mude de sopetão, mas transicione, obtendo o nosso glissando. Veja que as mensagens que mandamos para gerar sinais de linha com [line~] têm como 2<sup><u>o</u></sup> parâmetro o número 1000: é a quantidade de milisegundos que durará a linha. Futuramente podemos controlar esse tempo também para ter transições mais rápidas ou demoradas - podem depender do intervalo de frequência a percorrer, por exemplo.</p>
+
+<p>A dica final: o Help do Pd vale ouro, use e abuse! É só clicar com o botão direito em um objeto e ir em Help. Tem também o Help geral no menu.</p>
+
+<!--------------------------------------------------------------------------------------------------->
+<p>&nbsp;</p>
+<p><!-- TODO solve this formatting issue in the CSS... --></p>
+<h4 id="materiais">Materiais</h4>
+<p><!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --></p>
+
+<ul>
+  <li><a href="http://tramausp.com.br/_trabalhos/001solfege.html">Solfejo do Objeto Sonoro - versão em Português</a></li>
+  <li><a href="https://www.youtube.com/watch?v=znVcmChq_1M">Roda de Savart</a> - Um tipo de sirene. No séc. XIX foi o dispositivo que demonstrou a relação entre frequência e altura musical</li>
+  <li><a href="https://www.youtube.com/watch?v=WSWG5Wv6fLM">Instrumento musical por Bart Hopkin</a>, feito de 33 rodas de savart. Hilariante ;)</li>
+</ul>
+
+<p>Aos programadores e aventureiros:</p>
+<ul>
+  <li><a href="https://github.com/brizolara/brizolara.github.io">Código-fonte desta página</a>. O patch interativo de Pd usa:
+    <ul>
+      <li><a href="https://github.com/sebpiq/WebPd">WebPd</a>, versão do Pure Data para o navegador</li>
+      <li><a href="https://github.com/sebpiq/pd-fileutils">pd-fileutils</a>, usado para exibição os patches de Pd nesta página</li>
+    </ul>
+  </li>
+</ul>
+
+<!--------------------------------------------------------------------------------------------------->
+
+<p><!--</body>
+</html>--></p>
+
 
             </div>
 
@@ -397,6 +566,10 @@
                         <a class="smoothscroll" href="/brizolara.github.io/categories#pure-data">pure data</a>
                     </li>
                     
+                    <li>
+                        <a class="smoothscroll" href="/brizolara.github.io/categories#sampler">sampler</a>
+                    </li>
+                    
                 </ul>
             </div>
             <!-- End Categories -->
@@ -422,6 +595,10 @@
                         <a class="smoothscroll" href="/brizolara.github.io/tags#pure-data">#pure data</a>
                     </li>
                     
+                    <li>
+                        <a class="smoothscroll" href="/brizolara.github.io/tags#sampler">#sampler</a>
+                    </li>
+                    
                 </ul>
             </div>
             <!-- End Tags -->
@@ -429,7 +606,7 @@
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             
-            <a class="prev d-block col-md-6" href="/brizolara.github.io//fita-viola-lancamento/"> &laquo; Latest Release</a>
+            <a class="prev d-block col-md-6" href="/brizolara.github.io/en//fita-viola-lancamento/"> &laquo; Latest Release</a>
             
             
             <div class="clearfix"></div>
@@ -512,49 +689,45 @@ https://search.google.com/structured-data/testing-tool/u/0/
             
             
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#instalação-interativa">instalação interativa (3)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#interactive-installation">interactive installation (3)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#arte-digital">arte digital (4)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#digital-art">digital art (4)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#instalação-artística">instalação artística (3)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#art-installation">art installation (3)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#composição">composição (4)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#music-composition">music composition (4)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#desenho-de-áudio">desenho de áudio (4)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#audio-design">audio design (3)</a>
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#steering-behaviours">steering behaviours (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#inteligência-de-agente">inteligência de agente (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#agent-intelligence">agent intelligence (1)</a>
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#kinect">kinect (1)</a>
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#hci">hci (2)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#coletivo">coletivo (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#group">group (2)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#exposição">exposição (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#exhibition">exhibition (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#galeria-de-arte">galeria de arte (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#art-gallery">art gallery (1)</a>
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#multidisciplinar">multidisciplinar (4)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#florianópolis">florianópolis (3)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#florianopolis">florianopolis (3)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#lançamento">lançamento (2)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#release">release (2)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#gaúcho">gaúcho (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#gaucho">gaucho (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#música-brasileira">música brasileira (3)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#brazilian-music">brazilian music (3)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#mpb">mpb (3)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#mpb">mpb (2)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#canção">canção (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#song">song (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#milonga">milonga (1)</a>
-                
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#sete-cordas">sete cordas (2)</a>
-                
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#acústico">acústico (2)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#songwriter">songwriter (1)</a>
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#processing">processing (2)</a>
                 
@@ -566,13 +739,13 @@ https://search.google.com/structured-data/testing-tool/u/0/
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#DMI">DMI (2)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#música-computacional">música computacional (2)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#computer-music">computer music (2)</a>
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#pure-data">pure data (3)</a>
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#myo">myo (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#arte-contemporânea">arte contemporânea (2)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#contemporary-art">contemporary art (2)</a>
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#open-source">open source (1)</a>
                 
@@ -582,39 +755,47 @@ https://search.google.com/structured-data/testing-tool/u/0/
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#r.i.s.c.o.">r.i.s.c.o. (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#grupo">grupo (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#mixed-music">mixed music (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#música-mista">música mista (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#electroacoustic-music">electroacoustic music (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#música-eletroacústica">música eletroacústica (1)</a>
-                
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#luteria-digital">luteria digital (1)</a>
-                
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#florianopolis">florianopolis (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#digital-lutherie">digital lutherie (1)</a>
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#portfolio">portfolio (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#composicão">composicão (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#composer">composer (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#trilha-sonora">trilha sonora (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#soundtrack">soundtrack (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#instrumental">instrumental (2)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#instrumental">instrumental (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#jazz">jazz (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#latin">latin (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#desenvolvimento">desenvolvimento (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#jazz">jazz (2)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#computação-criativa">computação criativa (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#developer">developer (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#software-médico">software médico (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#creative-computing">creative computing (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#processamento-de-imagem">processamento de imagem (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#medical-software">medical software (1)</a>
                 
-                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#física-médica">física médica (1)</a>
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#image-processing">image processing (1)</a>
+                
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#medical-physics">medical physics (1)</a>
+                
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#guitar">guitar (1)</a>
+                
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#instrumental-music">instrumental music (1)</a>
+                
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#contemporary">contemporary (1)</a>
                 
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#computação-musical">computação musical (1)</a>
                 
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#desenho-de-áudio">desenho de áudio (1)</a>
+                
                     <a class="mt-1 mb-1" href="/brizolara.github.io/categories#educativo">educativo (1)</a>
+                
+                    <a class="mt-1 mb-1" href="/brizolara.github.io/categories#sampler">sampler (1)</a>
                 
             
             

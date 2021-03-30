@@ -41,7 +41,7 @@
 <lastmod>2021-03-27T00:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/brizolara.github.io/pt_BR/404/</loc>
+<loc>http://localhost:4000/brizolara.github.io/en/404/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/brizolara.github.io/about</loc>
@@ -210,6 +210,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/brizolara.github.io/category/educativo/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/brizolara.github.io/category/sampler/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/brizolara.github.io/page2/</loc>
