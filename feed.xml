@@ -5,8 +5,8 @@
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
     <atom:link href="http://localhost:4000/brizolara.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Mar 2021 16:14:15 -0300</pubDate>
-    <lastBuildDate>Tue, 30 Mar 2021 16:14:15 -0300</lastBuildDate>
+    <pubDate>Thu, 28 Oct 2021 16:26:10 -0300</pubDate>
+    <lastBuildDate>Thu, 28 Oct 2021 16:26:10 -0300</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -123,6 +123,9 @@
     }
   &lt;/script&gt;
 
+&lt;p&gt;&lt;!-- Gambiarra... imagem do patch ao inves de renderizar o SVG - tudo porque arrays nao estao sendo renderizados ...--&gt;
+  &lt;img src=&quot;/brizolara.github.io/assets/images/pd-cortador1.png&quot; /&gt;&lt;/p&gt;
+
 &lt;div id=&quot;svg&quot;&gt;&lt;/div&gt;
 
 &lt;script type=&quot;text/javascript&quot;&gt;
@@ -139,7 +142,9 @@
       // Loading the patch
       patch = Pd.loadPatch(mainStr)
 
-      webPdExamples.patchLoaded(mainStr)
+      //webPdExamples.patchLoaded(mainStr)
+      // Show start button
+      $('#loading').fadeOut(200, function() { $('#startButton').fadeIn() })
     })
 
   &lt;/script&gt;
@@ -156,11 +161,11 @@
 
 &lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/pd-cortador-1-impulso.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Ao criar o array, vemos que, por padrão, cada ponto pode assumir valores entre -1 e 1. Esse é o padrão da escala em áudio digital. Valores fora dessa escala vão &lt;em&gt;clipar&lt;/em&gt; o som. Para facilitar seu trabalho de desenhar no array1, você pode enviar a mensagem &lt;i&gt;;array1 const 0&lt;/i&gt;, para zerar todos os elementos do array1 (ou qualquer que seja o nome que você deu). Note que a imagem do array1 não está aparecendo na nossa visualização interativa.&lt;/p&gt;
+&lt;p&gt;Ao criar o array, vemos que, por padrão, cada ponto pode assumir valores entre -1 e 1. Esse é o padrão da escala em áudio digital. Valores fora dessa escala vão &lt;em&gt;clipar&lt;/em&gt; o som. Para facilitar seu trabalho de desenhar no array1, você pode enviar a mensagem &lt;i&gt;;array1 const 0&lt;/i&gt;, para zerar todos os elementos do array1 (ou qualquer que seja o nome que você deu).&lt;/p&gt;
 
-&lt;p&gt;Para tratar esses valores como um sample a ser repetido, vamos criar um objeto [tabread4~]. Para enviar esses valores que estão no array, enviamos a mensagem &lt;i&gt;set array1&lt;/i&gt; para o [tabread4~].&lt;/p&gt;
+&lt;p&gt;Para tratar esses valores como um &lt;strong&gt;sample&lt;/strong&gt; a ser repetido, vamos criar um objeto [tabread4~]. Para enviar esses valores que estão no array, enviamos a mensagem &lt;i&gt;set array1&lt;/i&gt; para o [tabread4~].&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Tudo em torno de [tabread4~]&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;tabread-sampler&quot;&gt;[tabread4~], nosso sampler&lt;/h5&gt;
 
 &lt;p&gt;Pelo “~”, já sabemos que é um objeto que emite um sinal. Lembre que sinais não precisam de nenhuma interação, eles são produzidos continuamente.&lt;/p&gt;
 
@@ -168,7 +173,7 @@
 
 &lt;p&gt;Por isso usamos o objeto [phasor~]. Este é um oscilador cujo sinal emitido é uma linha de 0 a 1. Quando multiplicamos sua saída por 99, agora temos uma linha de 0 a 99. Ou seja, ao entrar em [tabread4~] varremos todos os seus elementos. E quantas vezes por segundo isso acontece? Quantas vezes por segundo phasor repetir-se, ou seja, sua frequência.&lt;/p&gt;
 
-&lt;p&gt;Para termos o efeito de ligar e desligar o cortador, aplucamos [line~], para que a frequência desejada não mude de sopetão, mas transicione, obtendo o nosso glissando. Veja que as mensagens que mandamos para gerar sinais de linha com [line~] têm como 2&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; parâmetro o número 1000: é a quantidade de milisegundos que durará a linha. Futuramente podemos controlar esse tempo também para ter transições mais rápidas ou demoradas - podem depender do intervalo de frequência a percorrer, por exemplo.&lt;/p&gt;
+&lt;p&gt;Para termos o efeito de ligar e desligar o cortador, aplicamos [line~], para que a frequência desejada não mude de sopetão, mas transicione, obtendo o nosso glissando. Veja que as mensagens que mandamos para gerar sinais de linha com [line~] têm como 2&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; parâmetro o número 1000: é a quantidade de milisegundos que durará a linha. Futuramente podemos controlar esse tempo também para ter transições mais rápidas ou demoradas - podem depender do intervalo de frequência a percorrer, por exemplo.&lt;/p&gt;
 
 &lt;p&gt;A dica final: o Help do Pd vale ouro, use e abuse! É só clicar com o botão direito em um objeto e ir em Help. Tem também o Help geral no menu.&lt;/p&gt;
 
@@ -178,9 +183,15 @@
 &lt;h4 id=&quot;melhoras&quot;&gt;Algumas melhoras&lt;/h4&gt;
 &lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
 
+&lt;h5 id=&quot;riqueza-harmonica&quot;&gt;Riqueza harmônica&lt;/h5&gt;
+
 &lt;p&gt;Como comentamos &lt;a href=&quot;#qual-nota&quot;&gt;ali em cima&lt;/a&gt;, podemos modelar ainda o som do motor e as ressonâncias no equipamento. Podemos experimentar essas melhoras com filtragens dentro do próprio software de áudio da nossa preferência quando transformarmos nosso cortador em um plugin nas próximas semanas… ou podemos modelar por aqui mesmo. Por agora seguiremos adiante para chegar logo no plugin.&lt;/p&gt;
 
-&lt;p&gt;Algo que não podemos deixar para manipular numa DAW é a &lt;em&gt;forma&lt;/em&gt; com a qual nossa lâmina ganha velocidade. E por que isso é tão importante? Porque boa parte do que entendemos como timbre é determinado pelas características dinâmicas do som, i.e., a forma como ele se desenrola no tempo - principalmente durante seu início (a que chamamos &lt;em&gt;ataque&lt;/em&gt;). É esse ataque que está sendo trabalhado quando um violonista escolhe de que forma vai lixar as unhas da mão direita e em que ângulo vai atingir as cordas; quando um pianista trabalha o “peso” de seu toque durante o breve intervalo de tempo onde o martelo dentro do instrumento começa a entrar em contato com a corda; etc. E é por &lt;em&gt;nossa audição estar automaticamente sempre imaginando os movimentos&lt;/em&gt; por trás dos sons que uma performance musical &lt;strong&gt;expressiva&lt;/strong&gt; tem muito mais a ver com essa breve trajetória do nascimento de cada som do que com o conteúdo de harmônicos - ao menos na opinião deste que aqui escreve.&lt;/p&gt;
+&lt;p&gt;Quem tem interesse em síntese de áudio, pode ver as implementações em Pure Data de sons de motores do &lt;a href=&quot;https://mitpress.mit.edu/books/designing-sound&quot;&gt;Sound Design Toolkit (patches de Pure Data e de Max/MSP)&lt;/a&gt; ou do livro &lt;a href=&quot;https://mitpress.mit.edu/books/designing-sound&quot;&gt;Designing Sound, de Andy Farnell&lt;/a&gt; (inclui os patches de Pure Data no site).&lt;/p&gt;
+
+&lt;h5 id=&quot;gestual&quot;&gt;&quot;Gestual&quot; da lâmina&lt;/h5&gt;
+
+&lt;p&gt;A &lt;em&gt;forma&lt;/em&gt; com a qual nossa lâmina ganha e perde velocidade é muito importante. Isso porque boa parte do que entendemos como timbre é determinado pelas características dinâmicas do som, i.e., a forma como ele se desenrola no tempo - principalmente durante seu início (a que chamamos &lt;em&gt;ataque&lt;/em&gt;). É esse ataque que está sendo trabalhado quando um violonista escolhe de que forma vai lixar as unhas da mão direita e em que ângulo vai atingir as cordas; quando um pianista trabalha o “peso” de seu toque durante o breve intervalo de tempo onde o martelo dentro do instrumento começa a entrar em contato com a corda; etc. E é por &lt;em&gt;nossa audição estar automaticamente sempre imaginando os movimentos&lt;/em&gt; por trás dos sons que uma performance musical &lt;strong&gt;expressiva&lt;/strong&gt; tem muito mais a ver com essa breve trajetória do nascimento de cada som do que com o conteúdo de harmônicos - ao menos na opinião deste que aqui escreve.&lt;/p&gt;
 
 &lt;p&gt;Fica a chamada para os próximos trabalhos!&lt;/p&gt;
 
@@ -192,7 +203,7 @@
 
 &lt;p&gt;Baixe o &lt;a href=&quot;/brizolara.github.io/assets/pd/cortador-1.pd&quot;&gt;patch&lt;/a&gt; e experimente fazer outros desenhos de forma de onda no array1. O que acontece com o som se você desenhar algo parecido com um seno? E algo parecido com dois ciclos de seno? Ou dois ciclos de impulso? O que acontece quando o 1&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; e o último elemento de array1 são muito diferentes? Aliás, o que acontece sempre que há variações muito grandes entre um ponto e outro?&lt;/p&gt;
 
-&lt;p&gt;Tudo isso revela vários assuntos sobre a relação entre forma de onda e as frequências presentes, entre outras coisas. Fica para uma próxima conversa!&lt;/p&gt;
+&lt;p&gt;Tudo isso revela vários assuntos sobre a relação entre forma de onda e as frequências presentes, que veremos na &lt;a href=&quot;/brizolara.github.io/pd-cortador2&quot;&gt;próxima postagem!&lt;/a&gt;&lt;/p&gt;
 
 &lt;!---------------------------------------------------------------------------------------------------&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
@@ -204,14 +215,13 @@
   &lt;li&gt;&lt;a href=&quot;http://tramausp.com.br/_trabalhos/001solfege.html&quot;&gt;Solfejo do Objeto Sonoro - versão em Português&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=znVcmChq_1M&quot;&gt;Roda de Savart&lt;/a&gt; - Um tipo de sirene. No séc. XIX foi o dispositivo que demonstrou a relação entre frequência e altura musical&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=WSWG5Wv6fLM&quot;&gt;Instrumento musical por Bart Hopkin&lt;/a&gt;, feito de 33 rodas de savart. Hilariante ;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Aos programadores e aventureiros:&lt;/p&gt;
-&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://soundobject.org/SDT&quot;&gt;Sound Design Toolkit (Pure Data)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mitpress.mit.edu/books/designing-sound&quot;&gt;Andy Farnell’s Designing Sound (patches de Pure Data gratuitos no site)&lt;/a&gt;
+Aos programadores e aventureiros:&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/brizolara/brizolara.github.io&quot;&gt;Código-fonte desta página&lt;/a&gt;. O patch interativo de Pd usa:
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/sebpiq/WebPd&quot;&gt;WebPd&lt;/a&gt;, versão do Pure Data para o navegador&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/sebpiq/pd-fileutils&quot;&gt;pd-fileutils&lt;/a&gt;, usado para exibição os patches de Pd nesta página&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/sebpiq/pd-fileutils&quot;&gt;pd-fileutils&lt;/a&gt;. Algumas utilidades para uso do Pd em web. Só não estamos usando para exibir nossos patches porque o objeto array não está sendo desenhado no momento…&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -222,7 +232,7 @@
 &lt;/html&gt;--&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 27 Mar 2021 00:00:00 -0300</pubDate>
+        <pubDate>Mon, 31 May 2021 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/pd-cortador1/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/pd-cortador1/</guid>
         
@@ -232,9 +242,11 @@
         
         <category>audio design</category>
         
-        <category>educational</category>
+        <category>education</category>
         
         <category>sampler</category>
+        
+        <category>webpd</category>
         
         
         <category>pure data</category>
@@ -243,9 +255,11 @@
         
         <category>desenho de áudio</category>
         
-        <category>educativo</category>
+        <category>educação</category>
         
         <category>sampler</category>
+        
+        <category>webpd</category>
         
       </item>
     

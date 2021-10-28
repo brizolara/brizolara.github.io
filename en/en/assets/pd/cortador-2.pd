@@ -1,0 +1,200 @@
+#N canvas 603 0 1032 988 12;
+#X msg 184 174 0 1000;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array array1 100 float 3;
+#A 0 0.942857 0.828571 0.542854 0.45714 0.385711 0.28571 0.257138 0.214281
+0.185709 0.142852 0.128566 0.0999946 0.0857088 0.071423 0.0428572 0.0285714
+0.0142857 0.0142857 0 -6.02007e-006 -6.02007e-006 1.19209e-007 1.19209e-007
+1.19209e-007 1.19209e-007 1.19209e-007 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1 100 -1 200 140 1;
+#X restore 29 457 graph;
+#X msg 31 293 set array1;
+#X obj 169 334 tabread4~;
+#X obj 169 381 *~ 0.05;
+#X obj 156 413 dac~;
+#X text 134 193 Liga;
+#X text 180 192 Desliga;
+#X text 159 214 frequencia do phasor;
+#X text 152 254 repete rampa de 0 a 1;
+#X text 34 255 manda tabread;
+#X text 34 272 ler array1;
+#X obj 345 82 r desliga;
+#X obj 155 232 line~;
+#X obj 31 226 loadbang;
+#X text 27 426 array1;
+#X obj 155 274 phasor~;
+#X msg 29 393 \; array1 const 0;
+#X obj 263 81 r freq;
+#X floatatom 116 152 5 0 0 0 - - -;
+#X text 27 338 Clique para zerar;
+#X text 27 355 todos os elementos;
+#X text 27 372 de array1;
+#X msg 469 178 0 1000;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array array2 100 float 3;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0;
+#X coords 0 1 100 -1 200 140 1 0 0;
+#X restore 313 460 graph;
+#X obj 443 338 tabread4~;
+#X obj 444 385 *~ 0.05;
+#X obj 431 417 dac~;
+#X text 418 195 Liga;
+#X text 466 195 Desliga;
+#X obj 331 224 loadbang;
+#X floatatom 401 157 5 0 0 0 - - -;
+#X text 311 429 array2;
+#X msg 313 396 \; array2 const 0;
+#X text 166 292 ...agora \, de 0 a 99;
+#X obj 156 310 *~ 99;
+#X msg 116 174 \$1 200;
+#X msg 401 178 \$1 300;
+#X msg 331 291 set array2;
+#X text 695 312 /;
+#X text 705 296 /;
+#X text 714 282 /;
+#X text 724 266 /;
+#X text 735 312 /;
+#X text 745 296 /;
+#X text 754 282 /;
+#X text 764 266 /;
+#X text 775 312 /;
+#X text 785 296 /;
+#X text 794 282 /;
+#X text 804 266 /;
+#X text 815 312 /;
+#X text 825 296 /;
+#X text 834 282 /;
+#X text 844 266 /;
+#X text 695 314 _____________________________;
+#X text 691 261 |;
+#X text 691 275 |;
+#X text 691 288 |;
+#X text 691 302 |;
+#X text 684 259 1-;
+#X text 859 291 etc...;
+#X text 695 433 /;
+#X text 705 417 /;
+#X text 714 403 /;
+#X text 724 387 /;
+#X text 735 433 /;
+#X text 745 417 /;
+#X text 754 403 /;
+#X text 764 387 /;
+#X text 775 433 /;
+#X text 785 417 /;
+#X text 794 403 /;
+#X text 804 387 /;
+#X text 815 433 /;
+#X text 825 417 /;
+#X text 834 403 /;
+#X text 844 387 /;
+#X text 695 435 _____________________________;
+#X text 691 382 |;
+#X text 691 396 |;
+#X text 691 409 |;
+#X text 691 423 |;
+#X text 691 436 |;
+#X text 859 412 etc...;
+#X text 677 380 99-;
+#X text 691 315 |;
+#X text 684 320 0-;
+#X text 684 442 0-;
+#X text 16 122 mais rápida (200 milisegundos);
+#X obj 251 385 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -204786
+-1 -1 0 1;
+#X obj 251 547 * 0.1;
+#X floatatom 251 525 5 0 0 0 - - -;
+#X floatatom 251 571 5 0 0 0 - - -;
+#X obj 520 384 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -204786
+-1 -1 0 1;
+#X obj 520 546 * 0.1;
+#X floatatom 520 524 5 0 0 0 - - -;
+#X floatatom 520 570 5 0 0 0 - - -;
+#X text 64 662 Criamos um slider pelo menu Put->VSlider (ou HSlider...)
+;
+#X text 65 902 das rampas;
+#X text 14 11 OBJETIVO: termos um som minimamente interessante;
+#X text 644 202 phasor~ é um sinal que repete uma linha;
+#X text 643 220 reta cobrindo os valores entre 0 e 1 (é;
+#X text 644 237 o mesmo que a conhecida dente-de-serra);
+#X text 646 358 Então phasor * 99 cobre valores de 0 a 99;
+#X text 66 839 PRÓXIMOS PASSOS:;
+#X obj 345 109 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X floatatom 263 107 5 0 0 0 - - -;
+#X obj 434 236 line~;
+#X obj 434 278 phasor~;
+#X obj 435 314 *~ 99;
+#X text 383 132 um pouquinho mais lenta (300 ms);
+#X text 16 44 A) Fizemos uma cópia do nosso código à direita \,
+mudando apenas nossa tabela (array2);
+#X text 16 103 B) Fizemos a rampa agora;
+#X text 383 115 C) E a rampa para a nossa cópia só;
+#X text 65 863 i. Conectar com um dispositivo MIDI e com um celular
+;
+#X text 65 883 ii. Expressividade: refinar os formatos e durações
+;
+#X text 65 923 iii. transformar em um plugin (usando Camomile);
+#X obj 251 359 r vol1;
+#X obj 508 359 r vol2;
+#X text 64 686 Com o botão direito no slider \, vamos às suas propriedades
+;
+#X text 64 720 trabalhar assim). E colocamos uma corzinha tb...;
+#X text 65 746 Então agora cada [*~] antes do [dac~] está multiplicando
+;
+#X text 65 762 não mais por 0.05 \, mas pelo valor que vem de um slider
+;
+#X text 58 703 e mudamos o mínimo para 0 e o máximo para 1 (mais
+fácil;
+#X text 65 621 D) Adicionamos controles de volume... para você comparar
+;
+#X text 65 638 e equilibrar os dois sons à vontade;
+#X text 66 794 E) O que você espera do som obtido com o sample array2?
+E;
+#X text 65 810 em comparação com array1?;
+#X text 65 945 iv. Refinar o som a partir da escuta e usando técnicas
+;
+#X text 66 962 de desenho de áudio digital mais refinadas;
+#X connect 0 0 13 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 4 0 5 1;
+#X connect 12 0 106 0;
+#X connect 13 0 16 0;
+#X connect 14 0 2 0;
+#X connect 16 0 35 0;
+#X connect 18 0 107 0;
+#X connect 19 0 36 0;
+#X connect 23 0 108 0;
+#X connect 25 0 26 0;
+#X connect 26 0 27 0;
+#X connect 26 0 27 1;
+#X connect 30 0 38 0;
+#X connect 31 0 37 0;
+#X connect 35 0 3 0;
+#X connect 36 0 13 0;
+#X connect 37 0 108 0;
+#X connect 38 0 25 0;
+#X connect 90 0 92 0;
+#X connect 91 0 93 0;
+#X connect 92 0 91 0;
+#X connect 93 0 4 1;
+#X connect 94 0 96 0;
+#X connect 95 0 97 0;
+#X connect 96 0 95 0;
+#X connect 97 0 26 1;
+#X connect 106 0 0 0;
+#X connect 106 0 23 0;
+#X connect 107 0 19 0;
+#X connect 107 0 31 0;
+#X connect 108 0 109 0;
+#X connect 109 0 110 0;
+#X connect 110 0 25 0;
+#X connect 118 0 90 0;
+#X connect 119 0 94 0;
