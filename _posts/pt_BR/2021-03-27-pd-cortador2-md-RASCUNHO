@@ -1,0 +1,219 @@
+---
+layout: post
+title:  "Computação Musical - Instrumentalizando um Cortador de Grama - 2"
+author: tiago
+categories: [ pure data, computação musical, desenho de áudio, educação, sampler ]
+tags: [ pure data, computer music, audio design, education, sampler ]
+image: assets/images/capas/pd-cortador-2.png
+description: ""
+lang: pt_BR
+custom-javascript-list: [assets/js/jquery.min.js, assets/js/pd-fileutils.js, assets/js/webpd-latest.min.js, assets/js/pd-examples.js, assets/js/p5.min.js, assets/js/posts/pd-cortador2.js ]
+featured: false
+hidden: false
+hasAudio: false
+hasVideo: false
+hasPaper: false
+hasScore: false
+hasInteractivity: true
+hasSourceCode: true
+hasPDF: false
+---
+
+<div style="font-size:13px">
+Imagem de fundo: partitura de escuta da peça <i>KONTAKTE Structure X</i>, de Karlheinz Stockhausen (© www.karlheinzstockhausen.org)
+<p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
+</div>
+
+
+<h4 id="introducao">Obtendo um som minimamente interessante</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
+
+No <a href="{{site.baseurl}}/pd-cortador1">post anterior</a> simulamos o princípio de geração de som de um objeto tipo serra/sirene/roda dentada, etc... agora vamos trabalhar para obter um som <i>minimamente</i> interessante (tanto que não vamos nem analisar sons gravados de um cortador de grama...) para discutirmos acústica musical e chegarmos logo na fase de plugin e controle instrumental com sensores - mesmo um celular! Um som chique fica para as postagens finais!
+
+<!--<!doctype HTML>-->
+
+<!--<html>-->
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/pd-fileutils.js"></script>
+    <script type="text/javascript" src="../assets/js/webpd-latest.min.js"></script>
+    <script type="text/javascript" src="../assets/js/pd-examples.js"></script>
+    <script type="text/javascript" src="../assets/js/p5.min.js"></script>
+    <script type="text/javascript" src="../assets/js/posts/pd-cortador2.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href='../assets/css/pd-examples.css' rel='stylesheet' type='text/css'>
+
+    <style> body {padding: 0; margin: 0;} </style>
+  </head>
+
+  <!--<body>-->
+
+<!--------------------------------------------------------------------------------------------------->
+<h4 id="qual-nota">"Se eu comprimir <i>Baby</i> (do grande Justin Bieber) ou a 9a Sinfonia do Beto em uma amostra de 1 segundo, quão diferentes elas soarão?"</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
+
+Karlheinz Stockhausen em 1956 já se fazia essa pergunta (ou uma bem similar). Mas para iniciar a investigação que geraria seu 1o Critério da Música Eletrônica - a Estruturação Unificada do Tempo - ele fez algo bem parecido com a nossa primeira implementação: utilizou um gerador de <i>impulsos</i> eletrônicos.
+
+Distribuindo impulsos dentro de uma amostra, e repetindo essa amostra a frequências que transformam esse som de uma sequência de impulsos em um altura musical ("nota") - como vimos no post anterior -, Stockhausen pôde investigar como cada <b>ritmo</b> executado pelos impulsos numa amostra se transformava em um <b>timbre</b> diferente.
+
+MELHORAR FIGURA...
+
+<div style="font-size:13px" align="center">
+<img src="{{ site.baseurl }}/assets/images/pd-cortador-2-impulsos.png">
+<br/>Como soa a amostra <b>1)</b>, composta de um impulso, repetida a uma frequência <i>f</i>? Repetindo na mesma frequência, o quão diferente soa a amostra <b>2)</b>? E a <b>3)</b>?. OBS.: impulsos analógicos não são abruptos como na figura. OBS2.: podemos atacar essa questão matematicamente, mas fica para outra postagem... (spoiler: a transformada de Fourier de uma onda quadrada é dada pela função <i>sinc</i>).
+<p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
+</div>
+
+Esse conceito é apresentado na sua obra KONTAKTE. A análise da 1a versão, para 4 fitas magnéticas, pode ser vista <a href="http://stockhausenspace.blogspot.com/2015/08/stockhausen-on-electronic-music-wdr.html">aqui</a> (similar à explicação do próprio Stockhausen em <a href="materiais">Stockhausen on Music: Lectures and Interviews</a>) e <a href="http://stockhausenspace.blogspot.com/2015/11/kontakte-planning-design.html">aqui</a>. Além dos inúmeros autores que utilizaram esse recurso depois, segue o link - um pouquinho mais humilde que as 700 páginas de notas de desenvolvimento de Stockhausen para a música - da demonstração *Polirritmos são Polifonia* do YouTuber de música Adam Neely:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-tRAkWaeepg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+Mas se o átomo de Stockhausen foi o som impulsivo, o nosso agora será o seno - sem matemática, **afiaremos nossa intuição** sobre riqueza harmônica de formas de onda.
+
+<!--------------------------------------------------------------------------------------------------->
+<p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
+<h4 id="harmonicos">Hora de construir uma intuição sobre conteúdo harmônico</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
+
+Vamos começar por macetes e depois vamos à escuta.
+
+Para uma amostra repetida a uma frequência *f*:
+
+1. Quanto mais parecida a um seno, mais pura soará
+2. Quanto mais bruscamente diferente de um seno for um trecho, mais harmônicos superiores são introduzidos. Ou seja, grandes saltos exigem harmônicos agudos
+
+Assim, um seno exatamente do tamanho da amostra nos dá o som mais puro possível, sem nenhum harmônico, apenas a fundamental <i>f</i>.
+
+Vamos comparar algumas formas de onda famosas e aplicar nossas dicas. Toquemos elas a 440 Hz.
+
+1) <b>Seno</b>. OK, já sabemos, não temos nenhum harmônico aqui.
+
+2) <b>Triângulo</b>. Podemos ouvir claramente o harmônico de 3a + 2 oitavas. E soa mais alto que o seno - mais à frente falaremos sobre isso.
+
+3) <b>Quadrado</b>. Já temos um som bem mais áspero, com 3a, 5a e 7a menor bem claros. É coerente com o que enxergamos: essa onda é mais diferente do seno do que é a onda triangular. E está soando mais alto ainda.
+
+4) <b>Dente-de-serra</b>. Aqui, temos um som mais rico em harmônicos ainda. Estamos coerentes de novo - visualmente, estamos bem mais distantes de um seno que as ondas anteriores.
+
+Muito bem, agora vamos ver a decomposição exata de cada onda em seus harmônicos (isso é obtido através do método matemático de <i>análise de Fourier</i>).
+
+
+
+<!--------------------------------------------------------------------------------------------------->
+<p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
+<h4 id="pratica">Prática</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
+
+Agora cheios de intuição vamos desenhar outra amostra, mais rica.
+
+  <div id="loading">Loading ...</div>
+  <button id="startButton">Clique para iniciar</button>
+  
+  <div id="controls">
+    <form>
+      <table>
+      <tr>
+      <td><input type="range" min="0" max="110" id="freq" value="0"></td><td>Frequência: <span id="demo"></span></td><td style="font-family:Verdana;font-size:16px"> (valor será recebido no patch em <b>[r freq]</b>)</td>
+      </tr>
+
+      <tr>
+      <td><input type="range" step="0.01" min="0" max="1" id="vol1" value="0"></td><td>Volume 1: <span id="demoV1"></span></td><td style="font-family:Verdana;font-size:16px"> (valor será recebido no patch em <b>[r vol1]</b>)</td>
+      </tr>
+
+      <tr>
+      <td><input type="range" step="0.01" min="0" max="1" id="vol2" value="0"></td><td>Volume 2: <span id="demoV2"></span></td><td style="font-family:Verdana;font-size:16px"> (valor será recebido no patch em <b>[r vol2]</b>)</td>
+      </tr>
+      </table>
+
+      <table>
+      <tr>
+      <td><input type="button" value="Desligar" onclick="desligar()"></td><td></td><td style="font-family:Verdana;font-size:16px"> (será recebido no patch um bang em <b>[r desliga]</b>)</td>
+      </tr>
+      </table>
+      <!--<input type="submit" id="desliga" value="Desligar" />-->
+    </form>
+  </div>
+
+  <script>
+  var slider = document.getElementById("freq");
+  var output = document.getElementById("demo");
+  output.innerHTML = slider.value;
+
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+    Pd.send('freq', [parseFloat(this.value)]);
+  }
+
+  var sliderV1 = document.getElementById("vol1");
+  var outputV1 = document.getElementById("demoV1");
+  outputV1.innerHTML = sliderV1.value;
+
+  sliderV1.oninput = function() {
+    outputV1.innerHTML = this.value;
+    Pd.send('vol1', [parseFloat(this.value)]);
+  }
+
+  var sliderV2 = document.getElementById("vol2");
+  var outputV2 = document.getElementById("demoV2");
+  outputV2.innerHTML = sliderV1.value;
+
+  sliderV2.oninput = function() {
+    outputV2.innerHTML = this.value;
+    Pd.send('vol2', [parseFloat(this.value)]);
+  }
+  </script>
+
+  <script type="text/javascript">
+    function desligar(){
+      Pd.send('desliga', ["bang"]);
+    }
+  </script>
+  
+  <!-- Onde nosso sketch de Processing vai aparecer 
+    -- (no setup() de pd-cortador2.js adicionamos a linha canvas.parent('sketch-container');) -->
+  <div id="div_cortador2"></div>
+
+  <div id="svg"></div>
+
+  <script type="text/javascript">
+    var canstart = true;
+
+    //
+    //  WebPd routines
+    webPdExamples.init()
+
+    /*$('form').submit(function(event) {
+      event.preventDefault()
+      Pd.send('MIDI_note', [parseFloat($('#MIDI_note').val())])
+    })*/
+
+    var patch
+    $.get('../assets/pd/cortador-2.pd', function(mainStr) {
+      // Loading the patch
+      patch = Pd.loadPatch(mainStr)
+
+      //webPdExamples.patchLoaded(mainStr)
+      // Show start button
+      $('#loading').fadeOut(200, function() { $('#startButton').fadeIn() })
+    })
+
+  </script>
+
+
+Se você quiser rodar o patch em outra janela enquanto lê o texto aqui, clique <a href="{{ site.baseurl }}/assets/pd/cortador-2.pd">aqui</a> para baixá-lo e rodar no seu Pure Data.
+
+<!--------------------------------------------------------------------------------------------------->
+<p>&nbsp;</p> <!-- TODO solve this formatting issue in the CSS... -->
+<h4 id="materiais">Materiais</h4> <!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... -->
+
+* [Stockhausen on Music: Lectures and Interviews](https://www.amazon.com.br/Stockhausen-Music-Lectures-Interviews-Karlheinz/dp/0714529184)
+* [Adam Neely - demo on polyrhythm <---> polypitch](https://www.youtube.com/watch?v=-tRAkWaeepg)
+
+Aos programadores e aventureiros:
+* [Código-fonte desta página](https://github.com/brizolara/brizolara.github.io). O patch interativo de Pd usa:
+  - [WebPd](https://github.com/sebpiq/WebPd), versão do Pure Data para o navegador
+  - [pd-fileutils](https://github.com/sebpiq/pd-fileutils). Algumas utilidades para uso do Pd em web. Só não estamos usando para exibir nossos patches porque o objeto array não está sendo desenhado no momento...
+  - [P5 JS](https://p5js.org/). Versão Javascript da linguagem para computação criativa *Processing*. Usei aqui para animar os slider e números dentro do screenshot do nosso patch de Pd.
+
+<!--------------------------------------------------------------------------------------------------->
+
+  <!--</body>
+</html>-->
+

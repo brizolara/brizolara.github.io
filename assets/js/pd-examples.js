@@ -9,7 +9,7 @@ webPdExamples = {
 
   patchLoaded: function(mainStr) {
     // Rendering the patch as SVG
-    $('#svg').html(pdfu.renderSvg(pdfu.parse(mainStr), {svgFile: false, ratio: 1.5}))
+    $('#svg').html(pdfu.renderSvg(pdfu.parse(mainStr), {svgFile: false, ratio: 1.25}))
 
     // Show start button
     $('#loading').fadeOut(200, function() { $('#startButton').fadeIn() })

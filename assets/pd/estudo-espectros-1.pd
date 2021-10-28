@@ -1,0 +1,22 @@
+#N canvas 677 319 1139 483 12;
+#X obj 66 41 formas-de-onda-1;
+#X obj 56 457 dac~;
+#X obj 435 221 hsl 128 20 0 1 0 0 empty empty empty -2 -8 0 10 -260097
+-1 -1 3700 1;
+#X obj 392 15 expr 1 - $f1;
+#X text 568 222 -->;
+#X text 400 222 <--;
+#X text 402 198 original;
+#X text 525 198 resíntese;
+#X text 584 393 Problem: we have to kill the harmonics that are not
+being sent;
+#X text 584 420 Otherwise we get remaining harmonics that belong to
+a previously analysed sound...;
+#X obj 610 154 C:/Users/brizolara/Developer/pd-projects/pd-doc-audio-D08-table-spectrum/D08-table-spectrum
+;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 0 1 10 0;
+#X connect 2 0 3 0;
+#X connect 2 0 10 1;
+#X connect 3 0 0 1;
