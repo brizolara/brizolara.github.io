@@ -24,7 +24,7 @@ Vento, chuva e trovão, incorporados como instrumentos sonoros/musicais. O *Elem
 
 No vídeo a multiartista recifense Maria Flor testa o instrumento pela primeira vez.
 
-Um <a href="#materiais">primeiro artigo</a> explica como o Elemental foi implementado, em termos de sua síntese de áudio e mapeamentos entre gesto e som, e mostra os resultados de duas validações: em Plouhinec-França, com público geral, e, em Recife-Brasil, com um público composto em sua grande maioria de músicos, dançarinos, designers de instrumentos musicais digitais e áreas afins. A maioria dos participantes considerou o Elemental adequado para aplicações sexpressivas, seja relativas primariamente a som (como música, por exemplo), corpo (por exemplo, dança) ou performances mistas.
+Um <a href="#materiais">primeiro artigo</a> explica como o Elemental foi implementado, em termos de sua síntese de áudio e mapeamentos entre gesto e som, e mostra os resultados de duas validações: em Plouhinec-França, com público geral, e, em Recife-Brasil, com um público composto em sua grande maioria de músicos, dançarinos, designers de instrumentos musicais digitais e áreas afins. A maioria dos participantes considerou o Elemental adequado para aplicações expressivas, seja relativas primariamente a som (como música, por exemplo), corpo (por exemplo, dança) ou performances mistas.
 
 O instrumento ainda não estreou nos palcos. Um vídeo documentando o processo de composição para uma performance, onde uso o Elemental em forma de plug-in VSTi dentro do software Reaper pode ser visto abaixo:
 
