@@ -1,6 +1,6 @@
 # Tiago Brizolara's website
 
-_It's up at tiagobrizolara.com._
+_It's up at https://www.tiagobrizolara.com._
 
 This is my portfolio site, based on [Mediumish](#mediumish---jekyll-theme).
 

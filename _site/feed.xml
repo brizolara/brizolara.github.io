@@ -5,8 +5,8 @@
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
     <atom:link href="http://localhost:4000/brizolara.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Nov 2021 10:32:55 -0300</pubDate>
-    <lastBuildDate>Sun, 21 Nov 2021 10:32:55 -0300</lastBuildDate>
+    <pubDate>Wed, 05 Jan 2022 16:36:01 -0300</pubDate>
+    <lastBuildDate>Wed, 05 Jan 2022 16:36:01 -0300</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -317,7 +317,7 @@ Ana Carpes: capa, sobre quadro de vídeo de Dimi Camorlinga.
     
       <item>
         <title>Baixar portfolio</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/brizolara.github.io/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;Clique para baixar o Portfolio Artístico&lt;/a&gt;. Ou &lt;a href=&quot;/brizolara.github.io/about - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;clique aqui&lt;/a&gt; para acessar currículo e portfolio técnico-científicos (softwares médicos, jogos digitais, currículo acadêmico em física médica, computação e música).&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;/brizolara.github.io/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;Clique para baixar o Portfolio Artístico&lt;/a&gt;. Ou &lt;a href=&quot;/brizolara.github.io/about.html &quot;&gt;clique aqui&lt;/a&gt; para acessar currículo e portfolio técnico-científicos (softwares médicos, jogos digitais, currículo acadêmico em física médica, computação e música).&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Sep 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/portfolio/</link>
@@ -518,7 +518,7 @@ Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.
 
 &lt;p&gt;No vídeo a multiartista recifense Maria Flor testa o instrumento pela primeira vez.&lt;/p&gt;
 
-&lt;p&gt;Um &lt;a href=&quot;#materiais&quot;&gt;primeiro artigo&lt;/a&gt; explica como o Elemental foi implementado, em termos de sua síntese de áudio e mapeamentos entre gesto e som, e mostra os resultados de duas validações: em Plouhinec-França, com público geral, e, em Recife-Brasil, com um público composto em sua grande maioria de músicos, dançarinos, designers de instrumentos musicais digitais e áreas afins. A maioria dos participantes considerou o Elemental adequado para aplicações sexpressivas, seja relativas primariamente a som (como música, por exemplo), corpo (por exemplo, dança) ou performances mistas.&lt;/p&gt;
+&lt;p&gt;Um &lt;a href=&quot;#materiais&quot;&gt;primeiro artigo&lt;/a&gt; explica como o Elemental foi implementado, em termos de sua síntese de áudio e mapeamentos entre gesto e som, e mostra os resultados de duas validações: em Plouhinec-França, com público geral, e, em Recife-Brasil, com um público composto em sua grande maioria de músicos, dançarinos, designers de instrumentos musicais digitais e áreas afins. A maioria dos participantes considerou o Elemental adequado para aplicações expressivas, seja relativas primariamente a som (como música, por exemplo), corpo (por exemplo, dança) ou performances mistas.&lt;/p&gt;
 
 &lt;p&gt;O instrumento ainda não estreou nos palcos. Um vídeo documentando o processo de composição para uma performance, onde uso o Elemental em forma de plug-in VSTi dentro do software Reaper pode ser visto abaixo:&lt;/p&gt;
 

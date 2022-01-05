@@ -5,8 +5,8 @@
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
     <atom:link href="http://localhost:4000/brizolara.github.io/en/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Nov 2021 10:32:57 -0300</pubDate>
-    <lastBuildDate>Sun, 21 Nov 2021 10:32:57 -0300</lastBuildDate>
+    <pubDate>Wed, 05 Jan 2022 16:36:04 -0300</pubDate>
+    <lastBuildDate>Wed, 05 Jan 2022 16:36:04 -0300</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -322,7 +322,7 @@ Ana Carpes: cover, from Dimi Camorlinga's video still.
     
       <item>
         <title>Download Portfolio</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/brizolara.github.io/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;Click to download Artisitic Portfolio&lt;/a&gt;. Or &lt;a href=&quot;/brizolara.github.io/about - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;click here&lt;/a&gt; to access technical-scientific portfolios (medical softwares, digital games, academic CV in medical physics, computer science, music).&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;/brizolara.github.io/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;Click to download Artisitic Portfolio&lt;/a&gt;. Or &lt;a href=&quot;/brizolara.github.io/about.html&quot;&gt;click here&lt;/a&gt; to access technical-scientific portfolios (medical softwares, digital games, academic CV in medical physics, computer science, music).&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Sep 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/portfolio/</link>

@@ -26,7 +26,7 @@ comments: true
         <td><a href="">CV Desenvolvedor/cientista</a></td>
     </tr>
     <tr>
-        <td><a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf">Portfolio artístico</a></td>
+        <td>Portfolio artístico (<a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf">PDF</a> | <a href="https://docs.google.com/document/d/1Wmby-kPhGYv6Tq8ZW2w_QPkONiA9vbTCutrh810w4hE">Google Docs</a>)</td>
         <td>&nbsp;&nbsp;</td>
         <td><a href="">Portfolio desenvolvedor/cientista</a></td>
     </tr>

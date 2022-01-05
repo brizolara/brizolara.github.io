@@ -19,4 +19,4 @@ hasSourceCode: false
 hasPDF: true
 ---
 
-<a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf">Click to download Artisitic Portfolio</a>. Or <a href="{{ site.baseurl }}/about - Portfolio Artistico - 21-09-2020.pdf">click here</a> to access technical-scientific portfolios (medical softwares, digital games, academic CV in medical physics, computer science, music).
+<a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf">Click to download Artisitic Portfolio</a>. Or <a href="{{ site.baseurl }}/about.html">click here</a> to access technical-scientific portfolios (medical softwares, digital games, academic CV in medical physics, computer science, music).
