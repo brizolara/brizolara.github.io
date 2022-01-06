@@ -19,6 +19,6 @@ hasSourceCode: false
 hasPDF: true
 ---
 
-* <a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 05-01-2022.pdf">Baixar</a> o Portfolio Artístico.
+* <a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 05-01-2022.pdf">Baixar</a> o Portfolio Artístico - PDF.
 * <a href="https://docs.google.com/document/d/1Wmby-kPhGYv6Tq8ZW2w_QPkONiA9vbTCutrh810w4hE">Acessar</a> o portfolio (Google Docs).
 * Ou <a href="{{ site.baseurl }}/about.html">clique aqui</a> para acessar currículo e portfolio técnico-científicos (softwares médicos, jogos digitais, currículo acadêmico em física médica, computação e música).

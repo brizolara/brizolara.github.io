@@ -19,7 +19,7 @@ hasSourceCode: false
 hasPDF: true
 ---
 
-* <a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 05-01-2022.pdf">Download</a> Artistic Portfolio (PT-BR).
+* <a href="{{ site.baseurl }}/assets/Tiago Brizolara - Portfolio Artistico - 05-01-2022.pdf">Download</a> Artistic Portfolio - PDF (PT-BR).
 * <a href="https://docs.google.com/document/d/1Wmby-kPhGYv6Tq8ZW2w_QPkONiA9vbTCutrh810w4hE">Access</a> the portfolio (Google Docs).
 * Or <a href="{{ site.baseurl }}/about.html">click here</a> to access curriculum and technical-scientifical portfolio(medical softwares, games, medical physics academic curriculum, computing, music).
 
