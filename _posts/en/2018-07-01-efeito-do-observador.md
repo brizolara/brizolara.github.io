@@ -7,8 +7,8 @@ tags: [digitalart, installation, processing, leap motion, video, hci ]
 image: assets/images/efeito_observador_ju_hoffmann.png
 lang: en
 #permalink: pt_BR/fita-viola-lancamento
-featured: true
-hidden: true
+featured: false
+hidden: false
 hasAudio: false
 hasVideo: false
 hasPaper: false
