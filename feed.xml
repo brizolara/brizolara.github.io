@@ -5,8 +5,8 @@
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
     <atom:link href="http://localhost:4000/brizolara.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Jan 2022 16:36:01 -0300</pubDate>
-    <lastBuildDate>Wed, 05 Jan 2022 16:36:01 -0300</lastBuildDate>
+    <pubDate>Wed, 05 Jan 2022 21:44:08 -0300</pubDate>
+    <lastBuildDate>Wed, 05 Jan 2022 21:44:08 -0300</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -317,7 +317,11 @@ Ana Carpes: capa, sobre quadro de vídeo de Dimi Camorlinga.
     
       <item>
         <title>Baixar portfolio</title>
-        <description>&lt;p&gt;&lt;a href=&quot;/brizolara.github.io/assets/Tiago Brizolara - Portfolio Artistico - 21-09-2020.pdf&quot;&gt;Clique para baixar o Portfolio Artístico&lt;/a&gt;. Ou &lt;a href=&quot;/brizolara.github.io/about.html &quot;&gt;clique aqui&lt;/a&gt; para acessar currículo e portfolio técnico-científicos (softwares médicos, jogos digitais, currículo acadêmico em física médica, computação e música).&lt;/p&gt;
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/brizolara.github.io/assets/Tiago Brizolara - Portfolio Artistico - 05-01-2022.pdf&quot;&gt;Baixar&lt;/a&gt; o Portfolio Artístico.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Wmby-kPhGYv6Tq8ZW2w_QPkONiA9vbTCutrh810w4hE&quot;&gt;Acessar&lt;/a&gt; o portfolio (Google Docs).&lt;/li&gt;
+  &lt;li&gt;Ou &lt;a href=&quot;/brizolara.github.io/about.html&quot;&gt;clique aqui&lt;/a&gt; para acessar currículo e portfolio técnico-científicos (softwares médicos, jogos digitais, currículo acadêmico em física médica, computação e música).&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Wed, 02 Sep 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/portfolio/</link>
