@@ -4,7 +4,7 @@ title:  "Latest Release"
 author: tiago
 categories: [ composição, lançamento, música brasileira, mpb, florianópolis, sete cordas, acústico, instrumental ]
 tags: [composicao, acustico, violao, 7cordas, mpb, musicabrasileira, instrumental]
-image: assets/images/divulgacao-streaming-fita-de-viola-facebook.png
+image: assets/images/capa-viola-2020.png
 description: "Disponivel nas principais plataformas digitais."
 lang: pt_BR
 #permalink: pt_BR/fita-viola-lancamento
@@ -19,9 +19,17 @@ hasSourceCode: false
 hasPDF: false
 ---
 
-**Quanto Dura Uma Fita de Viola em Tempo de Reis?** disponivel nas principais plataformas digitais - 2020.
+Ouça **Quanto Dura Uma Fita de Viola em Tempo de Reis?** no seu app preferido: [https://ps.onerpm.com/2409364297](https://ps.onerpm.com/2409364297)
 
+Ouça no YouTube...
+<p><div style="text-align:center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zx4zjXCMc14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></p>
+
+... ou a versão solo:
+<p><div style="text-align:center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d6jF2vYRPwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></p>
 
 Ficha técnica:
 <pre>
