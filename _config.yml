@@ -5,8 +5,11 @@ description:
   pt_BR: "Computação Criativa, Pesquisa, NIME, Ficção de Música Popular"
   en: "Creative Computing, Research, NIME, Contemporary Music"
 featured_description:
-  pt_BR: "Projetos - shows, código-fonte, artigos"
-  en: "Projects - shows, source code, papers"
+  pt_BR: "Destaques"
+  en: "Featured"
+recent_description:
+  pt_BR: "Recente"
+  en: "Recent"
 logo: 'assets/images/assinatura-artistica.JPG'
 favicon: 'assets/images/assinatura-artistica.JPG'
 baseurl: /brizolara.github.io
