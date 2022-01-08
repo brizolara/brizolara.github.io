@@ -5,8 +5,8 @@
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
     <atom:link href="http://localhost:4000/brizolara.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Jan 2022 22:35:56 -0300</pubDate>
-    <lastBuildDate>Thu, 06 Jan 2022 22:35:56 -0300</lastBuildDate>
+    <pubDate>Sat, 08 Jan 2022 01:18:47 -0300</pubDate>
+    <lastBuildDate>Sat, 08 Jan 2022 01:18:47 -0300</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -141,49 +141,83 @@ Ana Carpes: capa, sobre quadro de vídeo de Dimi Camorlinga.
       </item>
     
       <item>
-        <title>R.I.S.C.O.</title>
-        <description>&lt;p&gt;Após o 1o R.I.S.C.O., um grupo homônimo foi formado para seguir produzindo e pesquisando dentro de um caldo que inclui captação de som direto, live electronics, sintetizadores analógicos, pesquisa em computação musical, luteria digital, VJing e dança expandida. Destacam-se:
-Apresentação no Festival Internacional Strangloscope 2017 - Museu da Imagem e do Som (MIS-SC), Centro Integrado de Cultura (CIC) - Florianópolis, SC.
-Concerto no Teatro Azambuja (Brusque-SC), selecionado pelo edital Estação Cultural 2018, da Fundação Catarinense de Cultura.
-Performance Yllu - 2017 e 2018. O Sítio Arte Educação E Tecnologia. Florianópolis-SC.&lt;/p&gt;
+        <title>Elemental</title>
+        <description>&lt;p&gt;Vento, chuva e trovão, incorporados como instrumentos sonoros/musicais. O &lt;em&gt;Elemental&lt;/em&gt; é um novo desenvolvimento em expressão musical, que une avanços recentes em desenho de áudio em tempo real via síntese (ou seja, sem sons pré-gravados) e novas interfaces homem-computador, para apropriar sons naturais num eixo de expressão que atravessa desde sons como na natureza até a experiência abstrata, passando pelo que o autor, Tiago Brizolara, chama de &lt;i&gt;performance surreal&lt;/i&gt;: um território novo onde os sons naturais são dobrados, moldados, pela trajetória impressa pelo corpo do executante.&lt;/p&gt;
 
-&lt;p&gt;“Yllu representa em uma de suas formas a música que produzem as pequenas asas em vôo … Essa voz tem semelhança a outra mais importante: Illa dá nome a certa espécie de luz e aos monstros que nasceram feridos pelos raios lunares. Illa é um menino de duas cabeças ou um bezerro que nasce decapitado; ou um penhasco gigante, todo negro e lúcido, cuja superfície aparecera cruzada por uma veia larga de rocha branca, de opaca luz; é também uma plantação onde as fileiras de milho se entrecruzam ou formam redemoinhos; são illas os touros míticos que habitam o fundo dos lagos solitários, das altas lagoas rodeadas de totora, povoadas por patos negros. Todos os illas causam o bem ou o mal, mas sempre em grau sumo. Tocar um illa e morrer ou alcançar a ressurreição é possível. Essa voz illa tem algum parentesco fonético e uma comunhão interna de sentido com a terminação Yllu”&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;José Maria Arguedas, In. Los Ríos Profundos&lt;/li&gt;
-&lt;/ul&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V_Sv5HiV5zU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;No vídeo a multiartista recifense Maria Flor testa o instrumento pela primeira vez.&lt;/p&gt;
+
+&lt;p&gt;Um &lt;a href=&quot;#materiais&quot;&gt;primeiro artigo&lt;/a&gt; explica como o Elemental foi implementado, em termos de sua síntese de áudio e mapeamentos entre gesto e som, e mostra os resultados de duas validações: em Plouhinec-França, com público geral, e, em Recife-Brasil, com um público composto em sua grande maioria de músicos, dançarinos, designers de instrumentos musicais digitais e áreas afins. A maioria dos participantes considerou o Elemental adequado para aplicações expressivas, seja relativas primariamente a som (como música, por exemplo), corpo (por exemplo, dança) ou performances mistas.&lt;/p&gt;
+
+&lt;p&gt;O instrumento ainda não estreou nos palcos. Um vídeo documentando o processo de composição para uma performance, onde uso o Elemental em forma de plug-in VSTi dentro do software Reaper pode ser visto abaixo:&lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;14&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt;View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by Tiago Brizolara (@tiago.brizolara)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Em breve deve sair um segundo artigo (e outra publicação aqui no site), situando o instrumento esteticamente, falando sobre música eletroacústica, cognição, o Elemental VSTi, a versão para celular e com uma proposta de metodologia para desenvolvimento de instrumentos digitais para performance surreal.&lt;/p&gt;
+
+&lt;p&gt;Em breve também vou falar sobre e disponibilizar links para a oficina que ministrei como resultado de minha residencia artística no &lt;a href=&quot;http://www.artes.uff.br/somarumor/II/&quot;&gt;II Encontro Latinoamericano de Arte Sonora - SomaRumor&lt;/a&gt;, em Outubro de 2021.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;materiais&quot;&gt;Materiais&lt;/h4&gt;
+&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
+
+&lt;p&gt;Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. &lt;a href=&quot;https://www.nime.org/proceedings/2020/nime2020_paper90.pdf&quot;&gt;Elemental: a Gesturally Controlled System to Perform Meteorological Sounds&lt;/a&gt;. &lt;em&gt;Proceedings of the International Conference on New Interfaces for Musical Expression&lt;/em&gt;, Birmingham City University, pp. 470–476. &lt;a href=&quot;/brizolara.github.io/assets/paper-elemental-NIME2020.bib&quot;&gt;[BibTex]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;refs&quot;&gt;Agradecimentos&lt;/h4&gt;
+
+&lt;p&gt;Para além de minhas orientadoras Sylvie Gibet e Caroline Larboulette, agradeço a João Tragtenberg e à Universidade Federal de Pernambuco, nas pessoas dos professores Filipe Calegario e Giordano Cabral pela parceria na mobilidade internacional que desenvolvi junto ao Centro de Informática. A mobilidade foi financiada pelo departamento de Morbihan e a região Bretagne, no contexto de meu doutorado na Université Bretagne Sud (França).&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Sep 2020 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/brizolara.github.io/RISCO/</link>
-        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/RISCO/</guid>
+        <link>http://localhost:4000/brizolara.github.io/elemental/</link>
+        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/elemental/</guid>
         
-        <category>artedigital</category>
+        <category>nime</category>
         
-        <category>grupo</category>
+        <category>composicao</category>
         
-        <category>musicamista</category>
+        <category>dmi</category>
+        
+        <category>artecontemporanea</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>desenhodeaudio</category>
+        
+        <category>audiodesign</category>
+        
+        <category>musicacomputacional</category>
+        
+        <category>puredata</category>
+        
+        <category>myo</category>
+        
+        <category>performance</category>
+        
+        <category>somarumor</category>
         
         <category>musicaeletroacustica</category>
         
-        <category>luteriadigital</category>
-        
-        <category>multidisciplinar</category>
-        
-        <category>florianopolis</category>
+        <category>danca</category>
         
         
-        <category>arte digital</category>
+        <category>NIME</category>
         
-        <category>grupo</category>
+        <category>composição</category>
         
-        <category>música mista</category>
+        <category>DMI</category>
         
-        <category>música eletroacústica</category>
+        <category>desenho de áudio</category>
         
-        <category>luteria digital</category>
+        <category>música computacional</category>
         
-        <category>multidisciplinar</category>
+        <category>pure data</category>
         
-        <category>florianopolis</category>
+        <category>myo</category>
+        
+        <category>dança</category>
         
       </item>
     
@@ -209,7 +243,7 @@ Performance Yllu - 2017 e 2018. O Sítio Arte Educação E Tecnologia. Florianó
 &lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/RISCO_Brusque_screenshot.png&quot; /&gt;
 Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.I.S.C.O. (Florianópolis-SC, 2017). [Embaixo] Com o R.I.S.C.O. em apresentação no Centro Cultural Azambuja (Brusque-SC, 2018).&lt;/p&gt;
 </description>
-        <pubDate>Mon, 31 Aug 2020 00:00:00 -0300</pubDate>
+        <pubDate>Sun, 30 Aug 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/SoMo/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/SoMo/</guid>
         
@@ -269,406 +303,49 @@ Fotos: [Em cima] O SoMo na performance &lt;em&gt;Yllu&lt;/em&gt;, com o grupo R.
       </item>
     
       <item>
-        <title>Elemental</title>
-        <description>&lt;p&gt;Vento, chuva e trovão, incorporados como instrumentos sonoros/musicais. O &lt;em&gt;Elemental&lt;/em&gt; é um novo desenvolvimento em expressão musical, que une avanços recentes em desenho de áudio em tempo real via síntese (ou seja, sem sons pré-gravados) e novas interfaces homem-computador, para apropriar sons naturais num eixo de expressão que atravessa desde sons como na natureza até a experiência abstrata, passando pelo que o autor, Tiago Brizolara, chama de &lt;i&gt;performance surreal&lt;/i&gt;: um território novo onde os sons naturais são dobrados, moldados, pela trajetória impressa pelo corpo do executante.&lt;/p&gt;
+        <title>R.I.S.C.O.</title>
+        <description>&lt;p&gt;Após o 1o R.I.S.C.O., um grupo homônimo foi formado para seguir produzindo e pesquisando dentro de um caldo que inclui captação de som direto, live electronics, sintetizadores analógicos, pesquisa em computação musical, luteria digital, VJing e dança expandida. Destacam-se:
+Apresentação no Festival Internacional Strangloscope 2017 - Museu da Imagem e do Som (MIS-SC), Centro Integrado de Cultura (CIC) - Florianópolis, SC.
+Concerto no Teatro Azambuja (Brusque-SC), selecionado pelo edital Estação Cultural 2018, da Fundação Catarinense de Cultura.
+Performance Yllu - 2017 e 2018. O Sítio Arte Educação E Tecnologia. Florianópolis-SC.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V_Sv5HiV5zU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;No vídeo a multiartista recifense Maria Flor testa o instrumento pela primeira vez.&lt;/p&gt;
-
-&lt;p&gt;Um &lt;a href=&quot;#materiais&quot;&gt;primeiro artigo&lt;/a&gt; explica como o Elemental foi implementado, em termos de sua síntese de áudio e mapeamentos entre gesto e som, e mostra os resultados de duas validações: em Plouhinec-França, com público geral, e, em Recife-Brasil, com um público composto em sua grande maioria de músicos, dançarinos, designers de instrumentos musicais digitais e áreas afins. A maioria dos participantes considerou o Elemental adequado para aplicações expressivas, seja relativas primariamente a som (como música, por exemplo), corpo (por exemplo, dança) ou performances mistas.&lt;/p&gt;
-
-&lt;p&gt;O instrumento ainda não estreou nos palcos. Um vídeo documentando o processo de composição para uma performance, onde uso o Elemental em forma de plug-in VSTi dentro do software Reaper pode ser visto abaixo:&lt;/p&gt;
-
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;14&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt;View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by Tiago Brizolara (@tiago.brizolara)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Em breve deve sair um segundo artigo (e outra publicação aqui no site), situando o instrumento esteticamente, falando sobre música eletroacústica, cognição, o Elemental VSTi, a versão para celular e com uma proposta de metodologia para desenvolvimento de instrumentos digitais para performance surreal.&lt;/p&gt;
-
-&lt;p&gt;Em breve também vou falar sobre e disponibilizar links para a oficina que ministrei como resultado de minha residencia artística no &lt;a href=&quot;http://www.artes.uff.br/somarumor/II/&quot;&gt;II Encontro Latinoamericano de Arte Sonora - SomaRumor&lt;/a&gt;, em Outubro de 2021.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;materiais&quot;&gt;Materiais&lt;/h4&gt;
-&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
-
-&lt;p&gt;Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. &lt;a href=&quot;https://www.nime.org/proceedings/2020/nime2020_paper90.pdf&quot;&gt;Elemental: a Gesturally Controlled System to Perform Meteorological Sounds&lt;/a&gt;. &lt;em&gt;Proceedings of the International Conference on New Interfaces for Musical Expression&lt;/em&gt;, Birmingham City University, pp. 470–476. &lt;a href=&quot;/brizolara.github.io/assets/paper-elemental-NIME2020.bib&quot;&gt;[BibTex]&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;refs&quot;&gt;Agradecimentos&lt;/h4&gt;
-
-&lt;p&gt;Para além de minhas orientadoras Sylvie Gibet e Caroline Larboulette, agradeço a João Tragtenberg e à Universidade Federal de Pernambuco, nas pessoas dos professores Filipe Calegario e Giordano Cabral pela parceria na mobilidade internacional que desenvolvi junto ao Centro de Informática. A mobilidade foi financiada pelo departamento de Morbihan e a região Bretagne, no contexto de meu doutorado na Université Bretagne Sud (França).&lt;/p&gt;
+&lt;p&gt;“Yllu representa em uma de suas formas a música que produzem as pequenas asas em vôo … Essa voz tem semelhança a outra mais importante: Illa dá nome a certa espécie de luz e aos monstros que nasceram feridos pelos raios lunares. Illa é um menino de duas cabeças ou um bezerro que nasce decapitado; ou um penhasco gigante, todo negro e lúcido, cuja superfície aparecera cruzada por uma veia larga de rocha branca, de opaca luz; é também uma plantação onde as fileiras de milho se entrecruzam ou formam redemoinhos; são illas os touros míticos que habitam o fundo dos lagos solitários, das altas lagoas rodeadas de totora, povoadas por patos negros. Todos os illas causam o bem ou o mal, mas sempre em grau sumo. Tocar um illa e morrer ou alcançar a ressurreição é possível. Essa voz illa tem algum parentesco fonético e uma comunhão interna de sentido com a terminação Yllu”&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;José Maria Arguedas, In. Los Ríos Profundos&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Sat, 29 Aug 2020 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/brizolara.github.io/elemental/</link>
-        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/elemental/</guid>
+        <link>http://localhost:4000/brizolara.github.io/RISCO/</link>
+        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/RISCO/</guid>
         
-        <category>nime</category>
+        <category>artedigital</category>
         
-        <category>composicao</category>
+        <category>grupo</category>
         
-        <category>dmi</category>
-        
-        <category>artecontemporanea</category>
-        
-        <category>multidisciplinar</category>
-        
-        <category>desenhodeaudio</category>
-        
-        <category>audiodesign</category>
-        
-        <category>musicacomputacional</category>
-        
-        <category>puredata</category>
-        
-        <category>myo</category>
-        
-        <category>performance</category>
-        
-        <category>somarumor</category>
+        <category>musicamista</category>
         
         <category>musicaeletroacustica</category>
         
-        <category>danca</category>
+        <category>luteriadigital</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>florianopolis</category>
         
         
-        <category>NIME</category>
+        <category>arte digital</category>
         
-        <category>composição</category>
+        <category>grupo</category>
         
-        <category>DMI</category>
+        <category>música mista</category>
         
-        <category>desenho de áudio</category>
+        <category>música eletroacústica</category>
         
-        <category>música computacional</category>
+        <category>luteria digital</category>
         
-        <category>pure data</category>
+        <category>multidisciplinar</category>
         
-        <category>myo</category>
-        
-        <category>dança</category>
-        
-      </item>
-    
-      <item>
-        <title>Computação Musical - Instrumentalizando um Cortador de Grama - 1</title>
-        <description>&lt;h4 id=&quot;introducao&quot;&gt;O massacre musical da roçadeira elétrica&lt;/h4&gt;
-&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
-
-&lt;p&gt;Como transformar um cortador de grama num instrumento musical digital?&lt;/p&gt;
-
-&lt;p&gt;As ferramentas tradicionais de produção de áudio (&lt;em&gt;Ableton&lt;/em&gt;, &lt;em&gt;Pro Tools&lt;/em&gt;, samplers em geral…) podem nos levar até certo ponto em expresividade. Esta série de postagens chama para algo mais:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Abordar desenho de áudio e computação musical usando Pure Data &lt;strong&gt;a partir de um nível iniciante&lt;/strong&gt;;&lt;/li&gt;
-  &lt;li&gt;Exercitar diferentes escutas;
-    &lt;ul&gt;
-      &lt;li&gt;Ir além do paradigma de &lt;em&gt;nota musical&lt;/em&gt;;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Trabalhar instrumentalidade;
-    &lt;ul&gt;
-      &lt;li&gt;Alçar vôos para além do teclado;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Criar um &lt;em&gt;plugin&lt;/em&gt; (e usar nas ferramentas tradicionais de produção áudio - ora, veja só!)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A inspiração vem de um encontro do laboratório de &lt;em&gt;Corpo, Som E Tecnologia&lt;/em&gt;, coordenado pela profa. Dra. Flora Holderbaum e vinculado neste momento à disciplina de Tecnologia Musical (Ceart-UDESC-SC). Um dos participantes utilizou uma amostra gravada de um som de cortador de grama, inseriu num sampler e aplicou filtragens para construir timbres. Um contrabaixo utilizando esse procedimento, no entanto, não deu bom resultado - vamos apelar então para nossa escuta e entendimento dos fenômenos envolvidos e modelar esse som digitalmente, colhendo os frutos que recém falamos acima.
-&lt;!--&lt;!doctype HTML&gt;--&gt;&lt;/p&gt;
-
-&lt;!--&lt;html&gt;--&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;utf-8&quot; /&gt;
-    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/jquery.min.js&quot;&gt;&lt;/script&gt;
-    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/pd-fileutils.js&quot;&gt;&lt;/script&gt;
-    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/webpd-latest.min.js&quot;&gt;&lt;/script&gt;
-    &lt;script type=&quot;text/javascript&quot; src=&quot;../assets/js/pd-examples.js&quot;&gt;&lt;/script&gt;
-
-    &lt;link href=&quot;http://fonts.googleapis.com/css?family=Source+Sans+Pro&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
-    &lt;link href=&quot;../assets/css/pd-examples.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
-  &lt;/head&gt;
-
-&lt;p&gt;&lt;!--&lt;body&gt;--&gt;&lt;/p&gt;
-
-&lt;p&gt;Se você nunca produziu com Pure Data, pode assistir esta &lt;strong&gt;oficina introdutória&lt;/strong&gt; (começa aos 43m55s. Assista do começo para exemplos de Pd em performances de todo tipo, além de desenho de áudio e trilha sonora, focando em produção brasileira e florianopolitana):&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8_X3pCm1zy4?start=2635&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;!---------------------------------------------------------------------------------------------------&gt;
-&lt;h4 id=&quot;qual-nota&quot;&gt;&quot;Que nota eu escuto se eu tocar a corda Mi (660 Hz) 440 vezes por segundo?&quot;&lt;/h4&gt;
-&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
-
-&lt;p&gt;Se você sabe a resposta, então você sabe de onde vem a nota (&lt;em&gt;altura musical&lt;/em&gt; é o nome correto) de um cortador de grama.&lt;/p&gt;
-
-&lt;p&gt;O princípio é o mesmo da sirene mecânica (de colégio, de polícia….): uma roda dentada ou com pás gira, atingindo um anteparo muitas vezes por segundo. Por exemplo, se o anteparo está sendo atingido 440 vezes/segundo, a gente escuta uma nota Lá (440 Hz. Ora, &lt;em&gt;Hz&lt;/em&gt; significa exatamente repetições por segundo!).
-&lt;br /&gt;No caso do cortador, são os dentes da nossa lâmina que atingem o que está sendo cortado. Por isso que ouvimos a altura musical subir em glissando à medida que o giro da lâmina ganha velocidade).&lt;/p&gt;
-
-&lt;p&gt;Que mágica é essa? Pra entender melhor, nós fomos à Barra da Lagoa falar com seu Bentois:&lt;/p&gt;
-
-&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;Quer dizer que a repetição de um mero som de duas coisas se chocando vira uma nota musical? É uma imitação que engana nossa percepção?&lt;/p&gt;
-&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;B.: Não é uma imitação. A própria nota musical &lt;i&gt;(altura musical)&lt;/i&gt; é que é a invenção da nossa audição. Coisas como a voz, os pássaros e as violas agitam o ar em repetições, do mesmo jeito que uma sirene - só que de jeitos menos bruscos. A lei da nossa audição é essa: repetiu mais do que umas 20 vezes/segundo, virou nota.&lt;/p&gt;
-&lt;!--&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;E o que seriam jeitos menos bruscos?&lt;/p&gt;
-&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;B.: A corda de violão, a prega vocal, a pele de tambor... todos balançam repetidamente ao invés de se chocar repetidamente com algo.&lt;/p&gt;--&gt;
-&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;Ainda não acredito!&lt;/p&gt;
-&lt;p style=&quot;font-family:Verdana;font-size:16px&quot;&gt;B.: Observe a trama de um tecido. Se você arrastar uma unha sobre ele, vai estar atingindo diversos fios por segundo. Observe como a nota que você ouve é aguda o tanto mais rápido você arrasta sua unha.&lt;/p&gt;
-
-&lt;p&gt;Na demonstração a seguir, Pierre Schaeffer (no absolutamente necessário Solfejo do Objeto Sonoro, de 1966) chama à atenção 3 fenômenos diferentes na escuta ao transformarmos sons musicais em notas musicais através de sua repetição cada vez mais rápida. O material escolhido para ser repetido influencia o &lt;em&gt;timbre&lt;/em&gt; da nota ouvida e a este material Schaeffer chama &lt;em&gt;grão&lt;/em&gt;: &lt;a href=&quot;http://tramausp.com.br/_trabalhos/001solfege.html#item4&quot;&gt;http://tramausp.com.br/_trabalhos/001solfege.html#item4&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Obs 1.: Estamos ignorando o som do motor e das ressonâncias do equipamento &lt;strong&gt;por enquanto&lt;/strong&gt;.&lt;/em&gt;
-&lt;em&gt;Obs 2.: E a resposta da pergunta da seção então é: escutamos a nota Lá (440 Hz) - isso mesmo, tocamos a corda Mi e ouvimos a nota Lá&lt;/em&gt;.&lt;/p&gt;
-
-&lt;!---------------------------------------------------------------------------------------------------&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;!-- TODO solve this formatting issue in the CSS... --&gt;&lt;/p&gt;
-&lt;h4 id=&quot;pratica&quot;&gt;Prática&lt;/h4&gt;
-&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
-
-&lt;p&gt;O patch abaixo é nosso primeiro esboço. Clique no botão para mostrar os controles aqui desta postagem para interagir com ele. Em seguida conversaremos sobre como ele funciona.&lt;/p&gt;
-
-&lt;div id=&quot;loading&quot;&gt;Loading ...&lt;/div&gt;
-&lt;p&gt;&lt;button id=&quot;startButton&quot;&gt;Clique para iniciar&lt;/button&gt;&lt;/p&gt;
-
-&lt;div id=&quot;controls&quot;&gt;
-    &lt;form&gt;
-      &lt;table&gt;
-      &lt;tr&gt;
-      &lt;td&gt;&lt;input type=&quot;range&quot; min=&quot;0&quot; max=&quot;110&quot; id=&quot;freq&quot; value=&quot;0&quot; /&gt;&lt;/td&gt;&lt;td&gt;Frequência: &lt;span id=&quot;demo&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;font-family:Verdana;font-size:16px&quot;&gt; (valor será recebido no patch em &lt;b&gt;[r freq]&lt;/b&gt;)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;/table&gt;
-      &lt;!--&lt;input type=&quot;text&quot; id=&quot;freq&quot; /&gt;
-      &lt;input type=&quot;submit&quot; value=&quot;Enviar nota MIDI&quot; /&gt;--&gt;
-    &lt;/form&gt;
-    &lt;form&gt;
-      &lt;table&gt;
-      &lt;tr&gt;
-      &lt;td&gt;&lt;input type=&quot;button&quot; value=&quot;Desligar&quot; onclick=&quot;desligar()&quot; /&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td style=&quot;font-family:Verdana;font-size:16px&quot;&gt; (será recebido no patch um bang em &lt;b&gt;[r desliga]&lt;/b&gt;)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;/table&gt;
-      &lt;!--&lt;input type=&quot;submit&quot; id=&quot;desliga&quot; value=&quot;Desligar&quot; /&gt;--&gt;
-    &lt;/form&gt;
-  &lt;/div&gt;
-
-&lt;script&gt;
-  var slider = document.getElementById(&quot;freq&quot;);
-  var output = document.getElementById(&quot;demo&quot;);
-  output.innerHTML = slider.value;
-
-  slider.oninput = function() {
-    output.innerHTML = this.value;
-    Pd.send('freq', [parseFloat(this.value)]);
-  }
-  &lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;
-    function desligar(){
-      Pd.send('desliga', [&quot;bang&quot;]);
-    }
-  &lt;/script&gt;
-
-&lt;p&gt;&lt;!-- Gambiarra... imagem do patch ao inves de renderizar o SVG - tudo porque arrays nao estao sendo renderizados ...--&gt;
-  &lt;img src=&quot;/brizolara.github.io/assets/images/pd-cortador1.png&quot; /&gt;&lt;/p&gt;
-
-&lt;div id=&quot;svg&quot;&gt;&lt;/div&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;
-    
-    webPdExamples.init()
-
-    /*$('form').submit(function(event) {
-      event.preventDefault()
-      Pd.send('MIDI_note', [parseFloat($('#MIDI_note').val())])
-    })*/
-
-    var patch
-    $.get('../assets/pd/cortador-1.pd', function(mainStr) {
-      // Loading the patch
-      patch = Pd.loadPatch(mainStr)
-
-      //webPdExamples.patchLoaded(mainStr)
-      // Show start button
-      $('#loading').fadeOut(200, function() { $('#startButton').fadeIn() })
-    })
-
-  &lt;/script&gt;
-
-&lt;p&gt;OK. Agora talvez você ache mais confortável rodar o patch em outra janela enquanto lê o texto aqui. Se for o caso, clique &lt;a href=&quot;/brizolara.github.io/assets/pd/cortador-1.pd&quot;&gt;aqui&lt;/a&gt; para baixá-lo e abrir no seu Pure Data.&lt;/p&gt;
-
-&lt;p&gt;Antes de mais nada, precisamos do som de um impacto da lâmina. Podemos levar um equipamento a um lugar isolado e captar com um bom microfone. Ou procurar um som desses em algum repositório como freesound.org. Ou ser bem mais práticos, começar do simples e tentar captar o essencial do fenômeno.&lt;/p&gt;
-
-&lt;p&gt;Um som de impacto seco (sem grandes ressonâncias) consiste em um pico de amplitude que decresce rapidamente (sabemos isso já de ouvido). Vamos implementar usando um objeto &lt;em&gt;array&lt;/em&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Menu Put-&amp;gt;Array (ou atalho Shift+Ctrl+A)&lt;/li&gt;
-  &lt;li&gt;e desenhamos no array (lembrete: temos que estar no modo de execução, não de edição. Para alternar entre os dois modos, podemos ir ao menu Edit-&amp;gt;Edit Mode ou Ctrl+E):&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/pd-cortador-1-impulso.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ao criar o array, vemos que, por padrão, cada ponto pode assumir valores entre -1 e 1. Esse é o padrão da escala em áudio digital. Valores fora dessa escala vão &lt;em&gt;clipar&lt;/em&gt; o som. Para facilitar seu trabalho de desenhar no array1, você pode enviar a mensagem &lt;i&gt;;array1 const 0&lt;/i&gt;, para zerar todos os elementos do array1 (ou qualquer que seja o nome que você deu).&lt;/p&gt;
-
-&lt;p&gt;Para tratar esses valores como um &lt;strong&gt;sample&lt;/strong&gt; a ser repetido, vamos criar um objeto [tabread4~]. Para enviar esses valores que estão no array, enviamos a mensagem &lt;i&gt;set array1&lt;/i&gt; para o [tabread4~].&lt;/p&gt;
-
-&lt;h5 id=&quot;tabread-sampler&quot;&gt;[tabread4~], nosso sampler&lt;/h5&gt;
-
-&lt;p&gt;Pelo “~”, já sabemos que é um objeto que emite um sinal. Lembre que sinais não precisam de nenhuma interação, eles são produzidos continuamente.&lt;/p&gt;
-
-&lt;p&gt;Qual valor [tabread4~] emitirá é definido pelo valor recebido no seu inlet, encarado como índice, iniciando do zero. Ou seja, se [tabread4~] recebe 0, emite o 1&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; elemento do array guardado (que é o array1). Se recebe 1, emite o 2&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; elemento de array1, etc. Se recebe 99, emite o 100&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; elemento de array1 (que é o último, já que criamos array1 com 100 elementos).&lt;/p&gt;
-
-&lt;p&gt;Por isso usamos o objeto [phasor~]. Este é um oscilador cujo sinal emitido é uma linha de 0 a 1. Quando multiplicamos sua saída por 99, agora temos uma linha de 0 a 99. Ou seja, ao entrar em [tabread4~] varremos todos os seus elementos. E quantas vezes por segundo isso acontece? Quantas vezes por segundo phasor repetir-se, ou seja, sua frequência.&lt;/p&gt;
-
-&lt;p&gt;Para termos o efeito de ligar e desligar o cortador, aplicamos [line~], para que a frequência desejada não mude de sopetão, mas transicione, obtendo o nosso glissando. Veja que as mensagens que mandamos para gerar sinais de linha com [line~] têm como 2&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; parâmetro o número 1000: é a quantidade de milisegundos que durará a linha. Futuramente podemos controlar esse tempo também para ter transições mais rápidas ou demoradas - podem depender do intervalo de frequência a percorrer, por exemplo.&lt;/p&gt;
-
-&lt;p&gt;A dica final: o Help do Pd vale ouro, use e abuse! É só clicar com o botão direito em um objeto e ir em Help. Tem também o Help geral no menu.&lt;/p&gt;
-
-&lt;!---------------------------------------------------------------------------------------------------&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;!-- TODO solve this formatting issue in the CSS... --&gt;&lt;/p&gt;
-&lt;h4 id=&quot;melhoras&quot;&gt;Algumas melhoras&lt;/h4&gt;
-&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;riqueza-harmonica&quot;&gt;Riqueza harmônica&lt;/h5&gt;
-
-&lt;p&gt;Como comentamos &lt;a href=&quot;#qual-nota&quot;&gt;ali em cima&lt;/a&gt;, podemos modelar ainda o som do motor e as ressonâncias no equipamento. Podemos experimentar essas melhoras com filtragens dentro do próprio software de áudio da nossa preferência quando transformarmos nosso cortador em um plugin nas próximas semanas… ou podemos modelar por aqui mesmo. Por agora seguiremos adiante para chegar logo no plugin.&lt;/p&gt;
-
-&lt;p&gt;Quem tem interesse em síntese de áudio, pode ver as implementações em Pure Data de sons de motores do &lt;a href=&quot;https://mitpress.mit.edu/books/designing-sound&quot;&gt;Sound Design Toolkit (patches de Pure Data e de Max/MSP)&lt;/a&gt; ou do livro &lt;a href=&quot;https://mitpress.mit.edu/books/designing-sound&quot;&gt;Designing Sound, de Andy Farnell&lt;/a&gt; (inclui os patches de Pure Data no site).&lt;/p&gt;
-
-&lt;h5 id=&quot;gestual&quot;&gt;&quot;Gestual&quot; da lâmina&lt;/h5&gt;
-
-&lt;p&gt;A &lt;em&gt;forma&lt;/em&gt; com a qual nossa lâmina ganha e perde velocidade é muito importante. Isso porque boa parte do que entendemos como timbre é determinado pelas características dinâmicas do som, i.e., a forma como ele se desenrola no tempo - principalmente durante seu início (a que chamamos &lt;em&gt;ataque&lt;/em&gt;). É esse ataque que está sendo trabalhado quando um violonista escolhe de que forma vai lixar as unhas da mão direita e em que ângulo vai atingir as cordas; quando um pianista trabalha o “peso” de seu toque durante o breve intervalo de tempo onde o martelo dentro do instrumento começa a entrar em contato com a corda; etc. E é por &lt;em&gt;nossa audição estar automaticamente sempre imaginando os movimentos&lt;/em&gt; por trás dos sons que uma performance musical &lt;strong&gt;expressiva&lt;/strong&gt; tem muito mais a ver com essa breve trajetória do nascimento de cada som do que com o conteúdo de harmônicos - ao menos na opinião deste que aqui escreve.&lt;/p&gt;
-
-&lt;p&gt;Fica a chamada para os próximos trabalhos!&lt;/p&gt;
-
-&lt;!---------------------------------------------------------------------------------------------------&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;!-- TODO solve this formatting issue in the CSS... --&gt;&lt;/p&gt;
-&lt;h4 id=&quot;mais&quot;&gt;Mais minhocas na cabeça&lt;/h4&gt;
-&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
-
-&lt;p&gt;Baixe o &lt;a href=&quot;/brizolara.github.io/assets/pd/cortador-1.pd&quot;&gt;patch&lt;/a&gt; e experimente fazer outros desenhos de forma de onda no array1. O que acontece com o som se você desenhar algo parecido com um seno? E algo parecido com dois ciclos de seno? Ou dois ciclos de impulso? O que acontece quando o 1&lt;sup&gt;&lt;u&gt;o&lt;/u&gt;&lt;/sup&gt; e o último elemento de array1 são muito diferentes? Aliás, o que acontece sempre que há variações muito grandes entre um ponto e outro?&lt;/p&gt;
-
-&lt;p&gt;Tudo isso revela vários assuntos sobre a relação entre forma de onda e as frequências presentes, que veremos na &lt;a href=&quot;/brizolara.github.io/pd-cortador2&quot;&gt;próxima postagem!&lt;/a&gt;&lt;/p&gt;
-
-&lt;!---------------------------------------------------------------------------------------------------&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;!-- TODO solve this formatting issue in the CSS... --&gt;&lt;/p&gt;
-&lt;h4 id=&quot;materiais&quot;&gt;Materiais&lt;/h4&gt;
-&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://tramausp.com.br/_trabalhos/001solfege.html&quot;&gt;Solfejo do Objeto Sonoro - versão em Português&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=znVcmChq_1M&quot;&gt;Roda de Savart&lt;/a&gt; - Um tipo de sirene. No séc. XIX foi o dispositivo que demonstrou a relação entre frequência e altura musical&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=WSWG5Wv6fLM&quot;&gt;Instrumento musical por Bart Hopkin&lt;/a&gt;, feito de 33 rodas de savart. Hilariante ;)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://soundobject.org/SDT&quot;&gt;Sound Design Toolkit (Pure Data)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mitpress.mit.edu/books/designing-sound&quot;&gt;Andy Farnell’s Designing Sound (patches de Pure Data gratuitos no site)&lt;/a&gt;
-Aos programadores e aventureiros:&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/brizolara/brizolara.github.io&quot;&gt;Código-fonte desta página&lt;/a&gt;. O patch interativo de Pd usa:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/sebpiq/WebPd&quot;&gt;WebPd&lt;/a&gt;, versão do Pure Data para o navegador&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/sebpiq/pd-fileutils&quot;&gt;pd-fileutils&lt;/a&gt;. Algumas utilidades para uso do Pd em web. Só não estamos usando para exibir nossos patches porque o objeto array não está sendo desenhado no momento…&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!---------------------------------------------------------------------------------------------------&gt;
-
-&lt;p&gt;&lt;!--&lt;/body&gt;
-&lt;/html&gt;--&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 28 Aug 2020 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/brizolara.github.io/pd-cortador1/</link>
-        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/pd-cortador1/</guid>
-        
-        <category>pure data</category>
-        
-        <category>computer music</category>
-        
-        <category>audio design</category>
-        
-        <category>education</category>
-        
-        <category>sampler</category>
-        
-        <category>webpd</category>
-        
-        
-        <category>pure data</category>
-        
-        <category>computação musical</category>
-        
-        <category>desenho de áudio</category>
-        
-        <category>educação</category>
-        
-        <category>sampler</category>
-        
-        <category>webpd</category>
-        
-      </item>
-    
-      <item>
-        <title>Primeiras Milongas - com Iara Germer</title>
-        <description>&lt;p&gt;&lt;strong&gt;Ouça&lt;/strong&gt; no seu aplicativo preferido: &lt;a href=&quot;https://ps.onerpm.com/3598322120&quot;&gt;https://ps.onerpm.com/3598322120&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ou dê uma olhada no YouTube:&lt;/p&gt;
-&lt;p&gt;&lt;div style=&quot;text-align:center;&quot;&gt;
-&lt;iframe align=&quot;center&quot; width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=OLAK5uy_kZZkjN5tuIRKJpKxKmXH7-SNr795D1ubQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Lançado em abril de 2020, este EP tem duas milongas, um gênero da cultura gaúcha, da região do Rio da Prata - Argentina e Uruguay - mas também muito produzido no Brasil. Ambas foram feitas de bate-e-pronto: Fiz a música da Milonga para Minha Mãeassim que a Iara Germer me mostrou o poema que ela queria transformar em milonga. E Iara fez a letra da Milonga do Quem Dera enquanto ouvia eu, Flora Holderbaum (violino) e Gilnei Silveira (percussão) ensaiar a música para tocar instrumental no dia seguinte!&lt;/p&gt;
-
-&lt;p&gt;Eu e Iara, gaúchos do Rio Grande do Sul, decidimos transformar as músicas num EP, convidando o acordeonista Bruno Moritz, com quem gravamos numa ótima tarde no estúdio de Carlos Lacerda, em Florianópolis.&lt;/p&gt;
-
-&lt;p&gt;Escrevi o arranjo do acordeon na Milonga do Quem, mas as belas e idiomáticas linhas na Milonga para Minha Mãe são improviso do Bruno.&lt;/p&gt;
-
-&lt;p&gt;A incrível fotografia da capa foi tirada por Núbia Abe, na cachoeira do Rio Salto, município de Águas Mornas (SC).&lt;/p&gt;
-
-&lt;div style=&quot;text-align:center;&quot;&gt;
-&lt;img src=&quot;/brizolara.github.io/assets/images/primeiras-milongas-mosaico.jpeg&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ficha técnica:&lt;/p&gt;
-&lt;pre&gt;
-Letra e voz: Iara Germer.
-Música, violão 7 cordas e voz: Tiago Brizolara.
-Acordeon: Bruno Moritz.
-Produção do áudio: Jorge Lacerda.
-Foto: Núbia Abe.
-&lt;/pre&gt;
-</description>
-        <pubDate>Wed, 26 Aug 2020 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</link>
-        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</guid>
-        
-        <category>composicao</category>
-        
-        <category>acustico</category>
-        
-        <category>violao</category>
-        
-        <category>7cordas</category>
-        
-        <category>mpb</category>
-        
-        <category>musicabrasileira</category>
-        
-        
-        <category>composição</category>
-        
-        <category>lançamento</category>
-        
-        <category>gaúcho</category>
-        
-        <category>música brasileira</category>
-        
-        <category>mpb</category>
-        
-        <category>florianópolis</category>
-        
-        <category>canção</category>
-        
-        <category>milonga</category>
-        
-        <category>sete cordas</category>
-        
-        <category>acústico</category>
+        <category>florianopolis</category>
         
       </item>
     
@@ -739,6 +416,60 @@ Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
       </item>
     
       <item>
+        <title>Oficina - SomaRumor 2021</title>
+        <description>&lt;p&gt;Esta oficina foi resultado da minha residência artística no SomaRumor II - Encontro Latino-Americano de Arte Sonora, em outubro/2021. Foi voltada a compositores, artistas sonoros, instrumentistas, dançarinos, sound designers e curiosos em geral. Nela falamos sobre instrumentalidade, sensores, música eletroacústica, mapeamentos movimento-som e muitos temas relacionados.&lt;/p&gt;
+
+&lt;p&gt;Os 4 dias de oficina podem ser acessados no &lt;a href=&quot;&quot;&gt;canal do evento&lt;/a&gt; ou diretamente na playlist abaixo:&lt;/p&gt;
+
+&lt;p&gt;&lt;div style=&quot;text-align:center;&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PL4w5aQOW6VqroFVtdlzCQQ5Vqv0edKJZe&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Durante a residência eu trabalhei duas versões adicionais do &lt;a href=&quot;/brizolara.github.io/elemental&quot;&gt;Elemental&lt;/a&gt;, formando um ecosistema criativo com o instrumento original: O &lt;em&gt;Elemental Mobile&lt;/em&gt; - sobre o qual foquei a oficina -, uma versão do instrumento original rodando completamente em aparelho celular, e o &lt;em&gt;Elemental-VSTi&lt;/em&gt; (apresentado brevemente na oficina), que permite a composição eletroacústica e idéias para modificações do instrumento, graças aos parâmetros internos da síntese expostos no uso como plugin VST-i dentro de qualquer DAW (&lt;em&gt;Digital Audio Workstation&lt;/em&gt;, como Reaper, Pro Tools, Ardour, etc). Essas duas versões do Elemental foram disponibilizadas para os participantes.&lt;/p&gt;
+
+&lt;p&gt;O SomaRumor II foi um evento admirável. Meus agradecimentos a meu tutor Giuliano Obici, a Flora Holderbaum, a Byron Rodrigues e todos os presentes, com quem tivemos trocas riquíssimas.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 20 Aug 2020 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/brizolara.github.io/SomaRumor2021/</link>
+        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/SomaRumor2021/</guid>
+        
+        <category>artesonora</category>
+        
+        <category>grupo</category>
+        
+        <category>musicamista</category>
+        
+        <category>musicaeletroacustica</category>
+        
+        <category>luteriadigital</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>danca</category>
+        
+        <category>florianopolis</category>
+        
+        
+        <category>arte sonora</category>
+        
+        <category>pure data</category>
+        
+        <category>música mista</category>
+        
+        <category>música eletroacústica</category>
+        
+        <category>luteria digital</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>dança</category>
+        
+        <category>florianopolis</category>
+        
+      </item>
+    
+      <item>
         <title>Atelier Digital</title>
         <description>&lt;p&gt;O Atelier Digital produz arte com atravessamentos digitais e promove eventos de criação e formação com artistas locais e convidados. A equipe inicial, em 2017, foi composta por Alexandre Chaves, Kaue Costa, João Aires (também o idealizador) e Tiago Brizolara, membro entre 2017 e 2018 e parceiro desde então.&lt;/p&gt;
 
@@ -760,7 +491,7 @@ Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
     &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Db4rs94Jlu0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 02 Jul 2018 00:00:00 -0300</pubDate>
+        <pubDate>Tue, 28 Aug 2018 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/atelier-digital/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/atelier-digital/</guid>
         
@@ -800,6 +531,75 @@ Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
       </item>
     
       <item>
+        <title>Primeiras Milongas - com Iara Germer</title>
+        <description>&lt;p&gt;&lt;strong&gt;Ouça&lt;/strong&gt; no seu aplicativo preferido: &lt;a href=&quot;https://ps.onerpm.com/3598322120&quot;&gt;https://ps.onerpm.com/3598322120&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ou dê uma olhada no YouTube:&lt;/p&gt;
+&lt;p&gt;&lt;div style=&quot;text-align:center;&quot;&gt;
+&lt;iframe align=&quot;center&quot; width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=OLAK5uy_kZZkjN5tuIRKJpKxKmXH7-SNr795D1ubQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Lançado em abril de 2020, este EP tem duas milongas, um gênero da cultura gaúcha, da região do Rio da Prata - Argentina e Uruguay - mas também muito produzido no Brasil. Ambas foram feitas de bate-e-pronto: Fiz a música da Milonga para Minha Mãeassim que a Iara Germer me mostrou o poema que ela queria transformar em milonga. E Iara fez a letra da Milonga do Quem Dera enquanto ouvia eu, Flora Holderbaum (violino) e Gilnei Silveira (percussão) ensaiar a música para tocar instrumental no dia seguinte!&lt;/p&gt;
+
+&lt;p&gt;Eu e Iara, gaúchos do Rio Grande do Sul, decidimos transformar as músicas num EP, convidando o acordeonista Bruno Moritz, com quem gravamos numa ótima tarde no estúdio de Carlos Lacerda, em Florianópolis.&lt;/p&gt;
+
+&lt;p&gt;Escrevi o arranjo do acordeon na Milonga do Quem, mas as belas e idiomáticas linhas na Milonga para Minha Mãe são improviso do Bruno.&lt;/p&gt;
+
+&lt;p&gt;A incrível fotografia da capa foi tirada por Núbia Abe, na cachoeira do Rio Salto, município de Águas Mornas (SC).&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;
+&lt;img src=&quot;/brizolara.github.io/assets/images/primeiras-milongas-mosaico.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ficha técnica:&lt;/p&gt;
+&lt;pre&gt;
+Letra e voz: Iara Germer.
+Música, violão 7 cordas e voz: Tiago Brizolara.
+Acordeon: Bruno Moritz.
+Produção do áudio: Jorge Lacerda.
+Foto: Núbia Abe.
+&lt;/pre&gt;
+</description>
+        <pubDate>Mon, 27 Aug 2018 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</link>
+        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/primeiras-milongas-lancamento/</guid>
+        
+        <category>composicao</category>
+        
+        <category>acustico</category>
+        
+        <category>violao</category>
+        
+        <category>7cordas</category>
+        
+        <category>mpb</category>
+        
+        <category>musicabrasileira</category>
+        
+        
+        <category>composição</category>
+        
+        <category>lançamento</category>
+        
+        <category>gaúcho</category>
+        
+        <category>música brasileira</category>
+        
+        <category>mpb</category>
+        
+        <category>florianópolis</category>
+        
+        <category>canção</category>
+        
+        <category>milonga</category>
+        
+        <category>sete cordas</category>
+        
+        <category>acústico</category>
+        
+      </item>
+    
+      <item>
         <title>O Efeito do Observador</title>
         <description>&lt;p&gt;Espelho, tela de pintura, filme fotográfico. Mudar a iluminação do ambiente, passear com objetos na frente do “espelho” (câmera), mover-se em diferentes ritmos… tudo faz criar continuamente nessa tela que infinitamente se renova como um filme lentamente impressionado. O efeito do observador é interagir. Colocamos as mãos (versão com controlador LeapMotion. Senão, mouse) para tentar desvelar mais rapidamente o que ocorre no exato momento, como que impressionando o filme mais rapidamente - com efeito, nos aproximamos de algo como um espelho nessa área onde interagimos, mas o aspecto ali se torna oscilante e menos detalhado.&lt;/p&gt;
 
@@ -819,7 +619,7 @@ Instalação visual interativa, ano 2017.
 Concepção, programação e execução: Tiago Brizolara.
 &lt;/pre&gt;
 </description>
-        <pubDate>Sun, 01 Jul 2018 00:00:00 -0300</pubDate>
+        <pubDate>Sun, 26 Aug 2018 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/efeito-do-observador/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/efeito-do-observador/</guid>
         

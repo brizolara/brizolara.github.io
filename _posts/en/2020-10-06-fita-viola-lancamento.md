@@ -9,7 +9,7 @@ description: "Disponivel nas principais plataformas digitais."
 lang: en
 #permalink: en/fita-viola-lancamento
 featured: true
-hidden: false
+hidden: true
 hasAudio: true
 hasVideo: true
 hasPaper: false
