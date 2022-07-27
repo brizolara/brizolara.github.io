@@ -20,7 +20,7 @@ hasPDF: true
 
 Wind, rain and thunder, embodied as music/sound instruments. The *Elemental* is a new development in music expression, gathering recent advances in real-time digital audio design via synthesis (i.e., without pre-recorded sounds) and new human-machine interfaces, to appropriate natural sounds in an axis of expression that traverses since sounds as found in nature up to the abstract experience, passing by what I call *surreal performance*: a new territory where natural sounds are bent, shaped, by the trajectory imprinted by the performer's body.
 
-<iframe width="640" height="480" src="https://www.youtube.com/watch?v=mcccykiYEhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/mcccykiYEhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In the video above, Ana Carpes performs the Elemental, and I perform Outono, a composition of mine, on the 7-strings guitar.
 <br/>Below, multiartist Maria Flor tests the instrument for the first time.

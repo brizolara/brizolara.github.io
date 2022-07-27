@@ -20,7 +20,7 @@ hasPDF: true
 
 Vento, chuva e trovão, incorporados como instrumentos sonoros/musicais. O *Elemental* é um novo desenvolvimento em expressão musical, que une avanços recentes em desenho de áudio em tempo real via síntese (ou seja, sem sons pré-gravados) e novas interfaces homem-computador, para apropriar sons naturais num eixo de expressão que atravessa desde sons como na natureza até a experiência abstrata, passando pelo que o autor, Tiago Brizolara, chama de <i>performance surreal</i>: um território novo onde os sons naturais são dobrados, moldados, pela trajetória impressa pelo corpo do executante.
 
-<iframe width="640" height="480" src="https://www.youtube.com/watch?v=mcccykiYEhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/mcccykiYEhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 No vídeo acima, Ana Carpes executa o Elemental, e eu toco Outono, composição minha, ao violão 7 cordas.
 <br/>Abaixo, a multiartista recifense Maria Flor testa o instrumento pela primeira vez.
