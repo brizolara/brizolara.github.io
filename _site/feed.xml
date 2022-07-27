@@ -5,9 +5,144 @@
     <description>{&quot;pt_BR&quot;=&gt;&quot;Computação Criativa, Pesquisa, NIME, Ficção de Música Popular&quot;, &quot;en&quot;=&gt;&quot;Creative Computing, Research, NIME, Contemporary Music&quot;}</description>
     <link>http://localhost:4000/brizolara.github.io/</link>
     <atom:link href="http://localhost:4000/brizolara.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jan 2022 22:07:50 -0300</pubDate>
-    <lastBuildDate>Mon, 10 Jan 2022 22:07:50 -0300</lastBuildDate>
+    <pubDate>Tue, 26 Jul 2022 22:03:41 -0300</pubDate>
+    <lastBuildDate>Tue, 26 Jul 2022 22:03:41 -0300</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Elemental</title>
+        <description>&lt;p&gt;Vento, chuva e trovão, incorporados como instrumentos sonoros/musicais. O &lt;em&gt;Elemental&lt;/em&gt; é um novo desenvolvimento em expressão musical, que une avanços recentes em desenho de áudio em tempo real via síntese (ou seja, sem sons pré-gravados) e novas interfaces homem-computador, para apropriar sons naturais num eixo de expressão que atravessa desde sons como na natureza até a experiência abstrata, passando pelo que o autor, Tiago Brizolara, chama de &lt;i&gt;performance surreal&lt;/i&gt;: um território novo onde os sons naturais são dobrados, moldados, pela trajetória impressa pelo corpo do executante.&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/watch?v=mcccykiYEhU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;No vídeo acima, Ana Carpes executa o Elemental, e eu toco Outono, composição minha, ao violão 7 cordas.
+&lt;br /&gt;Abaixo, a multiartista recifense Maria Flor testa o instrumento pela primeira vez.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V_Sv5HiV5zU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Um &lt;a href=&quot;#materiais&quot;&gt;primeiro artigo&lt;/a&gt; explica como o Elemental foi implementado, em termos de sua síntese de áudio e mapeamentos entre gesto e som, e mostra os resultados de duas validações: em Plouhinec-França, com público geral, e, em Recife-Brasil, com um público composto em sua grande maioria de músicos, dançarinos, designers de instrumentos musicais digitais e áreas afins. A maioria dos participantes considerou o Elemental adequado para aplicações expressivas, seja relativas primariamente a som (como música, por exemplo), corpo (por exemplo, dança) ou performances mistas.&lt;/p&gt;
+
+&lt;p&gt;O instrumento ainda não estreou nos palcos. Um vídeo documentando o processo de composição para uma performance, onde uso o Elemental em forma de plug-in VSTi dentro do software Reaper pode ser visto abaixo:&lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;14&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt;View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by Tiago Brizolara (@tiago.brizolara)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Em breve deve sair um segundo artigo (e outra publicação aqui no site), situando o instrumento esteticamente, falando sobre música eletroacústica, cognição, o Elemental VSTi, a versão para celular e com uma proposta de metodologia para desenvolvimento de instrumentos digitais para performance surreal.&lt;/p&gt;
+
+&lt;p&gt;Em breve também vou falar sobre e disponibilizar links para a oficina que ministrei como resultado de minha residencia artística no &lt;a href=&quot;http://www.artes.uff.br/somarumor/II/&quot;&gt;II Encontro Latinoamericano de Arte Sonora - SomaRumor&lt;/a&gt;, em Outubro de 2021.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;materiais&quot;&gt;Materiais&lt;/h4&gt;
+&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
+
+&lt;p&gt;Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. &lt;a href=&quot;https://www.nime.org/proceedings/2020/nime2020_paper90.pdf&quot;&gt;Elemental: a Gesturally Controlled System to Perform Meteorological Sounds&lt;/a&gt;. &lt;em&gt;Proceedings of the International Conference on New Interfaces for Musical Expression&lt;/em&gt;, Birmingham City University, pp. 470–476. &lt;a href=&quot;/brizolara.github.io/assets/paper-elemental-NIME2020.bib&quot;&gt;[BibTex]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;refs&quot;&gt;Agradecimentos&lt;/h4&gt;
+
+&lt;p&gt;Para além de minhas orientadoras Sylvie Gibet e Caroline Larboulette, agradeço a João Tragtenberg e à Universidade Federal de Pernambuco, nas pessoas dos professores Filipe Calegario e Giordano Cabral pela parceria na mobilidade internacional que desenvolvi junto ao Centro de Informática. A mobilidade foi financiada pelo departamento de Morbihan e a região Bretagne, no contexto de meu doutorado na Université Bretagne Sud (França).&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Jul 2022 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/brizolara.github.io/elemental/</link>
+        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/elemental/</guid>
+        
+        <category>nime</category>
+        
+        <category>composicao</category>
+        
+        <category>dmi</category>
+        
+        <category>artecontemporanea</category>
+        
+        <category>multidisciplinar</category>
+        
+        <category>desenhodeaudio</category>
+        
+        <category>audiodesign</category>
+        
+        <category>musicacomputacional</category>
+        
+        <category>puredata</category>
+        
+        <category>myo</category>
+        
+        <category>performance</category>
+        
+        <category>somarumor</category>
+        
+        <category>musicaeletroacustica</category>
+        
+        <category>danca</category>
+        
+        
+        <category>NIME</category>
+        
+        <category>composição</category>
+        
+        <category>DMI</category>
+        
+        <category>desenho de áudio</category>
+        
+        <category>música computacional</category>
+        
+        <category>pure data</category>
+        
+        <category>myo</category>
+        
+        <category>dança</category>
+        
+      </item>
+    
+      <item>
+        <title>eFestival Instrumental 2022</title>
+        <description>&lt;p&gt;“Quanto Dura Uma Fita de Viola em Tempo de Reis?” was chosen finalist at the prestiged eFestival Instrumental 2022. From there, a popular poll on internet was carried. I feel technically and artistically honored… Congratulations to the winners!&lt;/p&gt;
+
+&lt;p&gt;The 10 finalists were chosen accounting for creativity, originality, harmonization and interpretation. The curators were the journalist, editor and music critic Carlos Calado, and the maestro, arranger, producer, composer and pianist Ruriá Duprat, in partnership with two specialists of the technical jury.&lt;/p&gt;
+
+&lt;p&gt;eFestival was idealized and held by Dançar Marketing, in conjunction with Brazil’s Ministry of Tourism, by the Special Secretary of Culture, and the State of São Paulo by the Secretary of Culture and Creative Economy.&lt;/p&gt;
+
+&lt;p&gt;“Quanto Dura Uma Fita de Viola em Tempo de Reis?” belongs to what I call ficction of popular music, and can be heard in the streaming services (here with the very special percussion of Marcelo Pimentel):&lt;/p&gt;
+
+&lt;p&gt;&lt;div style=&quot;text-align:center;&quot;&gt;
+&lt;a href=&quot;https://ps.onerpm.com/2409364297&quot;&gt;&lt;img src=&quot;../assets/images/onerpm_widget.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;YouTube (the version sent to the festival):&lt;/p&gt;
+
+&lt;p&gt;&lt;div style=&quot;text-align:center;&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zx4zjXCMc14&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;and Instagram:&lt;/p&gt;
+
+&lt;p&gt;&lt;div style=&quot;text-align:center;max-width:200px;min-width:100px;&quot;&gt;&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/tv/BwSds3zgdMt/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;14&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:200px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/tv/BwSds3zgdMt/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt;View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/tv/BwSds3zgdMt/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by Tiago Brizolara (@tiago.brizolara)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;script async=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;div style=&quot;position: absolute;width: 80%;bottom:2px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;&quot;&gt;&lt;small style=&quot;line-height:1.8;font-size:2px;background:transparent;&quot;&gt;Powered by &lt;a href=&quot;https://embedinstagramfeed.com/de/&quot;&gt;embedinstagramfeed de&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://nyacasinonutansvensklicens.net/&quot;&gt;Nyacasinonutansvensklicens.net&lt;/a&gt;&lt;/small&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Jan 2022 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/brizolara.github.io/efestival2022/</link>
+        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/efestival2022/</guid>
+        
+        <category>prize</category>
+        
+        <category>festival</category>
+        
+        <category>composition</category>
+        
+        <category>instrumental</category>
+        
+        <category>florianopolis</category>
+        
+        
+        <category>prize</category>
+        
+        <category>festival</category>
+        
+        <category>composition</category>
+        
+        <category>instrumental music</category>
+        
+        <category>florianopolis</category>
+        
+      </item>
     
       <item>
         <title>Baixar portfolio</title>
@@ -141,83 +276,68 @@ Ana Carpes: capa, sobre quadro de vídeo de Dimi Camorlinga.
       </item>
     
       <item>
-        <title>Elemental</title>
-        <description>&lt;p&gt;Vento, chuva e trovão, incorporados como instrumentos sonoros/musicais. O &lt;em&gt;Elemental&lt;/em&gt; é um novo desenvolvimento em expressão musical, que une avanços recentes em desenho de áudio em tempo real via síntese (ou seja, sem sons pré-gravados) e novas interfaces homem-computador, para apropriar sons naturais num eixo de expressão que atravessa desde sons como na natureza até a experiência abstrata, passando pelo que o autor, Tiago Brizolara, chama de &lt;i&gt;performance surreal&lt;/i&gt;: um território novo onde os sons naturais são dobrados, moldados, pela trajetória impressa pelo corpo do executante.&lt;/p&gt;
+        <title>Limiar</title>
+        <description>&lt;p&gt;Uma experiência estética imersiva interativa, que permite a contemplação tanto ativa quanto observar outras pessoas na obra, sempre habitando o Limiar entre mundos de aquarela e som. Camadas de aquarelas vão sendo desveladas conforme os visitantes se aproximam, marcando suavemente suas silhuetas. Em algum lugar do Limiar habitam formas luminosas que buscam os pasticipantes e se evadem. A trilha sonora co-interage com alguns elementos gráficos, ligados à presença e interação dos visitantes. A projeção é em formato widescreen e o áudio tem espacialização reativa.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V_Sv5HiV5zU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8agYaiZfaGc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
-&lt;p&gt;No vídeo a multiartista recifense Maria Flor testa o instrumento pela primeira vez.&lt;/p&gt;
+&lt;p&gt;Especificamente, 5 aquarelas estão sobrepostas e vão sendo reveladas de acordo com a interação das pessoas com a obra, capturada por um sensor Kinect. Uma aquarela em tons predominantemente alaranjados é revelada pela silhueta dos presentes e também por agentes inteligentes que lembram fogos-fátuos (&lt;em&gt;wisps&lt;/em&gt;). Esses agentes possuem um comportamento de movimento inteligente (steering behaviour) que se aproxima dos visitantes em grupo, para, ao se aproximar demais, voltar para um lugar seguro, trazendo uma sensação de obra viva e de sedução. Elementos geométricos atraídos pelos visitantes revelam outras camadas, arrastam consigo o panorama do áudio e também há um elemento geométrico procedural, diferente e único a cada ciclo. Uma aquarela de uma paisagem predominantemente roxa com cactus é revelada por uma máscara circular centrada nos visitantes e cujo tamanho obedece a intensidade da trilha sonora. Quais aquarelas e quais elementos encontram-se presentes são roteirizados pela trilha sonora. O código-fonte da obra foi feito em OpenFrameworks (C++).&lt;/p&gt;
 
-&lt;p&gt;Um &lt;a href=&quot;#materiais&quot;&gt;primeiro artigo&lt;/a&gt; explica como o Elemental foi implementado, em termos de sua síntese de áudio e mapeamentos entre gesto e som, e mostra os resultados de duas validações: em Plouhinec-França, com público geral, e, em Recife-Brasil, com um público composto em sua grande maioria de músicos, dançarinos, designers de instrumentos musicais digitais e áreas afins. A maioria dos participantes considerou o Elemental adequado para aplicações expressivas, seja relativas primariamente a som (como música, por exemplo), corpo (por exemplo, dança) ou performances mistas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/Limiar-0.png&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;O instrumento ainda não estreou nos palcos. Um vídeo documentando o processo de composição para uma performance, onde uso o Elemental em forma de plug-in VSTi dentro do software Reaper pode ser visto abaixo:&lt;/p&gt;
+&lt;p&gt;Ficha técnica:&lt;/p&gt;
+&lt;pre&gt;
+Instalação audiovisual interativa, ano 2017.
+Concepção e execução: Atelier Digital (Alexandre Chaves, Kaue Costa, João Aires, Tiago Brizolara).
+Aquarelas: João Aires.
+Programação: Kaue Costa, Tiago Brizolara.
+Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
+&lt;/pre&gt;
 
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;14&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt;View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/tv/CUOSWG-jCRw/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by Tiago Brizolara (@tiago.brizolara)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Em breve deve sair um segundo artigo (e outra publicação aqui no site), situando o instrumento esteticamente, falando sobre música eletroacústica, cognição, o Elemental VSTi, a versão para celular e com uma proposta de metodologia para desenvolvimento de instrumentos digitais para performance surreal.&lt;/p&gt;
-
-&lt;p&gt;Em breve também vou falar sobre e disponibilizar links para a oficina que ministrei como resultado de minha residencia artística no &lt;a href=&quot;http://www.artes.uff.br/somarumor/II/&quot;&gt;II Encontro Latinoamericano de Arte Sonora - SomaRumor&lt;/a&gt;, em Outubro de 2021.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;materiais&quot;&gt;Materiais&lt;/h4&gt;
-&lt;p&gt;&lt;!-- TODO FIXME - the template was jumping to h3 (we should not jump h's), and I'm jumping even more, because of fonte size... --&gt;&lt;/p&gt;
-
-&lt;p&gt;Tiago Brizolara, Sylvie Gibet, and Caroline Larboulette. 2020. &lt;a href=&quot;https://www.nime.org/proceedings/2020/nime2020_paper90.pdf&quot;&gt;Elemental: a Gesturally Controlled System to Perform Meteorological Sounds&lt;/a&gt;. &lt;em&gt;Proceedings of the International Conference on New Interfaces for Musical Expression&lt;/em&gt;, Birmingham City University, pp. 470–476. &lt;a href=&quot;/brizolara.github.io/assets/paper-elemental-NIME2020.bib&quot;&gt;[BibTex]&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;refs&quot;&gt;Agradecimentos&lt;/h4&gt;
-
-&lt;p&gt;Para além de minhas orientadoras Sylvie Gibet e Caroline Larboulette, agradeço a João Tragtenberg e à Universidade Federal de Pernambuco, nas pessoas dos professores Filipe Calegario e Giordano Cabral pela parceria na mobilidade internacional que desenvolvi junto ao Centro de Informática. A mobilidade foi financiada pelo departamento de Morbihan e a região Bretagne, no contexto de meu doutorado na Université Bretagne Sud (França).&lt;/p&gt;
+&lt;!-- &lt;img src=&quot;/brizolara.github.io/assets/images/Limiar-3.jpg&quot;&gt; --&gt;
 </description>
         <pubDate>Tue, 01 Sep 2020 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/brizolara.github.io/elemental/</link>
-        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/elemental/</guid>
+        <link>http://localhost:4000/brizolara.github.io/Limiar/</link>
+        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/Limiar/</guid>
         
-        <category>nime</category>
+        <category>artedigital</category>
         
-        <category>composicao</category>
-        
-        <category>dmi</category>
-        
-        <category>artecontemporanea</category>
-        
-        <category>multidisciplinar</category>
-        
-        <category>desenhodeaudio</category>
-        
-        <category>audiodesign</category>
-        
-        <category>musicacomputacional</category>
-        
-        <category>puredata</category>
-        
-        <category>myo</category>
-        
-        <category>performance</category>
-        
-        <category>somarumor</category>
-        
-        <category>musicaeletroacustica</category>
-        
-        <category>danca</category>
-        
-        
-        <category>NIME</category>
+        <category>instalação</category>
         
         <category>composição</category>
         
-        <category>DMI</category>
+        <category>kinect</category>
+        
+        <category>steeringbehaviours</category>
+        
+        <category>shaders</category>
+        
+        <category>openframeworks</category>
+        
+        <category>ia</category>
+        
+        <category>hci</category>
+        
+        
+        <category>instalação interativa</category>
+        
+        <category>arte digital</category>
+        
+        <category>instalação artística</category>
+        
+        <category>composição</category>
         
         <category>desenho de áudio</category>
         
-        <category>música computacional</category>
+        <category>steering behaviours</category>
         
-        <category>pure data</category>
+        <category>inteligência de agente</category>
         
-        <category>myo</category>
+        <category>kinect</category>
         
-        <category>dança</category>
+        <category>hci</category>
         
       </item>
     
@@ -350,72 +470,6 @@ Performance Yllu - 2017 e 2018. O Sítio Arte Educação E Tecnologia. Florianó
       </item>
     
       <item>
-        <title>Limiar</title>
-        <description>&lt;p&gt;Uma experiência estética imersiva interativa, que permite a contemplação tanto ativa quanto observar outras pessoas na obra, sempre habitando o Limiar entre mundos de aquarela e som. Camadas de aquarelas vão sendo desveladas conforme os visitantes se aproximam, marcando suavemente suas silhuetas. Em algum lugar do Limiar habitam formas luminosas que buscam os pasticipantes e se evadem. A trilha sonora co-interage com alguns elementos gráficos, ligados à presença e interação dos visitantes. A projeção é em formato widescreen e o áudio tem espacialização reativa.&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8agYaiZfaGc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Especificamente, 5 aquarelas estão sobrepostas e vão sendo reveladas de acordo com a interação das pessoas com a obra, capturada por um sensor Kinect. Uma aquarela em tons predominantemente alaranjados é revelada pela silhueta dos presentes e também por agentes inteligentes que lembram fogos-fátuos (&lt;em&gt;wisps&lt;/em&gt;). Esses agentes possuem um comportamento de movimento inteligente (steering behaviour) que se aproxima dos visitantes em grupo, para, ao se aproximar demais, voltar para um lugar seguro, trazendo uma sensação de obra viva e de sedução. Elementos geométricos atraídos pelos visitantes revelam outras camadas, arrastam consigo o panorama do áudio e também há um elemento geométrico procedural, diferente e único a cada ciclo. Uma aquarela de uma paisagem predominantemente roxa com cactus é revelada por uma máscara circular centrada nos visitantes e cujo tamanho obedece a intensidade da trilha sonora. Quais aquarelas e quais elementos encontram-se presentes são roteirizados pela trilha sonora. O código-fonte da obra foi feito em OpenFrameworks (C++).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/brizolara.github.io/assets/images/Limiar-0.png&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ficha técnica:&lt;/p&gt;
-&lt;pre&gt;
-Instalação audiovisual interativa, ano 2017.
-Concepção e execução: Atelier Digital (Alexandre Chaves, Kaue Costa, João Aires, Tiago Brizolara).
-Aquarelas: João Aires.
-Programação: Kaue Costa, Tiago Brizolara.
-Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
-&lt;/pre&gt;
-
-&lt;!-- &lt;img src=&quot;/brizolara.github.io/assets/images/Limiar-3.jpg&quot;&gt; --&gt;
-</description>
-        <pubDate>Fri, 21 Aug 2020 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/brizolara.github.io/Limiar/</link>
-        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/Limiar/</guid>
-        
-        <category>artedigital</category>
-        
-        <category>instalação</category>
-        
-        <category>composição</category>
-        
-        <category>kinect</category>
-        
-        <category>steeringbehaviours</category>
-        
-        <category>shaders</category>
-        
-        <category>openframeworks</category>
-        
-        <category>ia</category>
-        
-        <category>hci</category>
-        
-        
-        <category>instalação interativa</category>
-        
-        <category>arte digital</category>
-        
-        <category>instalação artística</category>
-        
-        <category>composição</category>
-        
-        <category>desenho de áudio</category>
-        
-        <category>steering behaviours</category>
-        
-        <category>inteligência de agente</category>
-        
-        <category>kinect</category>
-        
-        <category>hci</category>
-        
-      </item>
-    
-      <item>
         <title>Oficina - SomaRumor 2021</title>
         <description>&lt;p&gt;Esta oficina foi resultado da minha residência artística no SomaRumor II - Encontro Latino-Americano de Arte Sonora, em outubro/2021. Foi voltada a compositores, artistas sonoros, instrumentistas, dançarinos, sound designers e curiosos em geral. Nela falamos sobre instrumentalidade, sensores, música eletroacústica, mapeamentos movimento-som e muitos temas relacionados.&lt;/p&gt;
 
@@ -430,7 +484,7 @@ Trilha sonora (exceto na estréia): Tiago Brizolara, Flora Holderbaum.
 &lt;p&gt;O SomaRumor II foi um evento admirável. Meus agradecimentos a meu tutor Giuliano Obici, a Flora Holderbaum, a Byron Rodrigues e todos os presentes, com quem tivemos trocas riquíssimas.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 20 Aug 2020 00:00:00 -0300</pubDate>
+        <pubDate>Fri, 21 Aug 2020 00:00:00 -0300</pubDate>
         <link>http://localhost:4000/brizolara.github.io/SomaRumor2021/</link>
         <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/SomaRumor2021/</guid>
         
@@ -596,59 +650,6 @@ Foto: Núbia Abe.
         <category>sete cordas</category>
         
         <category>acústico</category>
-        
-      </item>
-    
-      <item>
-        <title>O Efeito do Observador</title>
-        <description>&lt;p&gt;Espelho, tela de pintura, filme fotográfico. Mudar a iluminação do ambiente, passear com objetos na frente do “espelho” (câmera), mover-se em diferentes ritmos… tudo faz criar continuamente nessa tela que infinitamente se renova como um filme lentamente impressionado. O efeito do observador é interagir. Colocamos as mãos (versão com controlador LeapMotion. Senão, mouse) para tentar desvelar mais rapidamente o que ocorre no exato momento, como que impressionando o filme mais rapidamente - com efeito, nos aproximamos de algo como um espelho nessa área onde interagimos, mas o aspecto ali se torna oscilante e menos detalhado.&lt;/p&gt;
-
-&lt;!--&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zx4zjXCMc14&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;--&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://editor.p5js.org/brizolara/present/GEiqR8_XW&quot; target=&quot;_blank&quot;&gt;Clique para experimentar a versao com mouse e sua webcam&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--&lt;div align=&quot;center&quot;&gt;
-&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://editor.p5js.org/brizolara/embed/GEiqR8_XW&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;--&gt;
-
-&lt;p&gt;Essa obra foi instalada na exposição Experimental #1 (O Sítio Arte, Educação, Tecnologia - Florianópolis/SC) com “espelho” monitor e webcam instalados em parede, mais totem com LeapMotion montado e computador embutido. Agora está reimplementada de modo que, hospedada online, qualquer um possa apreciar/interagir diretamente de um navegador utilizando sua própria webcam.&lt;/p&gt;
-
-&lt;p&gt;Ficha técnica:&lt;/p&gt;
-&lt;pre&gt;
-Instalação visual interativa, ano 2017.
-Concepção, programação e execução: Tiago Brizolara.
-&lt;/pre&gt;
-</description>
-        <pubDate>Sun, 26 Aug 2018 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/brizolara.github.io/efeito-do-observador/</link>
-        <guid isPermaLink="true">http://localhost:4000/brizolara.github.io/efeito-do-observador/</guid>
-        
-        <category>artedigital</category>
-        
-        <category>instalação</category>
-        
-        <category>processing</category>
-        
-        <category>leap motion</category>
-        
-        <category>video</category>
-        
-        <category>hci</category>
-        
-        
-        <category>instalação interativa</category>
-        
-        <category>arte digital</category>
-        
-        <category>instalação artística</category>
-        
-        <category>processing</category>
-        
-        <category>leap motion</category>
-        
-        <category>video</category>
-        
-        <category>hci</category>
         
       </item>
     

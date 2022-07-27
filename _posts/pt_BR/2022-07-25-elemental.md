@@ -4,11 +4,11 @@ title:  "Elemental"
 author: tiago
 categories: [ NIME, composição, DMI, desenho de áudio, música computacional, pure data, myo, dança ]
 tags: [ nime, composicao, dmi, artecontemporanea, multidisciplinar, desenhodeaudio, audiodesign, musicacomputacional, puredata, myo, performance, somarumor, musicaeletroacustica, danca ]
-image: assets/images/square_Elemental-MariaFlor.png
+image: assets/images/capas/elemental-teaser-edit.png
 lang: pt_BR
 #permalink: pt_BR/elemental
-featured: false
-hidden: false
+featured: true
+hidden: true
 hasAudio: false
 hasVideo: true
 hasPaper: true
@@ -20,9 +20,12 @@ hasPDF: true
 
 Vento, chuva e trovão, incorporados como instrumentos sonoros/musicais. O *Elemental* é um novo desenvolvimento em expressão musical, que une avanços recentes em desenho de áudio em tempo real via síntese (ou seja, sem sons pré-gravados) e novas interfaces homem-computador, para apropriar sons naturais num eixo de expressão que atravessa desde sons como na natureza até a experiência abstrata, passando pelo que o autor, Tiago Brizolara, chama de <i>performance surreal</i>: um território novo onde os sons naturais são dobrados, moldados, pela trajetória impressa pelo corpo do executante.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V_Sv5HiV5zU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/watch?v=mcccykiYEhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-No vídeo a multiartista recifense Maria Flor testa o instrumento pela primeira vez.
+No vídeo acima, Ana Carpes executa o Elemental, e eu toco Outono, composição minha, ao violão 7 cordas.
+<br/>Abaixo, a multiartista recifense Maria Flor testa o instrumento pela primeira vez.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V_Sv5HiV5zU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Um <a href="#materiais">primeiro artigo</a> explica como o Elemental foi implementado, em termos de sua síntese de áudio e mapeamentos entre gesto e som, e mostra os resultados de duas validações: em Plouhinec-França, com público geral, e, em Recife-Brasil, com um público composto em sua grande maioria de músicos, dançarinos, designers de instrumentos musicais digitais e áreas afins. A maioria dos participantes considerou o Elemental adequado para aplicações expressivas, seja relativas primariamente a som (como música, por exemplo), corpo (por exemplo, dança) ou performances mistas.
 

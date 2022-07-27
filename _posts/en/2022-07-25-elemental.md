@@ -4,11 +4,11 @@ title:  "Elemental"
 author: tiago
 categories: [ NIME, music composition, DMI, audio design, computer music, pure data, myo ]
 tags: [ nime, musiccomposition, dmi, contemporaryart, multidisciplinar, audiodesign, computermusic, puredata, myo, performance ]
-image: assets/images/square_Elemental-MariaFlor.png
+image: assets/images/capas/elemental-teaser-edit.png
 lang: en
 #permalink: en/elemental
-featured: false
-hidden: false
+featured: true
+hidden: true
 hasAudio: false
 hasVideo: true
 hasPaper: true
@@ -20,9 +20,12 @@ hasPDF: true
 
 Wind, rain and thunder, embodied as music/sound instruments. The *Elemental* is a new development in music expression, gathering recent advances in real-time digital audio design via synthesis (i.e., without pre-recorded sounds) and new human-machine interfaces, to appropriate natural sounds in an axis of expression that traverses since sounds as found in nature up to the abstract experience, passing by what I call *surreal performance*: a new territory where natural sounds are bent, shaped, by the trajectory imprinted by the performer's body.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V_Sv5HiV5zU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/watch?v=mcccykiYEhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In the video, multiartist Maria Flor tests the instrument for the first time.
+In the video above, Ana Carpes performs the Elemental, and I perform Outono, a composition of mine, on the 7-strings guitar.
+<br/>Below, multiartist Maria Flor tests the instrument for the first time.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V_Sv5HiV5zU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A <a href="#resources">first paper</a> explains how Elemental was implemented, in terms of its audio synthesis and mappings between gesture and sound, and shows the results of two validations: in Plouhinec-France, with a general public, and, in Recife-Brazil, with an audience composed mostly of musicians, dancers, designers of digital musical instruments and related areas. Most participants found the Elemental suitable for expressive applications, whether relating primarily to sound (such as music), body (such as dance) or mixed performances.
 
