@@ -1,9 +1,11 @@
 # Site
+dummyentrytoshowniceimage: 'assets/images/encarnado_graos_math2__signed_sharp[A4_122dpi].jpg'  
+dummyentrytoshownicetext: Fiction of Popular Music, Creative COmputing, Research, NIME
 name: "Tiago Brizolara"
 title: "Tiago Brizolara"
 description:
-  pt_BR: "Computação Criativa, Pesquisa, NIME, Ficção de Música Popular"
-  en: "Creative Computing, Research, NIME, Contemporary Music"
+  pt_BR: "Ficção de Música Popular, Computação Criativa, Pesquisa, NIME"
+  en: "Fiction of Popular Music, Creative Computing, Research, NIME"
 featured_description:
   pt_BR: "Destaques"
   en: "Featured"
@@ -34,7 +36,7 @@ authors:
     email: tiago.brizolara@gmail.com
     web: https://tiagobrizolara.com
     twitter: https://twitter.com/brizolara
-    instagram: https://www.instagram.com/tiago.brizolara
+    #instagram: https://www.instagram.com/tiago.brizolara
     description:
       pt_BR: "Pesquisador, compositor, criador, desenvolvedor. Da música instrumental até novas interfaces para expressão musical."
       en: "Researcher, composer, creator, developer. From instrumental music to new interfaces for music expression."
