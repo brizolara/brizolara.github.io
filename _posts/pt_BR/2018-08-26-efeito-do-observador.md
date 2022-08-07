@@ -8,7 +8,7 @@ image: assets/images/efeito_observador_ju_hoffmann.png
 lang: pt_BR
 #permalink: pt_BR/fita-viola-lancamento
 featured: false
-hidden: false
+hidden: true
 hasAudio: false
 hasVideo: false
 hasPaper: false
