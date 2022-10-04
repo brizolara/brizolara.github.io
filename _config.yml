@@ -1,10 +1,8 @@
 # Site
-dummyentrytoshowniceimage: 'assets/images/encarnado_graos_math2__signed_sharp[A4_122dpi].jpg'  
-dummyentrytoshownicetext: Fiction of Popular Music, Creative Computing, Research, NIME
 name: "Tiago Brizolara"
 title: "Tiago Brizolara"
 description:
-  pt_BR: "Ficção de Música Popular, Computação Criativa"
+  pt_BR: "Ficção de Música Popular e além"
   en: "Fiction of Popular Music, Creative Computing, Research"
 featured_description:
   pt_BR: "Destaques"
