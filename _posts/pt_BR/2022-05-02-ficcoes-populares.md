@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Show Ficções Populaes"
+title:  "Show Ficções Populares"
 author: tiago
 categories: [ show, florianopolis, computação criativa  ]
 tags: [ festival, composicao, instrumental, florianopolis, charles-espíndola, unity3d, kinect, fotogrametria, labpresenca ]
